@@ -7,6 +7,7 @@ This is a lesson introducing the basics of data visualization in the form of cha
 The lesson materials are geared toward an undergraduate audience.
 
 Learners need the following prerequisite skills and knowledge:
+
 - Understand the definition of "data"
 - Have previously seen a chart or graph
 - Have attempted to create a chart or graph using a spreadsheet application
