@@ -11,7 +11,8 @@ TODO
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-TODO
+- first objectives here
+- second objective here
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
