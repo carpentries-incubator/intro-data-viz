@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+  </url>
+</urlset>
