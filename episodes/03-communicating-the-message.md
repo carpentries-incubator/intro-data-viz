@@ -12,7 +12,8 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- TODO
+- Group charts into types based on what they are communicating.
+- Identify what you would like to communicate about a dataset.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
