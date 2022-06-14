@@ -12,8 +12,9 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain the purpose of charts in communicating about data
+- Identify strategies that enhance or detract from how well a chart communicates
+- List elements of human perception that influence how well a chart communicates
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
