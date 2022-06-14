@@ -1,19 +1,19 @@
 ---
-title: "Communicating the Message"
+title: "Using Markdown"
 teaching: 0
 exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+TODO
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
-
-- Group charts into types based on what they are communicating.
-- Identify what you would like to communicate about a dataset.
+After completing this episode you will have experience identifying and interpreting the message of common charts
+- interpret and describe the message in four common chart types
+- illustrate the message of four common chart types 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

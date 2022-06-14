@@ -1,19 +1,20 @@
 ---
-title: "Communicating the Message"
+title: "The Importance of Message"
 teaching: 0
 exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+- How do you write a lesson using Markdown and `{sandpaper}`?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Group charts into types based on what they are communicating.
-- Identify what you would like to communicate about a dataset.
+- Explain the purpose of charts in communicating about data
+- Identify strategies that enhance or detract from how well a chart communicates
+- List elements of human perception that influence how well a chart communicates
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
