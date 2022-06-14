@@ -2,8 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+This is a lesson introducing the basics of data visualization in the form of charts and graphs.
 
-
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+The lesson materials are geared toward an undergraduate audience.
