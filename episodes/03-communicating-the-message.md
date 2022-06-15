@@ -54,6 +54,7 @@ associated with the lessons. They appear in the "Instructor View"
 ## Correct Answer 3
 You have two groups each having consumed a different number of carrots, this is best described as a comparison.
 
+:::
 ::::
 
 :::: keypoints 
