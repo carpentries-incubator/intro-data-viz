@@ -46,6 +46,7 @@ associated with the lessons. They appear in the "Instructor View"
 
 ## Question 1
 You have data on the number of carrots consumed by hares and by tortoises, what kind of message do you want to communicate
+
 1. The relationship between number of hares and number of carrots of consumed
 2. The distribution of hares and tortoises
 3. A comparison of the number of carrots eaten by tortoises and hares
