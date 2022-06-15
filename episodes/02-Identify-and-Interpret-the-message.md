@@ -57,9 +57,7 @@ d) economists
 
 ## Output
  
-```output
-[1] "This new lesson looks good"
-```
+`b) everyone!`
 
 :::::::::::::::::::::::::::::::::
 
