@@ -75,6 +75,8 @@ You can add a line with at least three colons and a `solution` tag.
 
 You can use standard markdown for static figures with the following syntax:
 
+`![Example figs](https://excalidraw.com/#json=M5p-guinhbiUarNN8Y_fK,GZXhOkPA4qLCIgbEx9i12A)
+
 `![optional caption that appears below the figure](figure url){alt='alt text for
 accessibility purposes'}`
 
