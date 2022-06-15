@@ -1,5 +1,5 @@
 ---
-title: "Episode 2 - "
+title: "Episode 2 - Identify and Interpret the Message"
 teaching: 0
 exercises: 0
 ---
