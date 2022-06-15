@@ -15,6 +15,7 @@ exercises: 0
 - Explain the purpose of charts in communicating about data
 - Identify strategies that enhance or detract from how well a chart communicates
 - List elements of human perception that influence how well a chart communicates
+- Identify elements of chart design that work with and against human perception
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -45,21 +46,21 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Challenge 1: List elements of human perception that interact with charts and graphs
 
-What is the output of this command?
+From the list below, choose the three elements of human perception that interact with charts and graphs
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+a. Object position
+b. Linear properties
+c. Spatial properties
+d. Scent
+e. Texture
 
 :::::::::::::::::::::::: solution 
 
-## Output
+## Answers
  
-```output
-[1] "This new lesson looks good"
-```
+a, b, and c are the correct choices.
 
 :::::::::::::::::::::::::::::::::
 
