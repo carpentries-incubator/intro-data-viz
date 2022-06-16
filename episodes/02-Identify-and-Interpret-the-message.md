@@ -47,9 +47,11 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Introduction to Data Visualisation: Jamene, Terry, Rob
+## Challenge 1
+
 Choose the answer that most closely reflects your opinion.
 Data visualization is for ____.
+
 a) scientists
 b) everyone
 c) formal reports
@@ -64,11 +66,18 @@ d) economists
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Challenge 2: Pair the data type names with the examples    
+
+Data Types  |   Example
+1. discert   |  a. 1,2,3,...1000
+2. continuous  |  b. 0,1
+3. catagorical  |  c. dog, cat, turtle
 
 :::::::::::::::::::::::: solution 
 
-You can add a line with at least three colons and a `solution` tag.
+1. -> b
+2. -> a
+3. -> c
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
