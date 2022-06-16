@@ -93,10 +93,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Charts convey messages with interchangeable nouns and verbs
+- Chart types ..
+- Practice with linking chart types with charts is a valuable skill
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
