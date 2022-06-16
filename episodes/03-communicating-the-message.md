@@ -6,7 +6,8 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+- What is the important aspects of a dataset you want to communicate?
+- How do you decide the best visualization type for a particular dataset?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -62,11 +63,8 @@ You have two groups each having consumed a different number of carrots, this is 
 
 :::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
+- Identify if you are communicating a comparison, distribution, composition, relationship.
+- Use the chart chooser a good chart for your particular dataset.
 ::::
 
 [r-markdown]: https://rmarkdown.rstudio.com/
