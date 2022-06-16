@@ -1,5 +1,8 @@
 ---
-title: FIXME
+title: instructor reminders
 ---
+add placeholders for check ins
 
-This is a placeholder file. Please add content here. 
+notes about what has worked in this section
+
+
