@@ -12,7 +12,9 @@ TODO
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
-After completing this episode you will have experience identifying and interpreting the message of common charts
+
+After completing this episode you will be able to:
+
 - interpret and describe the message in four common chart types
 - illustrate the message of four common chart types 
 
