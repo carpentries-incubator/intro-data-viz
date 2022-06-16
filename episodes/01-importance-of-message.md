@@ -8,6 +8,7 @@ exercises: 0
 
 - What is the purpose of a chart?
 - How does human perception influence how easily someone can read a chart?
+- How can we design charts to take advantage of human perception?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -97,7 +98,7 @@ Cool, right?
 
 - The purpose of a chart is to communicate something about data.
 - Humans can quickly distinguish _ _ _ but have more difficult distinguishing _ _ _.
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- In designing a chart, we can use _ _ _ and avoid _ _ _ to make our charts easier to read.
 - Run `sandpaper::build_lesson()` to preview your lesson locally
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
