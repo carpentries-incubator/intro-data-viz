@@ -6,14 +6,16 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What is the purpose of a chart?
+- How does human perception influence how easily someone can read a chart?
+- How can we design charts to take advantage of human perception?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Explain the purpose of charts in communicating about data
-- Identify strategies that enhance or detract from how well a chart communicates
+- Identify strategies that enhance or detract from how well a chart communicates (may not need this one)
 - List elements of human perception that influence how well a chart communicates
 - Identify elements of chart design that work with and against human perception
 
@@ -94,9 +96,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- The purpose of a chart is to communicate something about data.
+- Humans can quickly distinguish _ _ _ but have more difficult distinguishing _ _ _.
+- In designing a chart, we can use _ _ _ and avoid _ _ _ to make our charts easier to read.
 - Run `sandpaper::build_lesson()` to preview your lesson locally
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
