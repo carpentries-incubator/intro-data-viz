@@ -7,7 +7,8 @@ sets the Learner needs to have installed.
 
 ## Data Sets
 
-Download the [data zip file](data/data.zip) and unzip it to your Desktop
+We will be using a publicly available dataset hosted on the [dryad](https://datadryad.org/) repository.
+Download the [wolves_coyotes_foxes_dataset](https://datadryad.org/stash/downloads/file_stream/24074) and unzip it to your Desktop.
 
 ## Software Setup
 
