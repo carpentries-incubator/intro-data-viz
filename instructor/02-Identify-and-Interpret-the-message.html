@@ -253,6 +253,9 @@
 <ol style="list-style-type: decimal"><li>What are four common messages usually communicated in a chart?</li>
 <li>What are useful charts to communicate these messages?</li>
 <li>How do we construct text to describe these messages?</li>
+<li>How does the type of data help determine the message?</li>
+<li>
+</li>
 </ol></div>
 </div>
 </div>
@@ -261,15 +264,18 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <p>After completing this episode you will be able to:</p>
-<ul><li>interpret and describe the message in four common chart types</li>
+<ul><li>identify data types as discrete, continuous, or categorical</li>
+<li>interpret and describe the message in four common chart types</li>
 <li>illustrate the message of four common chart types</li>
+<li>use a flow diagram choose a chart type to communicate your message</li>
 </ul></div>
 </div>
 </div>
 </div>
 </div>
 <section id="introduction"><h2 class="section-heading">Introduction</h2>
-<hr class="half-width"><p>This is a lesson created via The Carpentries Workbench. It is written in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a> for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> for dynamic files that can render code into output. Please refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The Carpentries Workbench</a> for full documentation.</p>
+<hr class="half-width"><p>Charts communicate a message about data that is dependent on the type of data. (paragraph on data types)</p>
+<figure>To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015 <img src="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258" alt="A continental scale trophic cascade from wolves through coyotes to foxes" class="figure mx-auto d-block">. (Give a brief summary of the paper and the data)</figure><p>This is a lesson created via The Carpentries Workbench. It is written in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a> for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> for dynamic files that can render code into output. Please refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The Carpentries Workbench</a> for full documentation.</p>
 <p>What you need to know is that there are three sections required for a valid Carpentries lesson:</p>
 <ol style="list-style-type: decimal"><li>
 <code>questions</code> are displayed at the beginning of the episode to prime the learner for the content.</li>
@@ -285,7 +291,7 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the “Instructor View”</p>
 </div>
@@ -314,7 +320,7 @@
   Output
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><code>b) everyone!</code></p>
 </div>
@@ -328,8 +334,15 @@
 <div id="challenge-2-pair-the-data-type-names-with-the-examples" class="callout-inner">
 <h3 class="callout-title">Challenge 2: Pair the data type names with the examples</h3>
 <div class="callout-content">
-<p>Data Types | Example 1. discert | a. 1,2,3,…1000 2. continuous | b. 0,1 3. catagorical | c. dog, cat, turtle</p>
-</div>
+<table class="table"><thead><tr class="header"><th>Data Types</th>
+<th>Example of data</th>
+</tr></thead><tbody><tr class="odd"><td>1. discert</td>
+<td>a. 1,2,3,…1000</td>
+</tr><tr class="even"><td>2. continuous</td>
+<td>b. 0,1</td>
+</tr><tr class="odd"><td>3. catagorical</td>
+<td>c. dog, cat, turtle</td>
+</tr></tbody></table></div>
 </div>
 </div>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
@@ -339,7 +352,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>-&gt; b</li>
 <li>-&gt; a</li>
