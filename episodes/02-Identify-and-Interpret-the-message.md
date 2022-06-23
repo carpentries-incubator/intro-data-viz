@@ -7,7 +7,9 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-TODO
+1. What are four common messages usually communicated in a chart?
+2. What are useful charts to communicate these messages?
+3. How do we construct text to describe these messages?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
