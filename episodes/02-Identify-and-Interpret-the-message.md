@@ -90,6 +90,21 @@ Relationships
 
 ## Identify the message  
 
+What is the message of this graph?  
+![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png){On average across North America throughout the collection period foxes made up 7?% and Coyotes made up 2?% of the canids}
+Discuss message as a group
+
+What is the message of this graph?  
+![Figure ? Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
+Discuss message as a group
+
+What is the message of this graph?  
+![Figure ? Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units ](fig/distributionPlot.png){Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units}
+Discuss message as a group
+
+What is the message of this graph?  
+![Figure ? Fox populations tended to decrease as Coyote populations increased](fig/relationshipPlot.png){NEED BETTER DESCRIPTION}
+Discuss message as a group
 
 ## Describe the message  
 
