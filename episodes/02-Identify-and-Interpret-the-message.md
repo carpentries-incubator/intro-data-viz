@@ -10,6 +10,8 @@ exercises: 0
 1. What are four common messages usually communicated in a chart?
 2. What are useful charts to communicate these messages?
 3. How do we construct text to describe these messages?
+4. How does the type of data help determine the message?
+5. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -17,12 +19,22 @@ exercises: 0
 
 After completing this episode you will be able to:
 
+- identify data types as discrete, continuous, or categorical
 - interpret and describe the message in four common chart types
 - illustrate the message of four common chart types 
+- use a flow diagram choose a chart type to communicate your message
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
+
+Charts communicate a message about data that is dependent on the type of data.  (paragraph on data types)
+
+To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America.  The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258).  (Give a brief summary of the paper and the data)
+
+
+
+
 
 This is a lesson created via The Carpentries Workbench. It is written in
 [Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
@@ -70,10 +82,11 @@ d) economists
 
 ## Challenge 2: Pair the data type names with the examples    
 
-Data Types  |   Example
-1. discert   |  a. 1,2,3,...1000
-2. continuous  |  b. 0,1
-3. catagorical  |  c. dog, cat, turtle
+| Data Types  |   Example of data |
+| ----------- | ----------- |
+| 1. discert   |  a. 1,2,3,...1000 |
+| 2. continuous  |  b. 0,1 |
+| 3. catagorical  |  c. dog, cat, turtle |
 
 :::::::::::::::::::::::: solution 
 
