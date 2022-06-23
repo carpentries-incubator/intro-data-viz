@@ -33,25 +33,6 @@ Charts communicate a message about data that is dependent on the type of data.  
 To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America.  The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258).  (Give a brief summary of the paper and the data)
 
 
-
-
-
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
@@ -96,6 +77,28 @@ d) economists
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Data Types  
+
+
+## Four Common Chart Types
+
+Comparison
+Composition
+Distribution
+Relationships
+
+## Identify the message  
+
+
+## Describe the message  
+
+## Illustrate the message  
+
+## Use a flow chart to choose a chart for your message  
+
+
+
 
 ## Figures
 
