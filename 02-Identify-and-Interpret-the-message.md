@@ -93,6 +93,9 @@ You can use standard markdown for static figures with the following syntax:
 `![optional caption that appears below the figure](figure url){alt='alt text for
 accessibility purposes'}`
 
+![Figure ? Pie chart of the abundance of caninids are fox or coyote](fig/compositionPlot.png){indicate the percentages}
+
+
 ![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
 ## Math
