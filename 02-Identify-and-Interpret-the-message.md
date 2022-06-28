@@ -110,6 +110,15 @@ Discuss message as a group
 
 ## Illustrate the message  
 
+In a drawing application of your choice (including pencil and paper), draw a chart that matches the following descriptions.
+
+1. The presence of wolves promoted fox abundance more than coyote abundance in the 1980s.
+2. Higher mean annual air temperature decreased the ratio of foxes to coyotes across North America.
+3. Overall fox abundance has a log-normal distribution.  
+4. The proportion of all canids that are coyote increases from eastern to western locations.
+
+
+ 
 ## Use a flow chart to choose a chart for your message  
 
 
