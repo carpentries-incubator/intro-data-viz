@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jbkieffer.github.io/intro-data-viz/00-importance-of-message.html</loc>
+  </url>
+  <url>
     <loc>https://jbkieffer.github.io/intro-data-viz/00-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://jbkieffer.github.io/intro-data-viz/01-graphical-elements.html</loc>
   </url>
   <url>
     <loc>https://jbkieffer.github.io/intro-data-viz/01-importance-of-message.html</loc>
@@ -37,7 +43,13 @@
     <loc>https://jbkieffer.github.io/intro-data-viz/index.html</loc>
   </url>
   <url>
+    <loc>https://jbkieffer.github.io/intro-data-viz/instructor/00-importance-of-message.html</loc>
+  </url>
+  <url>
     <loc>https://jbkieffer.github.io/intro-data-viz/instructor/00-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://jbkieffer.github.io/intro-data-viz/instructor/01-graphical-elements.html</loc>
   </url>
   <url>
     <loc>https://jbkieffer.github.io/intro-data-viz/instructor/01-importance-of-message.html</loc>
