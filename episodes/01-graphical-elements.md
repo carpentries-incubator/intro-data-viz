@@ -1,24 +1,23 @@
 ---
-title: "The Importance of Message"
+title: "Graphical Elements of a Chart"
 teaching: 0
 exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- What is the purpose of a chart?
-- What chart ingredients create communication?
-- Why is a chart's message so important?
-- Where does the chart's message come from?
+- When creating a chart, what graphical elements do I have to work with?
+- How do these graphical elements translate into representations of data?
+- Which chart design components are easier for people to perceive accurately?
+- How do design components support or detract from a chart's message?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain the purpose of charts
-- List the communication ingredients of a chart
-- Explain the importance of a chart's message
-- Identify the origin of a chart's message
+- possibly temporary:
+- List elements of human perception that influence how well a chart communicates
+- Identify elements of chart design that work with and against human perception
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -49,21 +48,21 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Challenge 1: List elements of human perception that interact with charts and graphs
+## Challenge 1: Can you do it?
 
-From the list below, choose the three elements of human perception that interact with charts and graphs
+What is the output of this command?
 
-a. Object position
-b. Linear properties
-c. Spatial properties
-d. Scent
-e. Texture
+```r
+paste("This", "new", "lesson", "looks", "good")
+```
 
 :::::::::::::::::::::::: solution
 
-## Answers
+## Output
 
-a, b, and c are the correct choices.
+```output
+[1] "This new lesson looks good"
+```
 
 :::::::::::::::::::::::::::::::::
 
@@ -97,13 +96,29 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- The purpose of a chart is to communicate
-- Chart ingredients that create communication are:
-  - the underlying data
-  - a message about the data
-  - graphical elements that make up the chart's design
-- A chart's message comes from the interactions between data elements when they are plotted... / relationships revealed when data are plotted along *x* and *y* coordinates in a Cartesian plane
-- A chart's message drives decision-making and problem-solving
+- Graphical elements of chart design represent data relationships through position, shape, size, shading, and color
+  - *use this list to simplify the Cleveland & McGill 10 perceptual tasks below*
+- Move details up into lesson material:
+- The graphical elements available for chart design (Bertin, 1981) are:
+  - point
+  - line
+  - area
+  - volume
+  - shading (percent black to white, or grayscale)
+  - color
+- These elements represent data relationships through design components:
+  - position
+  - scale alignment
+  - length
+  - direction
+  - angle
+  - size (area and volume)
+  - curvature
+  - shading
+  - color saturation
+- Research suggests that many people can evaluate some of these design components more quickly and with more accuracy than others (Cleveland & McGill, 1984)
+- Design components that are easier to perceive accurately support a chart's message
+- Design components that are more difficult to perceive accurately detract from a chart's message
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
