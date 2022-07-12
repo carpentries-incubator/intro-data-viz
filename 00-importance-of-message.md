@@ -1,110 +1,127 @@
 ---
 title: "The Importance of Message"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 5
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
 
 - What is the purpose of a chart?
 - What chart ingredients create communication?
-- Why is a chart's message so important?
 - Where does the chart's message come from?
+- Why is a chart's message so important?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain the purpose of charts
+- Explain the purpose of a chart
 - List the communication ingredients of a chart
-- Explain the importance of a chart's message
 - Identify the origin of a chart's message
+- Explain the importance of a chart's message
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output.
-Please refer to the [Introduction to The Carpentries
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+This lesson introduces data visualization by focusing on the basic components of a chart and on the decisions you need to make in order to create and refine a chart. You will learn to craft messages about data and communicate those messages in charts. The principles applied to charts in this lesson can be applied to more complex data visualizations, but these are beyond the scope of this lesson.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+## The Purpose of a Chart
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+The purpose of a chart is to communicate. No "best" and "worst", but "better" and "worse". A better chart clearly communicates a message to the viewer. A worse chart  has no clear message and confuses the viewer.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Ingredients of a Chart
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+The ingredients that influence how and what a chart communicates are:
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- The underlying data
+- A message about the data
+- Design elements of the chart
+
+An imbalance in any of these ingredients will make a chart impossible or ineffective:
+
+- Without data, a chart has no information to communicate
+- Without a message, a chart has nothing clear to say about the data
+- Without design elements, a chart cannot convey information to the viewer
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Challenge 1: List elements of human perception that interact with charts and graphs
+## Challenge 1: Chart ingredients
 
-From the list below, choose the three elements of human perception that interact with charts and graphs
+From the list below, choose the three ingredients of a chart that create communication:
 
-a. Object position
-b. Linear properties
-c. Spatial properties
-d. Scent
-e. Texture
+a. `x` and `y` axes
+b. Underlying data
+c. Message about the data
+d. Software used to make the chart
+e. Design elements of the chart
 
 :::::::::::::::::::::::: solution
 
 ## Answers
 
-a, b, and c are the correct choices.
+b, c, and e are the correct choices
 
 :::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
 
 :::::::::::::::::::::::: solution
 
-You can add a line with at least three colons and a `solution` tag.
+## Explanation:
+
+a. `x` and `y` axes are individual design elements of the chart (e); by themselves, they are insufficient for creating communication.
+d. The software used to create a chart is a tool for collecting and presenting the data, the message, and the design elements. Software can help or hinder chart creation, but software by itself does not create chart communication.
 
 :::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
+## Chart message
 
-You can use standard markdown for static figures with the following syntax:
+**TODO**: Text about where the chart's message comes from (Bertin 1981)
+
+Insert figures into this section with the following syntax:
 
 `![optional caption that appears below the figure](figure url){alt='alt text for
 accessibility purposes'}`
 
 ![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
-## Math
+::::::::::::::::::::::::::::::::::::: challenge
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+## Challenge 2: Source of a chart's message
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+(as an alternative, image of a data table and image of a chart - which best reveals a pattern?)
 
-Cool, right?
+Choose the chart below that shows a relationship between two pieces of data.
+
+**TODO**: Add hand-drawn images of three sample charts:
+
+1. chart with `x` axis only (average monthly temperature)
+2. chart with `y` axis only (average monthly number of walks a dog gets)
+3. chart with `x` and `y` axes (plot these two against each other)
+
+:::::::::::::::::::::::: solution
+
+Chart 3 shows a relationship between average monthly temperature and average number of walks a dog gets.
+
+:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Importance of Chart Message
+
+Clearly-imparted information - messages - about relationships within a set of data drive problem-solving and decision-making about the entities represented by the data. These solutions and decisions have real-world consequences.
+
+In this lesson we will use a dataset about large North American canids: wolves, coyotes, and foxes[^1]. Public policy and scientific decisions have drastically changed these populations over the past century. The presence or absence of these animals near population centers, livestock, and nature preserves stirs public debate in the present day.
+
+In this lesson you will learn to craft messages about data and communicate those messages in charts. You will practice communicating scientific information about large North American canids in messages and charts that the public can understand.
+
+[^1]: Newsome, Thomas M.; Ripple, William J. (2015), Data from: A continental scale trophic cascade from wolves through coyotes to foxes, Dryad, Dataset, [https://doi.org/10.5061/dryad.s0d20](https://doi.org/10.5061/dryad.s0d20)
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - The purpose of a chart is to communicate
-- Chart ingredients that create communication are:
-  - the underlying data
-  - a message about the data
-  - graphical elements that make up the chart's design
+- Three key chart ingredients create communication
 - A chart's message comes from the interactions between data elements when they are plotted... / relationships revealed when data are plotted along *x* and *y* coordinates in a Cartesian plane
 - A chart's message drives decision-making and problem-solving
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
