@@ -8,8 +8,8 @@ exercises: 5
 
 - What is the purpose of a chart?
 - What chart ingredients create communication?
-- Where does the chart's message come from?
-- Why is a chart's message so important?
+- Where does chart message come from?
+- Why is chart message so important?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -60,7 +60,7 @@ e. Design elements of the chart
 
 ## Answers
 
-b, c, and e are the correct choices
+The correct choices are b, c, and e.
 
 :::::::::::::::::::::::::::::::::
 
@@ -68,8 +68,8 @@ b, c, and e are the correct choices
 
 ## Explanation:
 
-a. `x` and `y` axes are individual design elements of the chart (e); by themselves, they are insufficient for creating communication.
-d. The software used to create a chart is a tool for collecting and presenting the data, the message, and the design elements. Software can help or hinder chart creation, but software by itself does not create chart communication.
+- Choice a: `x` and `y` axes are individual design elements of the chart (e); by themselves, they are insufficient for creating communication.
+- Choice d: The software used to create a chart is a tool for collecting and presenting the data, the message, and the design elements. Software can help or hinder chart creation, but software by itself does not create chart communication.
 
 :::::::::::::::::::::::::::::::::
 
