@@ -6,7 +6,7 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- When creating a chart, what graphical elements do I have to work with?
+- When creating a chart, what graphical elements (design elements?) do I have to work with?
 - How do these graphical elements translate into representations of data?
 - Which chart design components are easier for people to perceive accurately?
 - How do design components support or detract from a chart's message?
