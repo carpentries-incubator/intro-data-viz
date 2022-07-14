@@ -22,11 +22,7 @@ exercises: 5
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
 
-This paragraph might be better in the Summary/Setup page:
-
-This lesson introduces data visualization by focusing on the basic components of a chart and on the decisions you need to make in order to create and refine a chart. You will learn to craft messages about data and communicate those messages in charts. The principles applied to charts in this lesson can be applied to more complex data visualizations, but these are beyond the scope of this lesson.
 
 ## The Purpose of a Chart
 
@@ -91,7 +87,7 @@ A chart is a visual representation of the relationships among data elements that
 A table is a necessary precursor to a chart, but is not a substitute for a chart. A table must be read to convey its information, and it is difficult and time-consuming to try to understand any patterns that might be present in the data. Consider this data table:
 
 | Average Monthly Temperature | Daily Walks per Dog |
-|---:|---:|
+|:---:|:---:|
 |30 |0 |
 |35 |1 |
 |45 |1 |

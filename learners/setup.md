@@ -2,8 +2,9 @@
 title: Setup
 ---
 
-Setup instructions live in this document. Please specify the tools and the data
-sets the Learner needs to have installed.
+## Introduction
+
+This lesson introduces data visualization by focusing on the basic components of a chart and on the decisions you need to make in order to create and refine a chart. You will learn to craft messages about data and communicate those messages in charts. The principles applied to charts in this lesson can be applied to more complex data visualizations, but these are beyond the scope of this lesson.
 
 ## Data Sets
 
@@ -47,4 +48,3 @@ Use Terminal.app
 Use Terminal
 
 :::::::::::::::::::::::::
-
