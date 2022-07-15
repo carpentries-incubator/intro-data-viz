@@ -252,7 +252,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>The Importance of Message</h1>
-        <p> Last updated on 2022-07-14 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/00-importance-of-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2022-07-15 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/00-importance-of-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -313,19 +313,33 @@
 </div>
 <div class="section level3">
 <h3 id="prepare-the-data">Prepare the data<a class="anchor" aria-label="anchor" href="#prepare-the-data"></a></h3>
-<p>Refer to Data Carpentry Ecology Spreadsheets lesson for more on tidying and cleaning data to prepare it for analysis - put this in a callout; specifics of how to do this are outside the scope of this lesson.</p>
-<p>Preparing data before creating a chart,</p>
-<p>Data that is clean - outliers, nulls, missing data, free of white space, - summarizable, countable, and calculable</p>
-<p>Data that has consistent field (column) names</p>
-<p>Free of formatting</p>
-<p>Data that is tidy - columns for variables, rows for observations, one value per cell - leads into tables next</p>
-<p>Cite Wickham<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>We need to prepare data before attempting to visualize it in a chart. This process is often called “cleaning.” A thorough overview of data cleaning is outside the scope of this lesson, but here are some guidelines.</p>
+<p>Clean data is summarizable, countable, and calculable. This means that the data table contains no:</p>
+<ul><li>White spaces before or after data in each cell</li>
+<li>Outliers, nulls, missing data, or empty cells</li>
+<li>Formatting, such as color coding, bold, or italicized text</li>
+</ul><p>For efficient data analysis and visualization, cleaned data must also be made tidy. Tidy data<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> means:</p>
+<ul><li>Columns are for variables</li>
+<li>Rows are for observations</li>
+<li>One value per cell</li>
+</ul><div id="callout2" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="resources-for-learning-about-cleaning-data" class="callout-inner">
+<h3 class="callout-title">Resources for learning about cleaning data</h3>
+<div class="callout-content">
+<ul><li>The Data Carpentry Ecology <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/" class="external-link">Data in Spreadsheets</a> lesson offers step-by-step instructions for managing, cleaning, and tidying tabular data to prepare it for analysis</li>
+<li>Broman, K. W., &amp; Woo, K. H. (2018). Data organization in spreadsheets (e3183v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.3183v2" class="external-link">https://doi.org/10.7287/peerj.preprints.3183v2</a>
+</li>
+</ul></div>
+</div>
+</div>
+
 </div>
 <div class="section level3">
 <h3 id="the-role-of-tables">The role of tables<a class="anchor" aria-label="anchor" href="#the-role-of-tables"></a></h3>
-<p>Tabular formats - common spreadsheet programs and delimited files - csv and tsv - can create and save data in a tabular format - that is, vertical columns arranged on top that intersect horizontal rows arranged below the column headings. The intersections create individual cells that contain individual data points.</p>
-<p><strong>Insert a hand-drawn table structure</strong></p>
-<p>A table is a necessary precursor to a chart, but is not a substitute for a chart. A table must be read to convey its information, and it is difficult and time-consuming to try to understand any patterns that might be present in the data. Consider this data table:</p>
+<p>A table is necessary for making a chart, but is not a substitute for a chart. A table must be read to convey its information. Reading a data table makes it difficult to understand any patterns that might be present in the data. Consider this data table:</p>
 <table class="table"><thead><tr class="header"><th align="center">Average Monthly Temperature</th>
 <th align="center">Daily Walks per Dog</th>
 </tr></thead><tbody><tr class="odd"><td align="center">30</td>
@@ -366,12 +380,11 @@
 </div>
 <div class="section level3">
 <h3 id="from-table-to-chart">From table to chart<a class="anchor" aria-label="anchor" href="#from-table-to-chart"></a></h3>
-<p>To create a chart, data elements recorded in a table are arranged along the <code>x</code> and <code>y</code> axes of a Cartesian plane.</p>
-<p>Need a figure here to illustrate x, y, and their intersections (the relationships) - maybe this is the activity? A blank chart and a data table?</p>
-<p><strong>TODO</strong>: Insert the chart for the table above</p>
+<p>To create a chart from a table, data elements recorded in different columns of the table are arranged along the <code>x</code> and <code>y</code> axes of a Cartesian plane.</p>
+<figure><img src="https://github.com/jbkieffer/intro-data-viz/blob/main/episodes/fig/XYAxes.png" alt="intersection of horizontal x axis and vertical y axis" class="figure mx-auto d-block"><figcaption>x and y axes on a Cartesian plane</figcaption></figure><p><strong>TODO</strong>: Insert the chart for the table above</p>
 <p>Insert figures into this section with the following syntax:</p>
 <p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure><div id="discussion2" class="callout discussion">
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -408,7 +421,7 @@
   Answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The correct answer is 1. This sentence describes an interaction between seasonal temperature and number of daily walks. These are the two data elements plotted on the <code>x</code> and <code>y</code> axes of this chart.</p>
 </div>
@@ -493,7 +506,7 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/00-importance-of-message.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/00-importance-of-message.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-14",
+  "dateModified": "2022-07-15",
   "datePublished": "2022-07-15"
 }
 
