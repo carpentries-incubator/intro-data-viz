@@ -120,12 +120,9 @@ To create a chart from a table, data elements recorded in different columns of t
 
 ![x and y axes on a Cartesian plane](fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
 
-**TODO**: Insert the chart for the table above
+If we arrange the data points for Average Monthly Temperature along an `x` axis and the data points for Daily Walks per Dog along a `y` axis, we can connect the places where those data points intersect to create this chart:
 
-Insert figures into this section with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+![a basic chart](fig/dogWalkChart.png){alt='line chart'}
 
 :::::::::::::::::::::::: discussion
 
@@ -135,12 +132,9 @@ Take 1 minute to view the chart and discuss it with your neighbor. How easy or d
 
 ## Chart message
 
-The relationship between the two elements that emerges when `x` is plotted against `y` creates the message of the chart[^1].
+The relationship between the two elements that emerges when `x` is plotted against `y` creates the message of the chart[^1]. This message is one sentence that describes the relationship that the chart visualizes. This single sentence becomes the title of your chart. If you are having trouble stating the relationship in one sentence, you may have too many relationships for one chart.
 
-The message is one sentence that describes the relationship between data elements that you plot against each other on x and y; ideally this sentence becomes the title of your chart.
-If you are having trouble stating the relationship in one sentence, you may have too many relationships for one chart.
-
-More here - it takes practice to identify and articulate a message for a chart, but knowing where it comes from is a first step. You'll practice this skill more during subsequent episodes.
+It takes practice to identify and articulate a message for a chart, but knowing where it comes from is a first step. You'll practice this skill more during subsequent episodes.
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
@@ -165,9 +159,7 @@ The correct answer is 1. This sentence describes an interaction between seasonal
 
 Clearly-imparted information - messages - about relationships within a set of data drive problem-solving and decision-making about the entities represented by the data. These solutions and decisions have real-world consequences.
 
-In this lesson we will use a dataset about large North American canids: wolves, coyotes, and foxes[^3]. Public policy and scientific decisions have drastically changed these populations over the past century. The presence or absence of these animals near population centers, livestock, and nature preserves stirs public debate in the present day.
-
-In this lesson you will learn to craft messages about data and communicate those messages in charts. You will practice communicating scientific information about large North American canids in messages and charts that the public can understand.
+In this lesson we will use a dataset about large North American canids: wolves, coyotes, and foxes[^3]. Public policy and scientific decisions have drastically changed these populations over the past century. The presence or absence of these animals near population centers, livestock, and nature preserves stirs public debate in the present day. You will practice communicating scientific information about large North American canids in messages and charts that the public can understand.
 
 [^3]: Newsome, T. M. & Ripple, W. J. (2015). Data from: A continental scale trophic cascade from wolves through coyotes to foxes, Dryad, Dataset, [https://doi.org/10.5061/dryad.s0d20](https://doi.org/10.5061/dryad.s0d20)
 
