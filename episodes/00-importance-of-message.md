@@ -83,7 +83,7 @@ For efficient data analysis and visualization, cleaned data must also be made ti
 
 :::::::::::::::::::::::: instructor
 
-Learners who have less experience with tabular data may get stuck in this section. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology [Data in Spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) lesson.
+Learners who have less experience with tabular data may need more specific information than this section provides. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology [Data in Spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) lesson.
 
 :::::::::::::::::::::::::::::::::
 
@@ -91,11 +91,7 @@ Learners who have less experience with tabular data may get stuck in this sectio
 
 ### The role of tables
 
-Tabular formats - common spreadsheet programs and delimited files - csv and tsv - can create and save data in a tabular format - that is, vertical columns arranged on top that intersect horizontal rows arranged below the column headings. The intersections create individual cells that contain individual data points.
-
-**Insert a hand-drawn table structure**
-
-A table is a necessary precursor to a chart, but is not a substitute for a chart. A table must be read to convey its information, and it is difficult and time-consuming to try to understand any patterns that might be present in the data. Consider this data table:
+A table is necessary for making a chart, but is not a substitute for a chart. A table must be read to convey its information. Reading a data table makes it difficult to understand any patterns that might be present in the data. Consider this data table:
 
 | Average Monthly Temperature | Daily Walks per Dog |
 |:---:|:---:|
@@ -120,9 +116,9 @@ Take 1 minute to read the table and discuss it with your neighbor. How easy or d
 
 ### From table to chart
 
-To create a chart, data elements recorded in a table are arranged along the `x` and `y` axes of a Cartesian plane.
+To create a chart from a table, data elements recorded in different columns of the table are arranged along the `x` and `y` axes of a Cartesian plane.
 
-Need a figure here to illustrate x, y, and their intersections (the relationships) - maybe this is the activity? A blank chart and a data table?
+![x and y axes on a Cartesian plane](https://github.com/jbkieffer/intro-data-viz/blob/main/episodes/fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
 
 **TODO**: Insert the chart for the table above
 
@@ -130,8 +126,6 @@ Insert figures into this section with the following syntax:
 
 `![optional caption that appears below the figure](figure url){alt='alt text for
 accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
 :::::::::::::::::::::::: discussion
 
