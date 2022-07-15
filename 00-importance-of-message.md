@@ -58,30 +58,40 @@ It may seem odd that the key components of a chart do not include software. Whil
 
 ### Prepare the data
 
-Refer to Data Carpentry Ecology Spreadsheets lesson for more on tidying and cleaning data to prepare it for analysis - put this in a callout; specifics of how to do this are outside the scope of this lesson.
+We need to prepare data before attempting to visualize it in a chart. This process is often called "cleaning." A thorough overview of data cleaning is outside the scope of this lesson, but here are some guidelines.
 
-Preparing data before creating a chart,
+Clean data is summarizable, countable, and calculable. This means that the data table contains no:
 
-Data that is clean - outliers, nulls, missing data, free of white space, - summarizable, countable, and calculable
+- White spaces before or after data in each cell
+- Outliers, nulls, missing data, or empty cells
+- Formatting, such as color coding, bold, or italicized text
 
-Data that has consistent field (column) names
+For efficient data analysis and visualization, cleaned data must also be made tidy. Tidy data[^2] means:
 
-Free of formatting
+- Columns are for variables
+- Rows are for observations
+- One value per cell
 
-Data that is tidy - columns for variables, rows for observations, one value per cell - leads into tables next
+:::::::::::::::::::::::: callout
 
-Cite Wickham[^2]
+### Resources for learning about cleaning data
+
+- The Data Carpentry Ecology [Data in Spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) lesson offers step-by-step instructions for managing, cleaning, and tidying tabular data to prepare it for analysis
+- Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets (e3183v2). PeerJ Inc. [https://doi.org/10.7287/peerj.preprints.3183v2](https://doi.org/10.7287/peerj.preprints.3183v2)
+
+:::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::: instructor
+
+Learners who have less experience with tabular data may need more specific information than this section provides. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology [Data in Spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/) lesson.
+
+:::::::::::::::::::::::::::::::::
 
 [^2]: Wickham, H. 2014. “Tidy Data.” Journal of Statistical Software 59 (10). 10.18637/jss.v059.i10 [http://dx.doi.org/10.18637/jss.v059.i10](http://dx.doi.org/10.18637/jss.v059.i10)
 
-
 ### The role of tables
 
-Tabular formats - common spreadsheet programs and delimited files - csv and tsv - can create and save data in a tabular format - that is, vertical columns arranged on top that intersect horizontal rows arranged below the column headings. The intersections create individual cells that contain individual data points.
-
-**Insert a hand-drawn table structure**
-
-A table is a necessary precursor to a chart, but is not a substitute for a chart. A table must be read to convey its information, and it is difficult and time-consuming to try to understand any patterns that might be present in the data. Consider this data table:
+A table is necessary for making a chart, but is not a substitute for a chart. A table must be read to convey its information. Reading a data table makes it difficult to understand any patterns that might be present in the data. Consider this data table:
 
 | Average Monthly Temperature | Daily Walks per Dog |
 |:---:|:---:|
@@ -106,9 +116,9 @@ Take 1 minute to read the table and discuss it with your neighbor. How easy or d
 
 ### From table to chart
 
-To create a chart, data elements recorded in a table are arranged along the `x` and `y` axes of a Cartesian plane.
+To create a chart from a table, data elements recorded in different columns of the table are arranged along the `x` and `y` axes of a Cartesian plane.
 
-Need a figure here to illustrate x, y, and their intersections (the relationships) - maybe this is the activity? A blank chart and a data table?
+![x and y axes on a Cartesian plane](https://github.com/jbkieffer/intro-data-viz/blob/main/episodes/fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
 
 **TODO**: Insert the chart for the table above
 
@@ -116,8 +126,6 @@ Insert figures into this section with the following syntax:
 
 `![optional caption that appears below the figure](figure url){alt='alt text for
 accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
 :::::::::::::::::::::::: discussion
 
