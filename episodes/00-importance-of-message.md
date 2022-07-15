@@ -118,7 +118,7 @@ Take 1 minute to read the table and discuss it with your neighbor. How easy or d
 
 To create a chart from a table, data elements recorded in different columns of the table are arranged along the `x` and `y` axes of a Cartesian plane.
 
-![x and y axes on a Cartesian plane](https://github.com/jbkieffer/intro-data-viz/blob/main/episodes/fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
+![x and y axes on a Cartesian plane](fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
 
 **TODO**: Insert the chart for the table above
 
