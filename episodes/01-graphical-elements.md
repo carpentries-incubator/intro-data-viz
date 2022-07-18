@@ -64,14 +64,23 @@ Use this list of visual properties to label the figures below[^3].
 ### Figures
 
 ![Figure 2.1](fig/visualPropertyCol.png){alt='color property'}
+
 ![Figure 2.2](fig/visualPropertyAng.png){alt='angle property'}
+
 ![Figure 2.3](fig/visualPropertySca1.png){alt='1 scale position property'}
+
 ![Figure 2.4](fig/visualPropertyCurv.png){alt='curve property'}
+
 ![Figure 2.5](fig/visualPropertySha.png){alt='shading property'}
+
 ![Figure 2.6](fig/visualPropertyArea.png){alt='area property'}
+
 ![Figure 2.7](fig/visualPropertyDir.png){alt='direction property'}
+
 ![Figure 2.8](fig/visualPropertySca2.png){alt='2 scale position property'}
+
 ![Figure 2.9](fig/visualPropertyLen.png){alt='length property'}
+
 ![Figure 2.10](fig/visualPropertyVol.png){alt='volume property'}
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
@@ -99,10 +108,32 @@ Use this list of visual properties to label the figures below[^3].
 
 ## Support your chart's message
 
+The ten visual properties we just examined create many possible variations for the four fundamental graphical elements: point, line, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart: to communicate a message about patterns or relationships present in the data. Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.
+
 ### Research on charts
+
+Debates about chart format have taken place in the scientific literature since at least the 1920s[^2]. In 1984, Cleveland & McGill published a theory of "elementary perceptual tasks" that attempted to define the individual components of data representation and determine by experiment which components led to more accurate judgments about the underlying data. Despite their study's limitations, the guidelines they produced remain useful and inform modern guidance about designing charts[^4].
+
+[^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
 
 ### Hierarchy of visual representations
 
+The data behind your chart influences which of the four graphical elements you will use in your chart:
+
+- Point: represent and compare exact values and distributions
+- Line: represent and compare quantities, trends over time, parts of a whole, distributions
+- Area: represent and compare quantities, trends over time, parts of a whole, distributions
+- Volume: represent and compare quantities, trends over time, parts of a whole, distributions
+
+Some treatments of these elements result in more accurate judgments about the underlying data than others. These are organized below by graphical element (this doesn't really work - revise tomorrow.)
+
+Cleveland & McGill's order:
+1. Position on common scale
+2. Position on non-aligned scales
+3. Length, direction, angle
+4. Area
+5. Volume, curvature
+6. Shading, color saturation
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
