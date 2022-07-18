@@ -289,7 +289,7 @@
         
 <section id="aio-00-importance-of-message"><p>Content from <a href="00-importance-of-message.html">The Importance of Message</a></p>
 <hr>
-<p> Last updated on 2022-07-15 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/00-importance-of-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-07-18 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/00-importance-of-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -396,7 +396,7 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Learners who have less experience with tabular data may need more specific information than this section provides. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/" class="external-link">Data in Spreadsheets</a> lesson.</p>
 </div>
@@ -480,8 +480,8 @@
 <h3 id="from-table-to-chart">From table to chart<a class="anchor" aria-label="anchor" href="#from-table-to-chart"></a>
 </h3>
 <p>To create a chart from a table, data elements recorded in different columns of the table are arranged along the <code>x</code> and <code>y</code> axes of a Cartesian plane.</p>
-<figure><img src="../fig/XYAxes.png" alt="intersection of horizontal x axis and vertical y axis" class="figure mx-auto d-block"><figcaption>x and y axes on a Cartesian plane</figcaption></figure><p>If we arrange the data points for Average Monthly Temperature along an <code>x</code> axis and the data points for Daily Walks per Dog along a <code>y</code> axis, we can connect the places where those data points intersect to create this chart:</p>
-<figure><img src="../fig/dogWalksChart.png" alt="line chart" class="figure mx-auto d-block"><figcaption>a basic chart</figcaption></figure><div id="discussion2" class="callout discussion">
+<figure><img src="../fig/XYAxes.png" alt="intersection of horizontal x axis and vertical y axis" class="figure mx-auto d-block"><figcaption>Figure 1.1: x and y axes on a Cartesian plane</figcaption></figure><p>If we arrange the data points for Average Monthly Temperature along an <code>x</code> axis and the data points for Daily Walks per Dog along a <code>y</code> axis, we can connect the places where those data points intersect to create this chart:</p>
+<figure><img src="../fig/dogWalksChart.png" alt="line chart" class="figure mx-auto d-block"><figcaption>Figure 1.2: a line chart</figcaption></figure><div id="discussion2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -520,7 +520,7 @@
   Answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The correct answer is 1. This sentence describes an interaction between seasonal temperature and number of daily walks. These are the two data elements plotted on the <code>x</code> and <code>y</code> axes of this chart.</p>
 </div>
@@ -602,7 +602,7 @@ any links that you are not going to use.
 <li>Area</li>
 <li>Volume</li>
 </ul>
-<p>The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting a graphical element’s visual properties<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
+<p>The data and data relationships we are representing in a chart have different quantities and categories. We can communicate these quantities and categories by adjusting a graphical element’s visual properties<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
 <ul>
 <li>Position</li>
 <li>Alignment on one or more scales</li>
@@ -621,7 +621,7 @@ any links that you are not going to use.
 <div id="challenge-1-match-the-name-of-the-visual-property-to-its-picture" class="callout-inner">
 <h3 class="callout-title">Challenge 1: Match the name of the visual property to its picture</h3>
 <div class="callout-content">
-<p>Use this list of visual properties to label the pictures in the table below<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+<p>Use this list of visual properties to label the figures below<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
 <ol style="list-style-type: decimal">
 <li>Position on a common scale</li>
 <li>Position on non-aligned scales</li>
@@ -634,54 +634,10 @@ any links that you are not going to use.
 <li>Shading</li>
 <li>Color</li>
 </ol>
-<table class="table">
-<thead><tr class="header">
-<th align="center">Visual Property Number</th>
-<th align="center">Visual Property Picture</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyCol.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyAng.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertySca1.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyCurv.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertySha.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyArea.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyDir.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertySca2.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyLen.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<figure align="center"><img src="../fig/visualPropertyVol.png" alt="" class="figure mx-auto d-block"></figure>
-</tr>
-</tbody>
-</table>
+<div id="figures" class="callout-inner">
+<h3 class="callout-title">Figures</h3>
+<figure><img src="../fig/visualPropertyCol.png" alt="color property" class="figure mx-auto d-block"><img src="../fig/visualPropertyAng.png" alt="angle property" class="figure mx-auto d-block"><img src="../fig/visualPropertySca1.png" alt="1 scale position property" class="figure mx-auto d-block"><img src="../fig/visualPropertyCurv.png" alt="curve property" class="figure mx-auto d-block"><img src="../fig/visualPropertySha.png" alt="shading property" class="figure mx-auto d-block"><img src="../fig/visualPropertyArea.png" alt="area property" class="figure mx-auto d-block"><img src="../fig/visualPropertyDir.png" alt="direction property" class="figure mx-auto d-block"><img src="../fig/visualPropertySca2.png" alt="2 scale position property" class="figure mx-auto d-block"><img src="../fig/visualPropertyLen.png" alt="length property" class="figure mx-auto d-block"><img src="../fig/visualPropertyVol.png" alt="volume property" class="figure mx-auto d-block"></figure>
+</div>
 </div>
 </div>
 </div>
@@ -702,43 +658,43 @@ any links that you are not going to use.
 <tbody>
 <tr class="odd">
 <td align="center">10</td>
-<figure align="center"><img src="../fig/visualPropertyCol.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.1</td>
 </tr>
 <tr class="even">
 <td align="center">5</td>
-<figure align="center"><img src="../fig/visualPropertyAng.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.2</td>
 </tr>
 <tr class="odd">
 <td align="center">1</td>
-<figure align="center"><img src="../fig/visualPropertySca1.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.3</td>
 </tr>
 <tr class="even">
 <td align="center">8</td>
-<figure align="center"><img src="../fig/visualPropertyCurv.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.4</td>
 </tr>
 <tr class="odd">
 <td align="center">9</td>
-<figure align="center"><img src="../fig/visualPropertySha.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.5</td>
 </tr>
 <tr class="even">
 <td align="center">6</td>
-<figure align="center"><img src="../fig/visualPropertyArea.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.6</td>
 </tr>
 <tr class="odd">
 <td align="center">4</td>
-<figure align="center"><img src="../fig/visualPropertyDir.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.7</td>
 </tr>
 <tr class="even">
 <td align="center">2</td>
-<figure align="center"><img src="../fig/visualPropertySca2.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.8</td>
 </tr>
 <tr class="odd">
 <td align="center">3</td>
-<figure align="center"><img src="../fig/visualPropertyLen.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.9</td>
 </tr>
 <tr class="even">
 <td align="center">7</td>
-<figure align="center"><img src="../fig/visualPropertyVol.png" alt="" class="figure mx-auto d-block"></figure>
+<td align="center">Figure 2.10</td>
 </tr>
 </tbody>
 </table>
@@ -837,7 +793,7 @@ any links that you are not going to use.
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the “Instructor View”</p>
 </div>
@@ -868,7 +824,7 @@ any links that you are not going to use.
   Output
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><code>b) everyone!</code></p>
 </div>
@@ -912,7 +868,7 @@ any links that you are not going to use.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>-&gt; b</li>
