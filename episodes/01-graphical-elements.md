@@ -48,7 +48,7 @@ The data and data relationships we are representing in a chart have different qu
 
 ## Challenge 1: Match the name of the visual property to its picture
 
-Use this list of visual properties to label the pictures in the table below[^3].
+Use this list of visual properties to label the figures below[^3].
 
 1. Position on a common scale
 2. Position on non-aligned scales
@@ -61,18 +61,18 @@ Use this list of visual properties to label the pictures in the table below[^3].
 9. Shading
 10. Color
 
-| Visual Property Number | Visual Property Picture |
-|:---:|:---:|
-|     | ![](fig/visualPropertyCol.png){alt='color property'} |
-|     | ![](fig/visualPropertyAng.png){alt='angle property'} |
-|     | ![](fig/visualPropertySca1.png){alt='1 scale position property'} |
-|     | ![](fig/visualPropertyCurv.png){alt='curve property'} |
-|     | ![](fig/visualPropertySha.png){alt='shading property'} |
-|     | ![](fig/visualPropertyArea.png){alt='area property'} |
-|     | ![](fig/visualPropertyDir.png){alt='direction property'} |
-|     | ![](fig/visualPropertySca2.png){alt='2 scale position property'} |
-|     | ![](fig/visualPropertyLen.png){alt='length property'} |
-|     | ![](fig/visualPropertyVol.png){alt='volume property'} |
+### Figures
+
+![Figure 2.1](fig/visualPropertyCol.png){alt='color property'}
+![Figure 2.2](fig/visualPropertyAng.png){alt='angle property'}
+![Figure 2.3](fig/visualPropertySca1.png){alt='1 scale position property'}
+![Figure 2.4](fig/visualPropertyCurv.png){alt='curve property'}
+![Figure 2.5](fig/visualPropertySha.png){alt='shading property'}
+![Figure 2.6](fig/visualPropertyArea.png){alt='area property'}
+![Figure 2.7](fig/visualPropertyDir.png){alt='direction property'}
+![Figure 2.8](fig/visualPropertySca2.png){alt='2 scale position property'}
+![Figure 2.9](fig/visualPropertyLen.png){alt='length property'}
+![Figure 2.10](fig/visualPropertyVol.png){alt='volume property'}
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
 
@@ -82,16 +82,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-| 10  | ![](fig/visualPropertyCol.png){alt='color property'} |
-|  5  | ![](fig/visualPropertyAng.png){alt='angle property'} |
-|  1  | ![](fig/visualPropertySca1.png){alt='1 scale position property'} |
-|  8  | ![](fig/visualPropertyCurv.png){alt='curve property'} |
-|  9  | ![](fig/visualPropertySha.png){alt='shading property'} |
-|  6  | ![](fig/visualPropertyArea.png){alt='area property'} |
-|  4  | ![](fig/visualPropertyDir.png){alt='direction property'} |
-|  2  | ![](fig/visualPropertySca2.png){alt='2 scale position property'} |
-|  3  | ![](fig/visualPropertyLen.png){alt='length property'} |
-|  7  | ![](fig/visualPropertyVol.png){alt='volume property'} |
+| 10  | Figure 2.1 |
+|  5  | Figure 2.2 |
+|  1  | Figure 2.3 |
+|  8  | Figure 2.4 |
+|  9  | Figure 2.5 |
+|  6  | Figure 2.6 |
+|  4  | Figure 2.7 |
+|  2  | Figure 2.8 |
+|  3  | Figure 2.9 |
+|  7  | Figure 2.10 |
 
 :::::::::::::::::::::::::::::::::
 
