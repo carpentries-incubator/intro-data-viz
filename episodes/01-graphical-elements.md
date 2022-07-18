@@ -63,16 +63,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
+|     | ![](fig/visualPropertyCol.png){alt=''} |
+|     | ![](fig/visualPropertyAng.png){alt=''} |
+|     | ![](fig/visualPropertySca1.png){alt=''} |
+|     | ![](fig/visualPropertyCurv.png){alt=''} |
+|     | ![](fig/visualPropertySha.png){alt=''} |
+|     | ![](fig/visualPropertyArea.png){alt=''} |
+|     | ![](fig/visualPropertyDir.png){alt=''} |
+|     | ![](fig/visualPropertySca2.png){alt=''} |
+|     | ![](fig/visualPropertyLen.png){alt=''} |
+|     | ![](fig/visualPropertyVol.png){alt=''} |
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
 
@@ -82,16 +82,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
+| 10  | ![](fig/visualPropertyCol.png){alt=''} |
+|  5  | ![](fig/visualPropertyAng.png){alt=''} |
+|  1  | ![](fig/visualPropertySca1.png){alt=''} |
+|  8  | ![](fig/visualPropertyCurv.png){alt=''} |
+|  9  | ![](fig/visualPropertySha.png){alt=''} |
+|  6  | ![](fig/visualPropertyArea.png){alt=''} |
+|  4  | ![](fig/visualPropertyDir.png){alt=''} |
+|  2  | ![](fig/visualPropertySca2.png){alt=''} |
+|  3  | ![](fig/visualPropertyLen.png){alt=''} |
+|  7  | ![](fig/visualPropertyVol.png){alt=''} |
 
 :::::::::::::::::::::::::::::::::
 
