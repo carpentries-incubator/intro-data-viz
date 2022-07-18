@@ -6,30 +6,28 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- When creating a chart, what graphical elements do I have to work with?
-- How do these graphical elements translate into representations of data?
-- How do graphical elements support or detract from a chart's message?
+- When creating a chart, what components do I have to work with?
+- How can graphical elements and their visual properties support a chart's message?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- List graphical elements available for chart design
-- Describe how graphical elements represent data relationships
-- Identify graphical elements that result in more accurate judgments about the patterns and relationships visualized by a chart
+- List the graphical elements and their visual properties that are available for chart design
+- Identify visual representations that result in more accurate judgments about the patterns and relationships visualized by a chart
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Graphical elements
+## Graphical elements and visual properties
 
-When we create a chart, we can choose many different ways to represent the message we wish to convey. But in two or three dimensions, there are only a few elements we have to work with[^1]:
+When we create a chart, we can choose many different ways to represent the message we wish to convey. But in two or three dimensions, there are only a few graphical elements we have to work with[^1]:
 
 - Point
 - Line
 - Area
 - Volume
 
-The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting the appearance of the four fundamental elements through[^2]:
+The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting a graphical element's visual properties[^2]:
 
  - Position
  - Alignment on one or more scales
@@ -65,16 +63,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
+|     | ![](fig/visualPropertyCol.png){alt=''} |
+|     | ![](fig/visualPropertyAng.png){alt=''} |
+|     | ![](fig/visualPropertySca1.png){alt=''} |
+|     | ![](fig/visualPropertyCurv.png){alt=''} |
+|     | ![](fig/visualPropertySha.png){alt=''} |
+|     | ![](fig/visualPropertyArea.png){alt=''} |
+|     | ![](fig/visualPropertyDir.png){alt=''} |
+|     | ![](fig/visualPropertySca2.png){alt=''} |
+|     | ![](fig/visualPropertyLen.png){alt=''} |
+|     | ![](fig/visualPropertyVol.png){alt=''} |
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
 
@@ -84,48 +82,33 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
-|     | ![](fig/){alt=''} |
+| 10  | ![](fig/visualPropertyCol.png){alt=''} |
+|  5  | ![](fig/visualPropertyAng.png){alt=''} |
+|  1  | ![](fig/visualPropertySca1.png){alt=''} |
+|  8  | ![](fig/visualPropertyCurv.png){alt=''} |
+|  9  | ![](fig/visualPropertySha.png){alt=''} |
+|  6  | ![](fig/visualPropertyArea.png){alt=''} |
+|  4  | ![](fig/visualPropertyDir.png){alt=''} |
+|  2  | ![](fig/visualPropertySca2.png){alt=''} |
+|  3  | ![](fig/visualPropertyLen.png){alt=''} |
+|  7  | ![](fig/visualPropertyVol.png){alt=''} |
 
 :::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::
 
+## Support your chart's message
+
+### Research on charts
+
+### Hierarchy of visual representations
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- Graphical elements of chart design represent data relationships through position, shape, size, shading, and color
-  - *use this list to simplify the Cleveland & McGill 10 perceptual tasks below*
-- Move details up into lesson material:
-- The graphical elements available for chart design (Bertin, 1981) are:
-  - point
-  - line
-  - area
-  - volume
-  - shading (percent black to white, or grayscale)
-  - color
-- These elements represent data relationships through design components:
-  - position
-  - scale alignment
-  - length
-  - direction
-  - angle
-  - size (area and volume)
-  - curvature
-  - shading
-  - color saturation
-- Research suggests that many people can evaluate some of these design components more quickly and with more accuracy than others (Cleveland & McGill, 1984)
-- Design components that are easier to perceive accurately support a chart's message
-- Design components that are more difficult to perceive accurately detract from a chart's message
+- There are four graphical elements that can represent data on a chart. The appearance of these elements can be modified with any of ten possible visual properties.
+- Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others[^2]
+- Visual representations that are easier to perceive accurately support a chart's message
+- Visual representations that are more difficult to perceive accurately detract from a chart's message
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
