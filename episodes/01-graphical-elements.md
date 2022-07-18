@@ -6,93 +6,100 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- When creating a chart, what graphical elements (design elements?) do I have to work with?
+- When creating a chart, what graphical elements do I have to work with?
 - How do these graphical elements translate into representations of data?
-- Which chart design components are easier for people to perceive accurately?
-- How do design components support or detract from a chart's message?
+- How do graphical elements support or detract from a chart's message?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- possibly temporary:
-- List elements of human perception that influence how well a chart communicates
-- Identify elements of chart design that work with and against human perception
+- List graphical elements available for chart design
+- Describe how graphical elements represent data relationships
+- Identify graphical elements that result in more accurate judgments about the patterns and relationships visualized by a chart
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Graphical elements
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output.
-Please refer to the [Introduction to The Carpentries
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+When we create a chart, we can choose many different ways to represent the message we wish to convey. But in two or three dimensions, there are only a few elements we have to work with[^1]:
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+- Point
+- Line
+- Area
+- Volume
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting the appearance of the four fundamental elements through[^2]:
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+ - Position
+ - Alignment on one or more scales
+ - Length
+ - Direction
+ - Angle
+ - Size (amount of Area or Volume)
+ - Curvature
+ - Shading
+ - Color
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[^1]: Bertin, J. (1981). Graphics and graphic information-processing (W. J. Berg & P. Scott, Trans.). de Gruyter.
+
+[^2]: Cleveland, W. S., & McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. https://doi.org/10.2307/2288400
+
+[^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
+
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Challenge 1: List elements of human perception that interact with charts and graphs
+## Challenge 1: Match the name of the visual property to its picture
 
-From the list below, choose the three elements of human perception that interact with charts and graphs
+Use this list of visual properties to label the pictures in the table below.
 
-a. Object position
-b. Linear properties
-c. Spatial properties
-d. Scent
-e. Texture
+1. Position on a common scale
+2. Position on non-aligned scales
+3. Length
+4. Direction
+5. Angle
+6. Size (Area)
+7. Size (Volume)
+8. Curvature
+9. Shading
+10. Color
+
+| Visual Property Number | Visual Property Picture |
+|:---:|:---:|
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
 
 :::::::::::::::::::::::: solution
 
 ## Answers
 
-a, b, and c are the correct choices.
+| Visual Property Number | Visual Property Picture |
+|:---:|:---:|
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
+|     | ![](fig/){alt=''} |
 
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
 
-:::::::::::::::::::::::: solution
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
