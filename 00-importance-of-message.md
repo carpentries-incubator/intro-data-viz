@@ -118,11 +118,11 @@ Take 1 minute to read the table and discuss it with your neighbor. How easy or d
 
 To create a chart from a table, data elements recorded in different columns of the table are arranged along the `x` and `y` axes of a Cartesian plane.
 
-![x and y axes on a Cartesian plane](fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
+![Figure 1.1: x and y axes on a Cartesian plane](fig/XYAxes.png){alt='intersection of horizontal x axis and vertical y axis'}
 
 If we arrange the data points for Average Monthly Temperature along an `x` axis and the data points for Daily Walks per Dog along a `y` axis, we can connect the places where those data points intersect to create this chart:
 
-![a basic chart](fig/dogWalksChart.png){alt='line chart'}
+![Figure 1.2: a line chart](fig/dogWalksChart.png){alt='line chart'}
 
 :::::::::::::::::::::::: discussion
 
