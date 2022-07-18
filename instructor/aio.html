@@ -396,7 +396,7 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Learners who have less experience with tabular data may need more specific information than this section provides. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/" class="external-link">Data in Spreadsheets</a> lesson.</p>
 </div>
@@ -520,7 +520,7 @@
   Answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The correct answer is 1. This sentence describes an interaction between seasonal temperature and number of daily walks. These are the two data elements plotted on the <code>x</code> and <code>y</code> axes of this chart.</p>
 </div>
@@ -561,7 +561,7 @@ any links that you are not going to use.
 </ol>
 </div></section><section id="aio-01-graphical-elements"><p>Content from <a href="01-graphical-elements.html">Graphical Elements of a Chart</a></p>
 <hr>
-<p> Last updated on 2022-07-14 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-07-18 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -574,10 +574,9 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>When creating a chart, what graphical elements (design elements?) do I have to work with?</li>
+<li>When creating a chart, what graphical elements do I have to work with?</li>
 <li>How do these graphical elements translate into representations of data?</li>
-<li>Which chart design components are easier for people to perceive accurately?</li>
-<li>How do design components support or detract from a chart’s message?</li>
+<li>How do graphical elements support or detract from a chart’s message?</li>
 </ul>
 </div>
 </div>
@@ -587,57 +586,104 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>possibly temporary:</li>
-<li>List elements of human perception that influence how well a chart communicates</li>
-<li>Identify elements of chart design that work with and against human perception</li>
+<li>List graphical elements available for chart design</li>
+<li>Describe how graphical elements represent data relationships</li>
+<li>Identify graphical elements that result in more accurate judgments about the patterns and relationships visualized by a chart</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section id="introduction"><h2 class="section-heading">Introduction</h2>
+<section id="graphical-elements"><h2 class="section-heading">Graphical elements</h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a> for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> for dynamic files that can render code into output. Please refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to reinforce the objectives.</li>
-</ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
-  Instructor Note
-  </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the “Instructor View”</p>
-</div>
-</div>
-</div>
-</div>
+<p>When we create a chart, we can choose many different ways to represent the message we wish to convey. But in two or three dimensions, there are only a few elements we have to work with<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>:</p>
+<ul>
+<li>Point</li>
+<li>Line</li>
+<li>Area</li>
+<li>Volume</li>
+</ul>
+<p>The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting the appearance of the four fundamental elements through<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
+<ul>
+<li>Position</li>
+<li>Alignment on one or more scales</li>
+<li>Length</li>
+<li>Direction</li>
+<li>Angle</li>
+<li>Size (amount of Area or Volume)</li>
+<li>Curvature</li>
+<li>Shading</li>
+<li>Color</li>
+</ul>
 <div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="challenge-1-list-elements-of-human-perception-that-interact-with-charts-and-graphs" class="callout-inner">
-<h3 class="callout-title">Challenge 1: List elements of human perception that interact with charts and graphs</h3>
+<div id="challenge-1-match-the-name-of-the-visual-property-to-its-picture" class="callout-inner">
+<h3 class="callout-title">Challenge 1: Match the name of the visual property to its picture</h3>
 <div class="callout-content">
-<p>From the list below, choose the three elements of human perception that interact with charts and graphs</p>
-<ol style="list-style-type: lower-alpha">
-<li>Object position</li>
-<li>Linear properties</li>
-<li>Spatial properties</li>
-<li>Scent</li>
-<li>Texture</li>
+<p>Use this list of visual properties to label the pictures in the table below<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+<ol style="list-style-type: decimal">
+<li>Position on a common scale</li>
+<li>Position on non-aligned scales</li>
+<li>Length</li>
+<li>Direction</li>
+<li>Angle</li>
+<li>Size (Area)</li>
+<li>Size (Volume)</li>
+<li>Curvature</li>
+<li>Shading</li>
+<li>Color</li>
 </ol>
+<table class="table">
+<thead><tr class="header">
+<th align="center">Visual Property Number</th>
+<th align="center">Visual Property Picture</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -650,45 +696,58 @@ any links that you are not going to use.
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
-<p>a, b, and c are the correct choices.</p>
+<table class="table">
+<thead><tr class="header">
+<th align="center">Visual Property Number</th>
+<th align="center">Visual Property Picture</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+<tr class="even">
+<td align="center"></td>
+<figure align="center"><img src="../fig" alt="" class="figure mx-auto d-block"></figure>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
 </div>
-<div id="challenge2" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within challenge blocks?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a <code>solution</code> tag.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section id="figures"><h2 class="section-heading">Figures</h2>
-<hr class="half-width">
-<p>You can use standard markdown for static figures with the following syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure></section><section id="math"><h2 class="section-heading">Math</h2>
-<hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to create dynamic reports with {knitr}, so we now use mathjax to describe this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -737,7 +796,14 @@ any links that you are not going to use.
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></section><section id="aio-02-Identify-and-Interpret-the-message"><p>Content from <a href="02-Identify-and-Interpret-the-message.html">Identify and Interpret the Message</a></p>
+</section><div class="footnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Bertin, J. (1981). Graphics and graphic information-processing (W. J. Berg &amp; P. Scott, Trans.). de Gruyter.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Cleveland, W. S., &amp; McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. <a href="https://doi.org/10.2307/2288400" class="external-link uri">https://doi.org/10.2307/2288400</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Images in this challenge adapted under a <a href="http://creativecommons.org/licenses/by/4.0/" class="external-link">CC-BY-4.0</a> license from Briney, K. (2017). “Data Visualization Camp Instructional Materials (2017)” University of Wisconsin Milwaukee Libraries Instructional Materials. <a href="https://dc.uwm.edu/lib_staff_files/4" class="external-link uri">https://dc.uwm.edu/lib_staff_files/4</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div></section><section id="aio-02-Identify-and-Interpret-the-message"><p>Content from <a href="02-Identify-and-Interpret-the-message.html">Identify and Interpret the Message</a></p>
 <hr>
 <p> Last updated on 2022-06-28 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/02-Identify-and-Interpret-the-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
@@ -1084,7 +1150,7 @@ any links that you are not going to use.
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the “Instructor View”</p>
 </div>
@@ -1115,7 +1181,7 @@ any links that you are not going to use.
   Output
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1144,7 +1210,7 @@ any links that you are not going to use.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a <code>solution</code> tag.</p>
 </div>
@@ -1201,7 +1267,7 @@ any links that you are not going to use.
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
         <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.9.0" class="external-link">sandpaper (0.9.0)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.3.0" class="external-link">pegboard (0.3.0)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.1" class="external-link">varnish (0.2.1)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.2" class="external-link">varnish (0.2.2)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -1223,8 +1289,8 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/instructor/aio.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/instructor/aio.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-15",
-  "datePublished": "2022-07-15"
+  "dateModified": "2022-07-18",
+  "datePublished": "2022-07-18"
 }
 
   </script><script>
