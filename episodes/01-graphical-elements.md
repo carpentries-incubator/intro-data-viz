@@ -46,14 +46,11 @@ The data and data relationships we are representing in a chart have different qu
 
 [^2]: Cleveland, W. S., & McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. https://doi.org/10.2307/2288400
 
-[^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
-
-
 ::::::::::::::::::::::::::::::::::::: challenge
 
 ## Challenge 1: Match the name of the visual property to its picture
 
-Use this list of visual properties to label the pictures in the table below.
+Use this list of visual properties to label the pictures in the table below[^3].
 
 1. Position on a common scale
 2. Position on non-aligned scales
@@ -79,6 +76,8 @@ Use this list of visual properties to label the pictures in the table below.
 |     | ![](fig/){alt=''} |
 |     | ![](fig/){alt=''} |
 
+[^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
+
 :::::::::::::::::::::::: solution
 
 ## Answers
@@ -98,7 +97,7 @@ Use this list of visual properties to label the pictures in the table below.
 
 :::::::::::::::::::::::::::::::::
 
-
+:::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints
