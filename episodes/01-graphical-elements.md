@@ -27,7 +27,7 @@ When we create a chart, we can choose many different ways to represent the messa
 - Area
 - Volume
 
-The data and data relationships we are representing in a chart have different quantities and values. We can communicate these quantities and values by adjusting a graphical element's visual properties[^2]:
+The data and data relationships we are representing in a chart have different quantities and categories. We can communicate these quantities and categories by adjusting a graphical element's visual properties[^2]:
 
  - Position
  - Alignment on one or more scales
@@ -63,16 +63,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-|     | ![](fig/visualPropertyCol.png){alt=''} |
-|     | ![](fig/visualPropertyAng.png){alt=''} |
-|     | ![](fig/visualPropertySca1.png){alt=''} |
-|     | ![](fig/visualPropertyCurv.png){alt=''} |
-|     | ![](fig/visualPropertySha.png){alt=''} |
-|     | ![](fig/visualPropertyArea.png){alt=''} |
-|     | ![](fig/visualPropertyDir.png){alt=''} |
-|     | ![](fig/visualPropertySca2.png){alt=''} |
-|     | ![](fig/visualPropertyLen.png){alt=''} |
-|     | ![](fig/visualPropertyVol.png){alt=''} |
+|     | ![](fig/visualPropertyCol.png){alt='color property'} |
+|     | ![](fig/visualPropertyAng.png){alt='angle property'} |
+|     | ![](fig/visualPropertySca1.png){alt='1 scale position property'} |
+|     | ![](fig/visualPropertyCurv.png){alt='curve property'} |
+|     | ![](fig/visualPropertySha.png){alt='shading property'} |
+|     | ![](fig/visualPropertyArea.png){alt='area property'} |
+|     | ![](fig/visualPropertyDir.png){alt='direction property'} |
+|     | ![](fig/visualPropertySca2.png){alt='2 scale position property'} |
+|     | ![](fig/visualPropertyLen.png){alt='length property'} |
+|     | ![](fig/visualPropertyVol.png){alt='volume property'} |
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
 
@@ -82,16 +82,16 @@ Use this list of visual properties to label the pictures in the table below[^3].
 
 | Visual Property Number | Visual Property Picture |
 |:---:|:---:|
-| 10  | ![](fig/visualPropertyCol.png){alt=''} |
-|  5  | ![](fig/visualPropertyAng.png){alt=''} |
-|  1  | ![](fig/visualPropertySca1.png){alt=''} |
-|  8  | ![](fig/visualPropertyCurv.png){alt=''} |
-|  9  | ![](fig/visualPropertySha.png){alt=''} |
-|  6  | ![](fig/visualPropertyArea.png){alt=''} |
-|  4  | ![](fig/visualPropertyDir.png){alt=''} |
-|  2  | ![](fig/visualPropertySca2.png){alt=''} |
-|  3  | ![](fig/visualPropertyLen.png){alt=''} |
-|  7  | ![](fig/visualPropertyVol.png){alt=''} |
+| 10  | ![](fig/visualPropertyCol.png){alt='color property'} |
+|  5  | ![](fig/visualPropertyAng.png){alt='angle property'} |
+|  1  | ![](fig/visualPropertySca1.png){alt='1 scale position property'} |
+|  8  | ![](fig/visualPropertyCurv.png){alt='curve property'} |
+|  9  | ![](fig/visualPropertySha.png){alt='shading property'} |
+|  6  | ![](fig/visualPropertyArea.png){alt='area property'} |
+|  4  | ![](fig/visualPropertyDir.png){alt='direction property'} |
+|  2  | ![](fig/visualPropertySca2.png){alt='2 scale position property'} |
+|  3  | ![](fig/visualPropertyLen.png){alt='length property'} |
+|  7  | ![](fig/visualPropertyVol.png){alt='volume property'} |
 
 :::::::::::::::::::::::::::::::::
 
