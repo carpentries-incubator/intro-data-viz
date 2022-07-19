@@ -164,6 +164,7 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#graphical-elements-and-visual-properties">Graphical elements and visual properties</a></li>
+<li><a href="#better-visual-representations">Better visual representations</a></li>
 <li><a href="#support-your-charts-message">Support your chart’s message</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -249,7 +250,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Graphical Elements of a Chart</h1>
-        <p> Last updated on 2022-07-18 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2022-07-19 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
         
         <div class="text-end">
@@ -266,6 +267,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul><li>When creating a chart, what components do I have to work with?</li>
+<li>Which chart components are easier for people to perceive accurately?</li>
 <li>How can graphical elements and their visual properties support a chart’s message?</li>
 </ul></div>
 </div>
@@ -275,7 +277,8 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul><li>List the graphical elements and their visual properties that are available for chart design</li>
-<li>Identify visual representations that result in more accurate judgments about the patterns and relationships visualized by a chart</li>
+<li>Choose chart components that are easier for people to perceive accurately</li>
+<li>Compare factors that result in “better” and “worse” charts</li>
 </ul></div>
 </div>
 </div>
@@ -287,7 +290,7 @@
 <li>Line</li>
 <li>Area</li>
 <li>Volume</li>
-</ul><p>The data and data relationships we are representing in a chart have different quantities and categories. We can communicate these quantities and categories by adjusting a graphical element’s visual properties<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
+</ul><p>The data and data relationships we are representing in a chart have different quantities and categories. We can communicate this information through a graphical element’s visual properties<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
 <ul><li>Position</li>
 <li>Alignment on one or more scales</li>
 <li>Length</li>
@@ -328,7 +331,7 @@
   Answers
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <table class="table"><thead><tr class="header"><th align="center">Visual Property Number</th>
 <th align="center">Visual Property Picture</th>
@@ -356,22 +359,49 @@
 </div>
 </div>
 </div>
+</section><section id="better-visual-representations"><h2 class="section-heading">Better visual representations</h2>
+<hr class="half-width"><p>Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Despite their study’s limitations, the guidelines they produced remain useful and inform modern guidance about designing charts<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>The study in question attempted to define the individual components of visual representation and determine which components led to more accurate judgments about the underlying data. From better to worse, The authors ranked the ten visual properties we just learned in order from better to worse. For our purposes, “better” means that the chart is easier to perceive accurately, while “worse” means that the chart is more difficult to perceive accurately. The ranking is:</p>
+<ol style="list-style-type: decimal"><li>Position on common scale</li>
+<li>Position on non-aligned scales</li>
+<li>Length, direction, angle</li>
+<li>Area</li>
+<li>Volume, curvature</li>
+<li>Shading, color saturation</li>
+</ol><p>Some properties appear together because there was not enough information to differentiate them.</p>
+<p>Next time: work in the approach from the slides that takes the ranking on in terms of point, line, and area</p>
 </section><section id="support-your-charts-message"><h2 class="section-heading">Support your chart’s message</h2>
-<hr class="half-width"><p>The ten visual properties we just examined create many possible variations for the four fundamental graphical elements: point, line, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart: to communicate a message about patterns or relationships present in the data. Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.</p>
-<div class="section level3">
-<h3 id="research-on-charts">Research on charts<a class="anchor" aria-label="anchor" href="#research-on-charts"></a></h3>
-<p>Debates about chart format have taken place in the scientific literature since at least the 1920s<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. In 1984, Cleveland &amp; McGill published a theory of “elementary perceptual tasks” that attempted to define the individual components of data representation and determine by experiment which components led to more accurate judgments about the underlying data. Despite their study’s limitations, the guidelines they produced remain useful and inform modern guidance about designing charts<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<hr class="half-width"><p>These ten visual properties create many possible design variations for points, lines, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart.</p>
+<div id="callout1" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3">
-<h3 id="hierarchy-of-visual-representations">Hierarchy of visual representations<a class="anchor" aria-label="anchor" href="#hierarchy-of-visual-representations"></a></h3>
-<p>The data behind your chart influences which of the four graphical elements you will use in your chart:</p>
-<ul><li>Point: represent and compare exact values and distributions</li>
-<li>Line: represent and compare quantities, trends over time, parts of a whole, distributions</li>
-<li>Area: represent and compare quantities, trends over time, parts of a whole, distributions</li>
-<li>Volume: represent and compare quantities, trends over time, parts of a whole, distributions</li>
-</ul><p>Some treatments of these elements result in more accurate judgments about the underlying data than others. These are organized below by graphical element (this doesn’t really work - revise tomorrow.)</p>
-<p>Cleveland &amp; McGill’s order: 1. Position on common scale 2. Position on non-aligned scales 3. Length, direction, angle 4. Area 5. Volume, curvature 6. Shading, color saturation</p>
-<div id="keypoints1" class="callout keypoints">
+<div class="callout-inner">
+<h3 class="callout-title">Callout</h3>
+<div class="callout-content">
+<p>The purpose of a chart is to communicate a message about patterns or relationships present in the data.</p>
+</div>
+</div>
+</div>
+<p>Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.</p>
+<p>Exercise ideas:</p>
+<ul><li>Use the hierarchy to choose which chart method will more accurately communicate a message (make these as examples)
+<ul><li>A chart that depicts percentages of parts that make up a whole
+<ul><li>100% bar chart</li>
+<li>pie chart</li>
+</ul></li>
+<li>A chart that compares two categories over a period of time
+<ul><li>Line chart with two lines shown in contrasting colors</li>
+<li>Area chart with two areas shown in contrasting colors</li>
+</ul></li>
+<li>Two scatter charts comparing two different distributions
+<ul><li>
+<code>y</code> axes of both charts start at 0 and end at 100</li>
+<li>
+<code>y</code> axis of the first chart is 0-100, <code>y</code> axis of the second chart is 10-90</li>
+</ul></li>
+</ul></li>
+</ul><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -390,7 +420,6 @@
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
 </section><div class="footnotes">
 <hr><ol><li id="fn1"><p>Bertin, J. (1981). Graphics and graphic information-processing (W. J. Berg &amp; P. Scott, Trans.). de Gruyter.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>Cleveland, W. S., &amp; McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. <a href="https://doi.org/10.2307/2288400" class="external-link uri">https://doi.org/10.2307/2288400</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
@@ -449,7 +478,7 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/instructor/01-graphical-elements.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/instructor/01-graphical-elements.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-18",
+  "dateModified": "2022-07-19",
   "datePublished": "2022-07-19"
 }
 
