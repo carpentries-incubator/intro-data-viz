@@ -7,6 +7,7 @@ exercises: 0
 :::::::::::::::::::::::::::::::::::::: questions
 
 - When creating a chart, what components do I have to work with?
+- Which chart components are easier for people to perceive accurately?
 - How can graphical elements and their visual properties support a chart's message?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -14,7 +15,8 @@ exercises: 0
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - List the graphical elements and their visual properties that are available for chart design
-- Identify visual representations that result in more accurate judgments about the patterns and relationships visualized by a chart
+- Choose chart components that are easier for people to perceive accurately
+- Compare factors that result in "better" and "worse" charts
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -27,7 +29,7 @@ When we create a chart, we can choose many different ways to represent the messa
 - Area
 - Volume
 
-The data and data relationships we are representing in a chart have different quantities and categories. We can communicate these quantities and categories by adjusting a graphical element's visual properties[^2]:
+The data and data relationships we are representing in a chart have different quantities and categories. We can communicate this information through a graphical element's visual properties[^2]:
 
  - Position
  - Alignment on one or more scales
@@ -106,34 +108,49 @@ Use this list of visual properties to label the figures below[^3].
 
 :::::::::::::::::::::::::::::::::::::
 
-## Support your chart's message
+## Better visual representations
 
-The ten visual properties we just examined create many possible variations for the four fundamental graphical elements: point, line, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart: to communicate a message about patterns or relationships present in the data. Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.
+Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s[^2]. Despite their study's limitations, the guidelines they produced remain useful and inform modern guidance about designing charts[^4].
 
-### Research on charts
+The study in question attempted to define the individual components of visual representation and determine which components led to more accurate judgments about the underlying data. From better to worse, The authors ranked the ten visual properties we just learned in order from better to worse. For our purposes, "better" means that the chart is easier to perceive accurately, while "worse" means that the chart is more difficult to perceive accurately. The ranking is:
 
-Debates about chart format have taken place in the scientific literature since at least the 1920s[^2]. In 1984, Cleveland & McGill published a theory of "elementary perceptual tasks" that attempted to define the individual components of data representation and determine by experiment which components led to more accurate judgments about the underlying data. Despite their study's limitations, the guidelines they produced remain useful and inform modern guidance about designing charts[^4].
-
-[^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
-
-### Hierarchy of visual representations
-
-The data behind your chart influences which of the four graphical elements you will use in your chart:
-
-- Point: represent and compare exact values and distributions
-- Line: represent and compare quantities, trends over time, parts of a whole, distributions
-- Area: represent and compare quantities, trends over time, parts of a whole, distributions
-- Volume: represent and compare quantities, trends over time, parts of a whole, distributions
-
-Some treatments of these elements result in more accurate judgments about the underlying data than others. These are organized below by graphical element (this doesn't really work - revise tomorrow.)
-
-Cleveland & McGill's order:
 1. Position on common scale
 2. Position on non-aligned scales
 3. Length, direction, angle
 4. Area
 5. Volume, curvature
 6. Shading, color saturation
+
+Some properties appear together because there was not enough information to differentiate them.
+
+Next time: work in the approach from the slides that takes the ranking on in terms of point, line, and area
+
+[^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
+
+## Support your chart's message
+
+These ten visual properties create many possible design variations for points, lines, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart.
+
+::::::::::::::::::::::::::::::::::::: callout
+
+The purpose of a chart is to communicate a message about patterns or relationships present in the data.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.
+
+Exercise ideas:
+
+- Use the hierarchy to choose which chart method will more accurately communicate a message (make these as examples)
+  - A chart that depicts percentages of parts that make up a whole
+    - 100% bar chart
+    - pie chart
+  - A chart that compares two categories over a period of time
+    - Line chart with two lines shown in contrasting colors
+    - Area chart with two areas shown in contrasting colors
+  - Two scatter charts comparing two different distributions
+    - `y` axes of both charts start at 0 and end at 100
+    - `y` axis of the first chart is 0-100, `y` axis of the second chart is 10-90
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
