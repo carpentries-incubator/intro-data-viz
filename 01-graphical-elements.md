@@ -108,9 +108,54 @@ Use this list of visual properties to label the figures below[^3].
 
 :::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: discussion
+
+### Common chart types and their components
+
+Spend three minutes with your neighbor talking about chart types you often see and which graphical elements and/or visual properties they include. Share your answers in the shared document.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: instructor
+
+### Possible answers
+
+Some possible answers to this discussion include:
+
+- Scatter chart: points on one or more scales
+- Bar chart: length, area, shading or color
+- Pie chart: angle, curvature, area, shading or color
+
+Spreadsheet programs and other software can turn most two-dimensional charts into three-dimensional charts. As examples, three-dimensional pie and bar charts can incorporate volume into this discussion.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Better visual representations
 
 Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s[^2]. Despite their study's limitations, the guidelines they produced remain useful and inform modern guidance about designing charts[^4].
+
+These guidelines help us understand graphical elements and visual properties in terms of "better" and "worse" depictions of the underlying data:
+
+- "Better" means easier to perceive accurately
+- "Worse" means more difficult to perceive accurately
+
+These guidelines also help us categorize graphical elements and visual properties as better or worse:
+
+### Graphical Elements
+
+- Points are better than lines
+- Lines are better than shapes (area)
+- Two-dimensional shapes (area) are better than three-dimensional shapes (volume)
+
+### Visual Properties
+
+|  | Better | Worse |
+|:---|:---:|:---:|
+|For points|Position on common scale|Position on non-aligned scales|
+|For lines|Length, Direction, Angle|Curvature|
+|For two- and three-dimensional shapes|Area|Volume|
+|For categories and legends|Black & White|Shading, Color saturation|
+
 
 The study in question attempted to define the individual components of visual representation and determine which components led to more accurate judgments about the underlying data. From better to worse, The authors ranked the ten visual properties we just learned in order from better to worse. For our purposes, "better" means that the chart is easier to perceive accurately, while "worse" means that the chart is more difficult to perceive accurately. The ranking is:
 
@@ -121,27 +166,38 @@ The study in question attempted to define the individual components of visual re
 5. Volume, curvature
 6. Shading, color saturation
 
-Some properties appear together because there was not enough information to differentiate them.
-
-Next time: work in the approach from the slides that takes the ranking on in terms of point, line, and area
 
 [^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
 
 ## Support your chart's message
 
-These ten visual properties create many possible design variations for points, lines, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart.
-
 ::::::::::::::::::::::::::::::::::::: callout
+
+### Remember
 
 The purpose of a chart is to communicate a message about patterns or relationships present in the data.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.
+"Better" and "Worse" are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data.
+
+Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately. Our design decisions have downstream consequences. Better charts can help our audience understand our message and support their decision-making with reliable information.
+
+Worse charts - charts designed using components that are more difficult to perceive accurately - can obscure our message and misinform our audience.
+
+::::::::::::::::::::::::::::::::::::: instructor
+
+Depending on time and your learners' interest, this point about worse charts can be a place to point out that charts that deliberately obscure a message or mislead an audience often include multiple components that are more difficult to perceive accurately. Learners can use this knowledge to bring a critical lens to charts they come across in ordinary life.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Charts often need to contain multiple design components to communicate the intended message about the data. In these cases, the chart designer may need to mix some better and worse components. The art of chart design lies in ensuring that better outweighs worse
+
+In this exercise, you will begin practicing choosing a better chart design over a worse chart design.
 
 Exercise ideas:
 
-- Use the hierarchy to choose which chart method will more accurately communicate a message (make these as examples)
+- Use the Better and Worse table to choose which chart method will more accurately communicate a message (make these as examples)
   - A chart that depicts percentages of parts that make up a whole
     - 100% bar chart
     - pie chart
