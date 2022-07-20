@@ -139,33 +139,42 @@ These guidelines help us understand graphical elements and visual properties in 
 - "Better" means easier to perceive accurately
 - "Worse" means more difficult to perceive accurately
 
-These guidelines also help us categorize graphical elements and visual properties as better or worse:
+These guidelines also help us categorize graphical elements and visual properties as better or worse.
 
 ### Graphical Elements
 
 - Points are better than lines
 - Lines are better than shapes (area)
-- Two-dimensional shapes (area) are better than three-dimensional shapes (volume)
+- Area (two-dimensional shape) is better than volume (three-dimensional shape)
 
 ### Visual Properties
 
-|  | Better | Worse |
-|:---|:---:|:---:|
-|For points|Position on common scale|Position on non-aligned scales|
-|For lines|Length, Direction, Angle|Curvature|
-|For two- and three-dimensional shapes|Area|Volume|
-|For categories and legends|Black & White|Shading, Color saturation|
+| Graphical element | Better | Worse |
+|:---|:---|:---|
+|Points|Position on common scale|Position on non-aligned scales|
+|Lines|Length, Direction, Angle|Curvature|
+|Shapes|Area|Volume|
 
+### Shading and color are special cases
 
-The study in question attempted to define the individual components of visual representation and determine which components led to more accurate judgments about the underlying data. From better to worse, The authors ranked the ten visual properties we just learned in order from better to worse. For our purposes, "better" means that the chart is easier to perceive accurately, while "worse" means that the chart is more difficult to perceive accurately. The ranking is:
+Shading and color are often necessary for differentiating categories and other non-numeric data in charts. Shading is also known as grayscale, texture, and pattern; all are ways to create different tones of gray when printing is limited to black and white. When these guidelines were created in 1984, shading and color saturation were ranked as the most difficult chart components to perceive accurately.
 
-1. Position on common scale
-2. Position on non-aligned scales
-3. Length, direction, angle
-4. Area
-5. Volume, curvature
-6. Shading, color saturation
+Since then, computer and printing technology have vastly improved, making it possible to reliably replicate gray and color tones. Technology improvements do not guarantee that our audience will better understand our chart, but these improvements do make it more likely that the audience will be presented with the grays and colors that we intend when we create the chart.
 
+We need to ask some questions when including shading or color in a chart:
+
+- How many categories am I working with?
+  - Using color to differentiate more than 4-5 categories reduces contrast among the tones.
+- Are my colors accessible?
+  - Color blindness can affect how people perceive certain colors and color combinations.
+  - People with visual impairments have difficulty perceiving low-contrast colors.
+- What cultural assumptions are my colors making?
+  - Relying on specific contrasting colors, e.g.: red/green or red/yellow/green, to communicate a message assumes that the colors mean the same thing to your audience that they do to you.
+- How will my chart be distributed?
+  - Printing and photocopying can distort or erase gray and color tones.
+  - Monitors and projectors cannot always replicate color accurately.
+
+[ColorBrewer 2.0](https://colorbrewer2.org) is an online tool for testing color schemes against various conditions. The tool is labeled for use with cartography but is useful for choosing colors for any kind of data.
 
 [^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
 
@@ -191,9 +200,7 @@ Depending on time and your learners' interest, this point about worse charts can
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Charts often need to contain multiple design components to communicate the intended message about the data. In these cases, the chart designer may need to mix some better and worse components. The art of chart design lies in ensuring that better outweighs worse
-
-In this exercise, you will begin practicing choosing a better chart design over a worse chart design.
+In this exercise, you will practice choosing a better chart design over a worse chart design.
 
 Exercise ideas:
 
