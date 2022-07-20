@@ -396,7 +396,7 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Learners who have less experience with tabular data may need more specific information than this section provides. If you want to include more teaching about managing and cleaning tabular data, consider pairing this lesson with the Data Carpentry Ecology <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/" class="external-link">Data in Spreadsheets</a> lesson.</p>
 </div>
@@ -520,7 +520,7 @@
   Answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The correct answer is 1. This sentence describes an interaction between seasonal temperature and number of daily walks. These are the two data elements plotted on the <code>x</code> and <code>y</code> axes of this chart.</p>
 </div>
@@ -561,7 +561,7 @@ any links that you are not going to use.
 </ol>
 </div></section><section id="aio-01-graphical-elements"><p>Content from <a href="01-graphical-elements.html">Graphical Elements of a Chart</a></p>
 <hr>
-<p> Last updated on 2022-07-19 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-07-20 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -650,7 +650,7 @@ any links that you are not going to use.
   Answers
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <table class="table">
 <thead><tr class="header">
@@ -704,9 +704,88 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="common-chart-types-and-their-components" class="callout-inner">
+<h3 class="callout-title">Common chart types and their components</h3>
+<div class="callout-content">
+<p>Spend three minutes with your neighbor talking about chart types you often see and which graphical elements and/or visual properties they include. Share your answers in the shared document.</p>
+</div>
+</div>
+</div>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Possible answers
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p>Some possible answers to this discussion include:</p>
+<ul>
+<li>Scatter chart: points on one or more scales</li>
+<li>Bar chart: length, area, shading or color</li>
+<li>Pie chart: angle, curvature, area, shading or color</li>
+</ul>
+<p>Spreadsheet programs and other software can turn most two-dimensional charts into three-dimensional charts. As examples, three-dimensional pie and bar charts can incorporate volume into this discussion.</p>
+</div>
+</div>
+</div>
+</div>
 </section><section id="better-visual-representations"><h2 class="section-heading">Better visual representations</h2>
 <hr class="half-width">
 <p>Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Despite their study’s limitations, the guidelines they produced remain useful and inform modern guidance about designing charts<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>These guidelines help us understand graphical elements and visual properties in terms of “better” and “worse” depictions of the underlying data:</p>
+<ul>
+<li>“Better” means easier to perceive accurately</li>
+<li>“Worse” means more difficult to perceive accurately</li>
+</ul>
+<p>These guidelines also help us categorize graphical elements and visual properties as better or worse:</p>
+<div class="section level3">
+<h3 id="graphical-elements">Graphical Elements<a class="anchor" aria-label="anchor" href="#graphical-elements"></a>
+</h3>
+<ul>
+<li>Points are better than lines</li>
+<li>Lines are better than shapes (area)</li>
+<li>Two-dimensional shapes (area) are better than three-dimensional shapes (volume)</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="visual-properties">Visual Properties<a class="anchor" aria-label="anchor" href="#visual-properties"></a>
+</h3>
+<table class="table">
+<thead><tr class="header">
+<th align="left"></th>
+<th align="center">Better</th>
+<th align="center">Worse</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">For points</td>
+<td align="center">Position on common scale</td>
+<td align="center">Position on non-aligned scales</td>
+</tr>
+<tr class="even">
+<td align="left">For lines</td>
+<td align="center">Length, Direction, Angle</td>
+<td align="center">Curvature</td>
+</tr>
+<tr class="odd">
+<td align="left">For two- and three-dimensional shapes</td>
+<td align="center">Area</td>
+<td align="center">Volume</td>
+</tr>
+<tr class="even">
+<td align="left">For categories and legends</td>
+<td align="center">Black &amp; White</td>
+<td align="center">Shading, Color saturation</td>
+</tr>
+</tbody>
+</table>
 <p>The study in question attempted to define the individual components of visual representation and determine which components led to more accurate judgments about the underlying data. From better to worse, The authors ranked the ten visual properties we just learned in order from better to worse. For our purposes, “better” means that the chart is easier to perceive accurately, while “worse” means that the chart is more difficult to perceive accurately. The ranking is:</p>
 <ol style="list-style-type: decimal">
 <li>Position on common scale</li>
@@ -716,26 +795,43 @@ any links that you are not going to use.
 <li>Volume, curvature</li>
 <li>Shading, color saturation</li>
 </ol>
-<p>Some properties appear together because there was not enough information to differentiate them.</p>
-<p>Next time: work in the approach from the slides that takes the ranking on in terms of point, line, and area</p>
+</div>
 </section><section id="support-your-charts-message"><h2 class="section-heading">Support your chart’s message</h2>
 <hr class="half-width">
-<p>These ten visual properties create many possible design variations for points, lines, area, and volume. With so many available options for visualizing information on a chart, it is important to remember the purpose of a chart.</p>
 <div id="callout1" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout</h3>
+<div id="remember" class="callout-inner">
+<h3 class="callout-title">Remember</h3>
 <div class="callout-content">
 <p>The purpose of a chart is to communicate a message about patterns or relationships present in the data.</p>
 </div>
 </div>
 </div>
-<p>Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that supports our message rather than one that detracts or distracts from our message.</p>
+<p>“Better” and “Worse” are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data.</p>
+<p>Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately. Our design decisions have downstream consequences. Better charts can help our audience understand our message and support their decision-making with reliable information.</p>
+<p>Worse charts - charts designed using components that are more difficult to perceive accurately - can obscure our message and misinform our audience.</p>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
+<div class="accordion-body">
+<p>Depending on time and your learners’ interest, this point about worse charts can be a place to point out that charts that deliberately obscure a message or mislead an audience often include multiple components that are more difficult to perceive accurately. Learners can use this knowledge to bring a critical lens to charts they come across in ordinary life.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Charts often need to contain multiple design components to communicate the intended message about the data. In these cases, the chart designer may need to mix some better and worse components. The art of chart design lies in ensuring that better outweighs worse</p>
+<p>In this exercise, you will begin practicing choosing a better chart design over a worse chart design.</p>
 <p>Exercise ideas:</p>
 <ul>
-<li>Use the hierarchy to choose which chart method will more accurately communicate a message (make these as examples)
+<li>Use the Better and Worse table to choose which chart method will more accurately communicate a message (make these as examples)
 <ul>
 <li>A chart that depicts percentages of parts that make up a whole
 <ul>
@@ -1028,7 +1124,7 @@ any links that you are not going to use.
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the “Instructor View”</p>
 </div>
@@ -1058,7 +1154,7 @@ any links that you are not going to use.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="section level3 accordion-body">
 <h3 id="answer-3">Answer 3<a class="anchor" aria-label="anchor" href="#answer-3"></a>
 </h3>
@@ -1277,8 +1373,8 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/instructor/aio.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/instructor/aio.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-19",
-  "datePublished": "2022-07-19"
+  "dateModified": "2022-07-20",
+  "datePublished": "2022-07-20"
 }
 
   </script><script>
