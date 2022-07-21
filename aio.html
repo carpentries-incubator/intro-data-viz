@@ -546,7 +546,7 @@ any links that you are not going to use.
 </ol>
 </div></section><section id="aio-01-graphical-elements"><p>Content from <a href="01-graphical-elements.html">Graphical Elements of a Chart</a></p>
 <hr>
-<p> Last updated on 2022-07-20 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-07-21 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/01-graphical-elements.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -560,7 +560,7 @@ any links that you are not going to use.
 <ul>
 <li>When creating a chart, what components do I have to work with?</li>
 <li>Which chart components are easier for people to perceive accurately?</li>
-<li>How can graphical elements and their visual properties support a chart’s message?</li>
+<li>How can chart components support a chart’s message?</li>
 </ul>
 </div>
 </div>
@@ -572,7 +572,7 @@ any links that you are not going to use.
 <ul>
 <li>List the graphical elements and their visual properties that are available for chart design</li>
 <li>Choose chart components that are easier for people to perceive accurately</li>
-<li>Compare factors that result in “better” and “worse” charts</li>
+<li>Practice choosing better charts for some common chart use cases</li>
 </ul>
 </div>
 </div>
@@ -617,7 +617,7 @@ any links that you are not going to use.
 <li>Size (Area)</li>
 <li>Size (Volume)</li>
 <li>Curvature</li>
-<li>Shading</li>
+<li>Shading (black, white, and gray)</li>
 <li>Color</li>
 </ol>
 <div id="figures" class="callout-inner">
@@ -703,18 +703,17 @@ any links that you are not going to use.
 </section><section id="better-visual-representations"><h2 class="section-heading">Better visual representations</h2>
 <hr class="half-width">
 <p>Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Despite their study’s limitations, the guidelines they produced remain useful and inform modern guidance about designing charts<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
-<p>These guidelines help us understand graphical elements and visual properties in terms of “better” and “worse” depictions of the underlying data:</p>
+<p>These guidelines help us understand and categorize graphical elements and visual properties in terms of “better” and “worse” depictions of the underlying data:</p>
 <ul>
 <li>“Better” means easier to perceive accurately</li>
 <li>“Worse” means more difficult to perceive accurately</li>
 </ul>
-<p>These guidelines also help us categorize graphical elements and visual properties as better or worse.</p>
 <div class="section level3">
 <h3 id="graphical-elements">Graphical Elements<a class="anchor" aria-label="anchor" href="#graphical-elements"></a>
 </h3>
 <ul>
 <li>Points are better than lines</li>
-<li>Lines are better than shapes (area)</li>
+<li>Lines are better than area (two-dimensional shape)</li>
 <li>Area (two-dimensional shape) is better than volume (three-dimensional shape)</li>
 </ul>
 </div>
@@ -749,34 +748,18 @@ any links that you are not going to use.
 <div class="section level3">
 <h3 id="shading-and-color-are-special-cases">Shading and color are special cases<a class="anchor" aria-label="anchor" href="#shading-and-color-are-special-cases"></a>
 </h3>
-<p>Shading and color are often necessary for differentiating categories and other non-numeric data in charts. Shading is also known as grayscale, texture, and pattern; all are ways to create different tones of gray when printing is limited to black and white. When these guidelines were created in 1984, shading and color saturation were ranked as the most difficult chart components to perceive accurately.</p>
-<p>Since then, computer and printing technology have vastly improved, making it possible to reliably replicate gray and color tones. Technology improvements do not guarantee that our audience will better understand our chart, but these improvements do make it more likely that the audience will be presented with the grays and colors that we intend when we create the chart.</p>
+<p>Shading and color can be both better and worse, depending on how they are used in a chart.</p>
+<p>Some better uses: - Differentiate categories or other non-numeric data using a graduated scale or contrasting colors - Draw attention to areas of a chart that most clearly represent patterns or relationships in the data</p>
+<p>Some worse uses: - Muddle categories by using colors that are too similar - Distract from a chart’s message by using too many colors or having no clear purpose for the chosen color or shading</p>
 <p>We need to ask some questions when including shading or color in a chart:</p>
 <ul>
-<li>How many categories am I working with?
-<ul>
-<li>Using color to differentiate more than 4-5 categories reduces contrast among the tones.</li>
+<li>How many categories am I working with?</li>
+<li>Are my colors accessible?</li>
+<li>What cultural assumptions are my colors making?</li>
+<li>How will my chart be distributed?</li>
 </ul>
-</li>
-<li>Are my colors accessible?
-<ul>
-<li>Color blindness can affect how people perceive certain colors and color combinations.</li>
-<li>People with visual impairments have difficulty perceiving low-contrast colors.</li>
-</ul>
-</li>
-<li>What cultural assumptions are my colors making?
-<ul>
-<li>Relying on specific contrasting colors, e.g.: red/green or red/yellow/green, to communicate a message assumes that the colors mean the same thing to your audience that they do to you.</li>
-</ul>
-</li>
-<li>How will my chart be distributed?
-<ul>
-<li>Printing and photocopying can distort or erase gray and color tones.</li>
-<li>Monitors and projectors cannot always replicate color accurately.</li>
-</ul>
-</li>
-</ul>
-<p><a href="https://colorbrewer2.org" class="external-link">ColorBrewer 2.0</a> is an online tool for testing color schemes against various conditions. The tool is labeled for use with cartography but is useful for choosing colors for any kind of data.</p>
+<p><a href="https://colorbrewer2.org" class="external-link">ColorBrewer 2.0</a> is an online tool for testing color schemes against various conditions. The tool targets cartography but is useful for choosing colors for any kind of data.</p>
+
 </div>
 </section><section id="support-your-charts-message"><h2 class="section-heading">Support your chart’s message</h2>
 <hr class="half-width">
@@ -791,8 +774,8 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<p>“Better” and “Worse” are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data.</p>
-<p>Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately. Our design decisions have downstream consequences. Better charts can help our audience understand our message and support their decision-making with reliable information.</p>
+<p>“Better” and “Worse” are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data. Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately.</p>
+<p>Better charts can help our audience understand our message and support their decision-making with reliable information.</p>
 <p>Worse charts - charts designed using components that are more difficult to perceive accurately - can obscure our message and misinform our audience.</p>
 
 <p>In this exercise, you will practice choosing a better chart design over a worse chart design.</p>
@@ -832,8 +815,7 @@ any links that you are not going to use.
 <div class="callout-content">
 <ul>
 <li>There are four graphical elements that can represent data on a chart. The appearance of these elements can be modified with any of ten possible visual properties.</li>
-<li>Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>
-</li>
+<li>Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others</li>
 <li>Visual representations that are easier to perceive accurately support a chart’s message</li>
 <li>Visual representations that are more difficult to perceive accurately detract from a chart’s message</li>
 </ul>
@@ -852,7 +834,6 @@ any links that you are not going to use.
 <li id="fn3"><p>Images in this challenge adapted under a <a href="http://creativecommons.org/licenses/by/4.0/" class="external-link">CC-BY-4.0</a> license from Briney, K. (2017). “Data Visualization Camp Instructional Materials (2017)” University of Wisconsin Milwaukee Libraries Instructional Materials. <a href="https://dc.uwm.edu/lib_staff_files/4" class="external-link uri">https://dc.uwm.edu/lib_staff_files/4</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p>Cleveland, W. S., &amp; McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. <a href="https://doi.org/10.2307/2288400" class="external-link uri">https://doi.org/10.2307/2288400</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 <li id="fn5"><p>Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
-<li id="fn6"><p>Cleveland, W. S., &amp; McGill, R. (1984). Graphical perception — Theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association, 79(387), 531–554. <a href="https://doi.org/10.2307/2288400" class="external-link uri">https://doi.org/10.2307/2288400</a><a href="#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div></section><section id="aio-02-Identify-and-Interpret-the-message"><p>Content from <a href="02-Identify-and-Interpret-the-message.html">Identify and Interpret the Message</a></p>
 <hr>
@@ -1089,7 +1070,7 @@ any links that you are not going to use.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="section level3 accordion-body">
 <h3 id="answer-3">Answer 3<a class="anchor" aria-label="anchor" href="#answer-3"></a>
 </h3>
@@ -1292,8 +1273,8 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/aio.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/aio.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-20",
-  "datePublished": "2022-07-20"
+  "dateModified": "2022-07-21",
+  "datePublished": "2022-07-21"
 }
 
   </script><script>
