@@ -150,7 +150,7 @@ These guidelines help us understand and categorize graphical elements and visual
 ### Visual Properties
 
 | Graphical element | Better | Worse |
-|:---|:---|:---|
+|:---:|:---|:---|
 |Points|Position on common scale|Position on non-aligned scales|
 |Lines|Length, Direction, Angle|Curvature|
 |Shapes|Area|Volume|
@@ -160,10 +160,12 @@ These guidelines help us understand and categorize graphical elements and visual
 Shading and color can be both better and worse, depending on how they are used in a chart.
 
 Some better uses:
+
 - Differentiate categories or other non-numeric data using a graduated scale or contrasting colors
 - Draw attention to areas of a chart that most clearly represent patterns or relationships in the data
 
 Some worse uses:
+
 - Muddle categories by using colors that are too similar
 - Distract from a chart's message by using too many colors or having no clear purpose for the chosen color or shading
 
