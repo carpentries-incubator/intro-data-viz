@@ -8,7 +8,7 @@ exercises: 0
 
 - When creating a chart, what components do I have to work with?
 - Which chart components are easier for people to perceive accurately?
-- How can graphical elements and their visual properties support a chart's message?
+- How can chart components support a chart's message?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -16,7 +16,7 @@ exercises: 0
 
 - List the graphical elements and their visual properties that are available for chart design
 - Choose chart components that are easier for people to perceive accurately
-- Compare factors that result in "better" and "worse" charts
+- Practice choosing better charts for some common chart use cases
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -60,7 +60,7 @@ Use this list of visual properties to label the figures below[^3].
 6. Size (Area)
 7. Size (Volume)
 8. Curvature
-9. Shading
+9. Shading (black, white, and gray)
 10. Color
 
 ### Figures
@@ -126,7 +126,7 @@ Some possible answers to this discussion include:
 - Bar chart: length, area, shading or color
 - Pie chart: angle, curvature, area, shading or color
 
-Spreadsheet programs and other software can turn most two-dimensional charts into three-dimensional charts. As examples, three-dimensional pie and bar charts can incorporate volume into this discussion.
+Spreadsheet programs and other software can turn most two-dimensional charts into three-dimensional charts. Use examples such as three-dimensional pie and bar charts to incorporate volume into this discussion.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -134,17 +134,17 @@ Spreadsheet programs and other software can turn most two-dimensional charts int
 
 Depicting information visually is as much art as science, but some research-backed guidelines can help us design a chart that is easier for people to perceive accurately. These guidelines are the result of experiments conducted by two statisticians in the 1980s[^2]. Despite their study's limitations, the guidelines they produced remain useful and inform modern guidance about designing charts[^4].
 
-These guidelines help us understand graphical elements and visual properties in terms of "better" and "worse" depictions of the underlying data:
+These guidelines help us understand and categorize graphical elements and visual properties in terms of "better" and "worse" depictions of the underlying data:
 
 - "Better" means easier to perceive accurately
 - "Worse" means more difficult to perceive accurately
 
-These guidelines also help us categorize graphical elements and visual properties as better or worse.
+[^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
 
 ### Graphical Elements
 
 - Points are better than lines
-- Lines are better than shapes (area)
+- Lines are better than area (two-dimensional shape)
 - Area (two-dimensional shape) is better than volume (three-dimensional shape)
 
 ### Visual Properties
@@ -157,16 +157,35 @@ These guidelines also help us categorize graphical elements and visual propertie
 
 ### Shading and color are special cases
 
-Shading and color are often necessary for differentiating categories and other non-numeric data in charts. Shading is also known as grayscale, texture, and pattern; all are ways to create different tones of gray when printing is limited to black and white. When these guidelines were created in 1984, shading and color saturation were ranked as the most difficult chart components to perceive accurately.
+Shading and color can be both better and worse, depending on how they are used in a chart.
 
-Since then, computer and printing technology have vastly improved, making it possible to reliably replicate gray and color tones. Technology improvements do not guarantee that our audience will better understand our chart, but these improvements do make it more likely that the audience will be presented with the grays and colors that we intend when we create the chart.
+Some better uses:
+- Differentiate categories or other non-numeric data using a graduated scale or contrasting colors
+- Draw attention to areas of a chart that most clearly represent patterns or relationships in the data
+
+Some worse uses:
+- Muddle categories by using colors that are too similar
+- Distract from a chart's message by using too many colors or having no clear purpose for the chosen color or shading
 
 We need to ask some questions when including shading or color in a chart:
 
 - How many categories am I working with?
-  - Using color to differentiate more than 4-5 categories reduces contrast among the tones.
 - Are my colors accessible?
-  - Color blindness can affect how people perceive certain colors and color combinations.
+- What cultural assumptions are my colors making?
+- How will my chart be distributed?
+
+[ColorBrewer 2.0](https://colorbrewer2.org) is an online tool for testing color schemes against various conditions. The tool targets cartography but is useful for choosing colors for any kind of data.
+
+::::::::::::::::::::::::::::::::::::: instructor
+
+### Shading and color discussion
+
+With enough time, you may choose to structure the questions about shading and color as a discussion or brainstorm in the shared document. Some rationale for each question is included below.
+
+- How many categories am I working with?
+  - Using color to differentiate more than 4-5 categories can make the colors too similar to each other.
+- Are my colors accessible?
+  - Color blindness can affect how people perceive certain colors and color combinations, e.g.: red/green and blue/yellow.
   - People with visual impairments have difficulty perceiving low-contrast colors.
 - What cultural assumptions are my colors making?
   - Relying on specific contrasting colors, e.g.: red/green or red/yellow/green, to communicate a message assumes that the colors mean the same thing to your audience that they do to you.
@@ -174,9 +193,7 @@ We need to ask some questions when including shading or color in a chart:
   - Printing and photocopying can distort or erase gray and color tones.
   - Monitors and projectors cannot always replicate color accurately.
 
-[ColorBrewer 2.0](https://colorbrewer2.org) is an online tool for testing color schemes against various conditions. The tool is labeled for use with cartography but is useful for choosing colors for any kind of data.
-
-[^4]: Evergreen, S. D. H. (2017). Effective data visualization: The right chart for the right data. Los Angeles: SAGE.
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Support your chart's message
 
@@ -188,15 +205,15 @@ The purpose of a chart is to communicate a message about patterns or relationshi
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-"Better" and "Worse" are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data.
+"Better" and "Worse" are comparative states. There is no one best or worst way to communicate a message about a relationship or pattern in a set of data. Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately.
 
-Instead, we can focus on designing better charts - charts that use components that are easier to perceive accurately. Our design decisions have downstream consequences. Better charts can help our audience understand our message and support their decision-making with reliable information.
+Better charts can help our audience understand our message and support their decision-making with reliable information.
 
 Worse charts - charts designed using components that are more difficult to perceive accurately - can obscure our message and misinform our audience.
 
 ::::::::::::::::::::::::::::::::::::: instructor
 
-Depending on time and your learners' interest, this point about worse charts can be a place to point out that charts that deliberately obscure a message or mislead an audience often include multiple components that are more difficult to perceive accurately. Learners can use this knowledge to bring a critical lens to charts they come across in ordinary life.
+Depending on time and your learners' interest, this definition of worse charts can be a place to point out that charts that deliberately obscure a message or mislead an audience often include multiple components that are more difficult to perceive accurately. Learners can use this knowledge to bring a critical lens to charts they come across in ordinary life.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -218,7 +235,7 @@ Exercise ideas:
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - There are four graphical elements that can represent data on a chart. The appearance of these elements can be modified with any of ten possible visual properties.
-- Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others[^2]
+- Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others
 - Visual representations that are easier to perceive accurately support a chart's message
 - Visual representations that are more difficult to perceive accurately detract from a chart's message
 
