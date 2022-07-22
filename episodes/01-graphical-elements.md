@@ -1,7 +1,7 @@
 ---
 title: "Graphical Elements of a Chart"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 10
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
@@ -48,7 +48,7 @@ The data and data relationships we are representing in a chart have different qu
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Challenge 1: Match the name of the visual property to its picture
+## Challenge: Match the name of the visual property to its picture
 
 Use this list of visual properties to label the figures below[^3].
 
@@ -150,7 +150,7 @@ These guidelines help us understand and categorize graphical elements and visual
 ### Visual Properties
 
 | Graphical element | Better | Worse |
-| :--- | :--- | :--- |
+| ---- | ---- | ---- |
 | Points | Position on common scale | Position on non-aligned scales |
 | Lines | Length, Direction, Angle | Curvature |
 | Shapes | Area | Volume |
@@ -173,7 +173,7 @@ We need to ask some questions when including shading or color in a chart:
 
 - How many categories am I working with?
 - Are my colors accessible?
-- What cultural assumptions are my colors making?
+- What assumptions are my colors making?
 - How will my chart be distributed?
 
 [ColorBrewer 2.0](https://colorbrewer2.org) is an online tool for testing color schemes against various conditions. The tool targets cartography but is useful for choosing colors for any kind of data.
@@ -189,7 +189,7 @@ With enough time, you may choose to structure the questions about shading and co
 - Are my colors accessible?
   - Color blindness can affect how people perceive certain colors and color combinations, e.g.: red/green and blue/yellow.
   - People with visual impairments have difficulty perceiving low-contrast colors.
-- What cultural assumptions are my colors making?
+- What assumptions are my colors making?
   - Relying on specific contrasting colors, e.g.: red/green or red/yellow/green, to communicate a message assumes that the colors mean the same thing to your audience that they do to you.
 - How will my chart be distributed?
   - Printing and photocopying can distort or erase gray and color tones.
@@ -219,26 +219,65 @@ Depending on time and your learners' interest, this definition of worse charts c
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-In this exercise, you will practice choosing a better chart design over a worse chart design.
+::::::::::::::::::::::::::::::::::::: challenge
 
-Exercise ideas:
+## Challenge: Practice choosing better charts
 
-- Use the Better and Worse table to choose which chart method will more accurately communicate a message (make these as examples)
-  - A chart that depicts percentages of parts that make up a whole
-    - 100% bar chart
-    - pie chart
-  - A chart that compares two categories over a period of time
-    - Line chart with two lines shown in contrasting colors
-    - Area chart with two areas shown in contrasting colors
-  - Two scatter charts comparing two different distributions
-    - `y` axes of both charts start at 0 and end at 100
-    - `y` axis of the first chart is 0-100, `y` axis of the second chart is 10-90
+For each chart use case, put the example charts in order from better to worse. Write a note to yourself about why you think one chart is better than another.
+
+### Chart Use Case 1
+
+A chart that depicts parts of a whole.
+
+![Figure 2.11: 2D Pie Chart](fig/01-2dpie.png){alt='two dimensional pie chart'}
+
+![Figure 2.12: 3D Pie Chart](fig/01-3dpie.png){alt='three dimensional pie chart'}
+
+![Figure 2.13: 100% Bar Chart](fig/01-100bar.png){alt='100% bar chart'}
+
+:::::::::::::::::::::::: solution
+
+In order from better to worse, the charts are:
+
+- Figure 2.13: 100% Bar Chart
+- Figure 2.11: 2D Pie Chart
+- Figure 2.12: 3D Pie Chart
+
+:::::::::::::::::::::::::::::::::
+
+### Chart Use Case 2
+
+A chart that compares two categories over a period of time.
+
+![Figure 2.14: 2D Line Chart](fig/01-line.png){alt='two dimensional line chart'}
+
+![Figure 2.15: 3D Line Chart](fig/01-3dline.png){alt='three dimensional line chart'}
+
+![Figure 2.16: 2D Area Chart](fig/01-area.png){alt='two dimensional area chart'}
+
+:::::::::::::::::::::::: solution
+
+In order from better to worse, the charts are:
+
+- Figure 2.14 2D Line Chart
+- Figure 2.16 2D Area chart
+- Figure 2.15 3D Line Chart
+
+:::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: instructor
+
+In order to reinforce why one chart is better than another in the above challenge, have learners share their "whys" in the shared document or aloud during a brief discussion of the solutions. The correct answers correspond to the information in the section, "Better Visual Representations."
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - There are four graphical elements that can represent data on a chart. The appearance of these elements can be modified with any of ten possible visual properties.
-- Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others
-- Visual representations that are easier to perceive accurately support a chart's message
-- Visual representations that are more difficult to perceive accurately detract from a chart's message
+- Research suggests that many people can evaluate some of these visual representations more quickly and with more accuracy than others.
+- Visual representations that are easier to perceive accurately support a chart's message.
+- Visual representations that are more difficult to perceive accurately obscure a chart's message.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
