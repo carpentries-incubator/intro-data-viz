@@ -150,10 +150,10 @@ These guidelines help us understand and categorize graphical elements and visual
 ### Visual Properties
 
 | Graphical element | Better | Worse |
-|:---:|:---|:---|
-|Points|Position on common scale|Position on non-aligned scales|
-|Lines|Length, Direction, Angle|Curvature|
-|Shapes|Area|Volume|
+| :--- | :--- | :--- |
+| Points | Position on common scale | Position on non-aligned scales |
+| Lines | Length, Direction, Angle | Curvature |
+| Shapes | Area | Volume |
 
 ### Shading and color are special cases
 
