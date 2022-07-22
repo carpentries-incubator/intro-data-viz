@@ -48,7 +48,7 @@ The data and data relationships we are representing in a chart have different qu
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Challenge: Match the name of the visual property to its picture
+## Challenge: Visual properties
 
 Use this list of visual properties to label the figures below[^3].
 
