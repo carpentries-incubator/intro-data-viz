@@ -65,25 +65,25 @@ Use this list of visual properties to label the figures below[^3].
 
 ### Figures
 
-![Figure 2.1](fig/visualPropertyCol.png){alt='color property'}
+![Figure 2.1](fig/01-visualPropertyCol.png){alt='color property'}
 
-![Figure 2.2](fig/visualPropertyAng.png){alt='angle property'}
+![Figure 2.2](fig/01-visualPropertyAng.png){alt='angle property'}
 
-![Figure 2.3](fig/visualPropertySca1.png){alt='1 scale position property'}
+![Figure 2.3](fig/01-visualPropertySca1.png){alt='1 scale position property'}
 
-![Figure 2.4](fig/visualPropertyCurv.png){alt='curve property'}
+![Figure 2.4](fig/01-visualPropertyCurv.png){alt='curve property'}
 
-![Figure 2.5](fig/visualPropertySha.png){alt='shading property'}
+![Figure 2.5](fig/01-visualPropertySha.png){alt='shading property'}
 
-![Figure 2.6](fig/visualPropertyArea.png){alt='area property'}
+![Figure 2.6](fig/01-visualPropertyArea.png){alt='area property'}
 
-![Figure 2.7](fig/visualPropertyDir.png){alt='direction property'}
+![Figure 2.7](fig/01-visualPropertyDir.png){alt='direction property'}
 
-![Figure 2.8](fig/visualPropertySca2.png){alt='2 scale position property'}
+![Figure 2.8](fig/01-visualPropertySca2.png){alt='2 scale position property'}
 
-![Figure 2.9](fig/visualPropertyLen.png){alt='length property'}
+![Figure 2.9](fig/01-visualPropertyLen.png){alt='length property'}
 
-![Figure 2.10](fig/visualPropertyVol.png){alt='volume property'}
+![Figure 2.10](fig/01-visualPropertyVol.png){alt='volume property'}
 
 [^3]: Images in this challenge adapted under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license from Briney, K. (2017). "Data Visualization Camp Instructional Materials (2017)" University of Wisconsin Milwaukee Libraries Instructional Materials. https://dc.uwm.edu/lib_staff_files/4
 
