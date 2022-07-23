@@ -2,6 +2,7 @@
 title: "The Importance of Message"
 teaching: 15
 exercises: 5
+start: yes
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
