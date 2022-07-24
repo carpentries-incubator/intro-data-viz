@@ -11,7 +11,6 @@ exercises: 0
 2. What are useful charts to communicate these messages?
 3. How do we construct text to describe these messages?
 4. How does the type of data help determine the message?
-5. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -22,13 +21,17 @@ After completing this episode you will be able to:
 - identify data types as discrete, continuous, or categorical
 - interpret and describe the message in four common chart types
 - illustrate the message of four common chart types 
-- use a flow diagram choose a chart type to communicate your message
+- use a flow diagram to choose a chart type to communicate your message
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-Charts communicate a message about data that is dependent on the type of data.  (paragraph on data types)
+Charts communicate a message about data that is dependent on the type of data.  Data scientists differ on the number of different data types, with some describing as many as 14 unique types.  For this lesson will we will keep the number of data types limited to three: discrete, continuous, and categorical.  You can always dig in the finer divisions of these three latter to learn more.
+
+Discrete data are data that can take on a limited range of values but have some quantitative information in those values.  For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best.  The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited.  Yet, this ranking system still conveys useful information and when your ranting is aggregated with other rankings of fellow users confidence in these rankings increases.  As a general guideline, let's define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32).  Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved.  In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come precise lower is better but not necessarily useful.
+
+
 
 To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America.  The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258).  (Give a brief summary of the paper and the data)
 
