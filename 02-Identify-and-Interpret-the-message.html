@@ -180,7 +180,6 @@
 <li><a href="#illustrate-the-message">Illustrate the message</a></li>
 <li><a href="#use-a-flow-chart-to-choose-a-chart-for-your-message">Use a flow chart to choose a chart for your message</a></li>
 <li><a href="#figures">Figures</a></li>
-<li><a href="#math">Math</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -256,7 +255,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Identify and Interpret the Message</h1>
-        <p> Last updated on 2022-07-24 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/02-Identify-and-Interpret-the-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2022-07-25 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/02-Identify-and-Interpret-the-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -292,8 +291,11 @@
 </div>
 </div>
 <section id="introduction"><h2 class="section-heading">Introduction</h2>
-<hr class="half-width"><p>Charts communicate a message about data that is dependent on the type of data. Data scientists differ on the number of different data types, with some describing as many as 14 unique types. For this lesson will we will keep the number of data types limited to three: discrete, continuous, and categorical. You can always dig in the finer divisions of these three latter to learn more.</p>
-<p>Discrete data are data that can take on a limited range of values but have some quantitative information in those values. For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best. The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited. Yet, this ranking system still conveys useful information and when your ranting is aggregated with other rankings of fellow users confidence in these rankings increases. As a general guideline, let’s define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32). Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved. In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come precise lower is better but not necessarily useful.</p>
+<hr class="half-width"><p>Charts communicate a message about data that is dependent on the type of data. Data scientists differ on the number of different data types, with some describing as many as 14 unique types. For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical. You can always dig in the finer divisions of these three latter to learn more.</p>
+<p>Discrete data are data that can take on a limited range of values but have some quantitative information in those values. For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best. The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited. Yet, this ranking system still conveys useful information and when your ranking is aggregated with other rankings of fellow users confidence in these rankings increases.</p>
+<p>** As a general guideline, let’s define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32). Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved. In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come measurement precise, lower is better but not necessarily useful.</p>
+<p>As the number unique data values increases beyond 30 the data are characterized as continuous data. When you measure the length of something with meter stick or ruler you are likely generating continuous data. That is as long as the group of objects you are measuring range in length by more than 30 of the smallest tick marks on the stick. Or the objects could in theory range by more.</p>
+<p>On the over extreme of limited unique values are categorical data. Categorical data do not represent quantitative information but qualitative data (i.e., information that is not a number, but a descriptive property of the system of interest). Experimental treatments like vaccine vs. placebo in clinical trials or fertilizer vs. no fertilizer effects on crop production are examples of categorical data. Categorical data can take on many different values and can sometimes contain organization structure that appear to cross over to being discrete.</p>
 <figure>To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015 <img src="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258" alt="A continental scale trophic cascade from wolves through coyotes to foxes" class="figure mx-auto d-block">. (Give a brief summary of the paper and the data)</figure><div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -372,11 +374,7 @@
 <hr class="half-width"></section><section id="figures"><h2 class="section-heading">Figures</h2>
 <hr class="half-width"><p>You can use standard markdown for static figures with the following syntax:</p>
 <figure>`<img src="https://excalidraw.com/#json=M5p-guinhbiUarNN8Y_fK,GZXhOkPA4qLCIgbEx9i12A" alt="Example figs" class="figure mx-auto d-block"></figure><p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="fig/compositionPlot.png" alt="Figure ? Pie chart of the abundance of caninids are fox or coyote" class="figure mx-auto d-block">{indicate the percentages}</figure><figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure></section><section id="math"><h2 class="section-heading">Math</h2>
-<hr class="half-width"><p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to create dynamic reports with {knitr}, so we now use mathjax to describe this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
-<div id="keypoints1" class="callout keypoints">
+<figure><img src="fig/compositionPlot.png" alt="Figure ? Pie chart of the abundance of caninids are fox or coyote" class="figure mx-auto d-block">{indicate the percentages}</figure><figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -440,8 +438,8 @@ any links that you are not going to use.
   "url": "https://jbkieffer.github.io/intro-data-viz/02-Identify-and-Interpret-the-message.html",
   "identifier": "https://jbkieffer.github.io/intro-data-viz/02-Identify-and-Interpret-the-message.html",
   "dateCreated": "2022-06-14",
-  "dateModified": "2022-07-24",
-  "datePublished": "2022-07-24"
+  "dateModified": "2022-07-25",
+  "datePublished": "2022-07-25"
 }
 
   </script><script>
