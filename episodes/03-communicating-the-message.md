@@ -55,7 +55,7 @@ You have two groups each having consumed a different number of carrots, this is 
 ::::
 
 
-# Importing your Data
+## Importing your Data
 We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence seperated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
 
 [Your Data](data/canids.tsv)
@@ -81,6 +81,24 @@ Tab seperated files are well supported on Google Sheets, and the default import 
 Your data should now be imported and visible in a new sheet.
 
 ![Figure 3.5](fig/03-new_google_sheet_table.png){alt='google sheet file type'}
+
+:::: challenge 
+
+## Activity 1
+Examine your dataset. Does it appear to be clean and tidy?
+
+Remember clean data has no:
+  - White spaces before or after data in each cell
+  - Outliers, nulls, missing data, or empty cells
+  - Formatting, such as color coding, bold, or italicized text
+
+Also, tidy data is organized so:
+  - Columns are for variables
+  - Rows are for observations
+  - One value per cell
+
+::::
+
 
 :::: keypoints 
 
