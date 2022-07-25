@@ -34,6 +34,7 @@ This chapter will use the knowledge you have gained and apply it to generate gra
 
 Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but has other advantages such as improved reproducibility. 
 
+::::
 
 ## Importing your Data
 We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
@@ -113,7 +114,6 @@ Our years are not in order! The years are plotted in the order they appeared on 
 ![Figure 3.13](fig/03-new_chart_sort.png){alt='new chart type sort'}
 
 Now that our data is sorted our chart should show our data in chronological order.
-
 
 :::: keypoints 
 
