@@ -27,10 +27,15 @@ After completing this episode you will be able to:
 
 ## Introduction
 
-Charts communicate a message about data that is dependent on the type of data.  Data scientists differ on the number of different data types, with some describing as many as 14 unique types.  For this lesson will we will keep the number of data types limited to three: discrete, continuous, and categorical.  You can always dig in the finer divisions of these three latter to learn more.
+Charts communicate a message about data that is dependent on the type of data.  Data scientists differ on the number of different data types, with some describing as many as 14 unique types.  For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical.  You can always dig in the finer divisions of these three latter to learn more.
 
-Discrete data are data that can take on a limited range of values but have some quantitative information in those values.  For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best.  The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited.  Yet, this ranking system still conveys useful information and when your ranting is aggregated with other rankings of fellow users confidence in these rankings increases.  As a general guideline, let's define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32).  Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved.  In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come precise lower is better but not necessarily useful.
+Discrete data are data that can take on a limited range of values but have some quantitative information in those values.  For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best.  The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited.  Yet, this ranking system still conveys useful information and when your ranking is aggregated with other rankings of fellow users confidence in these rankings increases.  
 
+**  As a general guideline, let's define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32).  Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved.  In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come measurement precise, lower is better but not necessarily useful.
+
+As the number unique data values increases beyond 30 the data are characterized as continuous data.  When you measure the length of something with meter stick or ruler you are likely generating continuous data.  That is as long as the group of objects you are measuring range in length by more than 30 of the smallest tick marks on the stick.  Or the objects could in theory range by more.  
+
+On the over extreme of limited unique values are categorical data.  Categorical data do not represent quantitative information but qualitative data (i.e., information that is not a number, but a descriptive property of the system of interest).  Experimental treatments like vaccine vs. placebo in clinical trials or fertilizer vs. no fertilizer effects on crop production are examples of categorical data.  Categorical data can take on many different values and can sometimes contain organization structure that appear to cross over to being discrete.
 
 
 To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America.  The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258).  (Give a brief summary of the paper and the data)
@@ -141,14 +146,6 @@ accessibility purposes'}`
 
 ![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
