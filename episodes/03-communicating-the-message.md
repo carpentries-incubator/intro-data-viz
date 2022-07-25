@@ -83,34 +83,34 @@ Also, tidy data is organized so that:
 
 For our first chart lets show the relationship of the counts of coyotes over time. To generate a blank chart we will need to click on the insert menu and select chart.
 
-![Figure 3.5](fig/03-new_chart_insert.png){alt='new chart insert menu'}
+![Figure 3.6](fig/03-new_chart_insert.png){alt='new chart insert menu'}
 
 We now have a blank chart and the chart editor window has opened. Here we will want to start specifying our data. Lets start with our chart type . Select line from the dropdown menu. 
 
-![Figure 3.5](fig/03-new_chart_type.png){alt='new chart type menu'}
+![Figure 3.7](fig/03-new_chart_type.png){alt='new chart type menu'}
 
 We need to pick our first data series. This will become our y-axis data. Lets pick the count of coyotes. Click on the add series button below the Series heading. This will automatically open the Select data range menu if its empty. If you happened to already have a data series selected for you. Click on the field below the Series heading and this should open a menu with a search field on the right with a rectangular grid icon on the left. Clicking that grid will open the Select data range menu. Once the Select data range menu is open you can select column B "Coyote". Click ok when your done.
 
-![Figure 3.5](fig/03-new_chart_coyote2.png){alt='new chart type coyote'}
+![Figure 3.8](fig/03-new_chart_coyote2.png){alt='new chart type coyote'}
 
 We can now specify the data for our x -axis. Lets start with the x-axis. Click on the field below the X-axis heading in the chart editor, and again this should open a menu with a search field on the right with a rectangular grid icon on the left. Once the Select data range menu is open. Now you can click the top of the Column named year in your table to set year as our x-axis. 
 
-![Figure 3.5](fig/03-new_chart_year.png){alt='new chart type year'}
+![Figure 3.9](fig/03-new_chart_year.png){alt='new chart type year'}
 
 Sometimes the chart editor will automatically set this as a data series instead of your x-axis. This is ok, if you click on the x-axis field again you will see year is now an option. Go ahead and click it to set you x-axis. You will need to remove year from the data series list by clicking the three dot icon and selecting remove.
 
-![Figure 3.5](fig/03-new_chart_year_remove.png){alt='new chart type year remove'}
+![Figure 3.10](fig/03-new_chart_year_remove.png){alt='new chart type year remove'}
 
 Something doesn't look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that  really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Lets try plotting the average (arithmetic mean) counts of coyotes instead. Click the agregate checkbox and a new dropdown will appear. Select average to plot our mean counts.
 
-![Figure 3.5](fig/03-new_chart_average.png){alt='new chart type year remove'}
+![Figure 3.11](fig/03-new_chart_average.png){alt='new chart type year remove'}
 
 That looks better, but can you see another issue? Look closely.
-![Figure 3.5](fig/03-new_chart_error.png){alt='new chart type error'}
+![Figure 3.12](fig/03-new_chart_error.png){alt='new chart type error'}
 
 Our years are not in order! The years are plotted in the order they appeared on our table. One simple way to solve this is to reorder our table. Select the column year. Now from the data menu select sort sheet -> Sort sheet by column F (A-Z). 
 
-![Figure 3.5](fig/03-new_chart_sort.png){alt='new chart type sort'}
+![Figure 3.13](fig/03-new_chart_sort.png){alt='new chart type sort'}
 
 Now that our data is sorted our chart should show our data in chronological order.
 
