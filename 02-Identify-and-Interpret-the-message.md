@@ -27,6 +27,7 @@ After completing this episode you will be able to:
 
 ## Introduction
 
+## Data Types  
 Charts communicate a message about data that is dependent on the type of data.  Data scientists differ on the number of different data types, with some describing as many as 14 unique types.  For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical.  You can always dig in the finer divisions of these three latter to learn more.
 
 Discrete data are data that can take on a limited range of values but have some quantitative information in those values.  For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best.  The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited.  Yet, this ranking system still conveys useful information and when your ranking is aggregated with other rankings of fellow users confidence in these rankings increases.  
@@ -86,7 +87,6 @@ d) economists
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Data Types  
 
 
 ## Four Common Chart Types
@@ -100,7 +100,7 @@ Relationships
 
 What is the message of this graph?  
 ![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png){On average across North America throughout the collection period foxes made up 7?% and Coyotes made up 2?% of the canids}
-Discuss message as a group
+Write, pair, and share (if possible).
 
 What is the message of this graph?  
 ![Figure ? Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
@@ -115,6 +115,8 @@ What is the message of this graph?
 Discuss message as a group
 
 ## Describe the message  
+
+What are the basic components of each of the above's message? So replace the nouns with a noun from your field of study.  Does the message still make sense?   
 
 ## Illustrate the message  
 
@@ -132,26 +134,12 @@ In a drawing application of your choice (including pencil and paper), draw a cha
 
 
 
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![Example figs](https://excalidraw.com/#json=M5p-guinhbiUarNN8Y_fK,GZXhOkPA4qLCIgbEx9i12A)
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![Figure ? Pie chart of the abundance of caninids are fox or coyote](fig/compositionPlot.png){indicate the percentages}
-
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Charts convey messages with interchangeable nouns and verbs
-- Chart types ..
-- Practice with linking chart types with charts is a valuable skill
+- Identifying the data type helps to narrow the choices of available charts for to convey your message.
+- Charts convey messages with interchangeable nouns and verbs.
+- Comparison, composition, distribution, and relationships are four very common messages in charts.
+- Practice with linking chart types with data types is a valuable skill
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
