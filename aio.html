@@ -1053,7 +1053,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-03-communicating-the-message"><p>Content from <a href="03-communicating-the-message.html">Communicating the Message</a></p>
 <hr>
-<p> Last updated on 2022-06-16 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/03-communicating-the-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-07-25 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/03-communicating-the-message.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -1064,10 +1064,10 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul>
+<ol style="list-style-type: decimal">
 <li>What is the important aspects of a dataset you want to communicate?</li>
-<li>How do you decide the best visualization type for a particular dataset?</li>
-</ul>
+<li>What is the best visualization type for a particular dataset?</li>
+</ol>
 </div>
 </div>
 </div>
@@ -1076,8 +1076,9 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Identify what you would like to communicate about a dataset.</li>
-<li>Identify what kind of data is best presented by which chart types</li>
+<li>Identify what message would like to communicate about a dataset.</li>
+<li>Identify how to best communicate the message with appropriate visuals.</li>
+<li>Generate graphs based on your decisions using software.</li>
 </ul>
 </div>
 </div>
@@ -1086,15 +1087,17 @@ any links that you are not going to use.
 </div>
 <section id="introduction"><h2 class="section-heading">Introduction</h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a> for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> for dynamic files that can render code into output. Please refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a valid Carpentries lesson:</p>
+<p>This chapter will use the knowlege you have gained and apply it to generate graphs using software tools. What you should know:</p>
 <ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to reinforce the objectives.</li>
+<li>There are a multitude of software tools that can help generate charts for you.</li>
+<li>All software tools have the strengths and weaknesses. There is no best tool for all tasks or all users.</li>
+<li>For this lessen we will be using google sheets. For our purposes this tool has some important advantages.
+<ol style="list-style-type: decimal">
+<li>The software is freely available online.</li>
+<li>The software works similarly regardless of the users operating system</li>
+<li>The software is interacted primarily through a graphical interface that can make it more intuitive to new users.</li>
+</ol>
+</li>
 </ol>
 <div id="challenge1" class="callout challenge">
 <div class="callout-square">
@@ -1119,7 +1122,7 @@ any links that you are not going to use.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="section level3 accordion-body">
 <h3 id="answer-3">Answer 3<a class="anchor" aria-label="anchor" href="#answer-3"></a>
 </h3>
@@ -1128,6 +1131,11 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
+</section><div class="section level1">
+<h1 id="importing-your-data">Importing your Data<a class="anchor" aria-label="anchor" href="#importing-your-data"></a>
+</h1>
+<p>We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence seperated by a tab character. Generally tsv tables have the limitation that you can’t store any values in a table that also has a tab character. If you haven’t already, go ahead and download the canid data now.</p>
+<p><a href="data/canids.tsv">Your Data</a></p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1138,6 +1146,8 @@ any links that you are not going to use.
 <ul>
 <li>Identify if you are communicating a comparison, distribution, composition, relationship.</li>
 <li>Use the chart chooser a good chart for your particular dataset.</li>
+<li>Choose the tool you will be using to generate your chart</li>
+<li>Import your data making sure your data is “clean” and “tidy”.</li>
 </ul>
 </div>
 </div>
@@ -1146,7 +1156,7 @@ any links that you are not going to use.
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></section><section id="aio-99-introduction"><p>Content from <a href="99-introduction.html">Using Markdown</a></p>
+</div></section><section id="aio-99-introduction"><p>Content from <a href="99-introduction.html">Using Markdown</a></p>
 <hr>
 <p> Last updated on 2022-06-14 | <a href="https://github.com/jbkieffer/intro-data-viz/edit/main/episodes/99-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
