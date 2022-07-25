@@ -182,6 +182,7 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#introduction">Introduction</a></li>
+<li><a href="#importing-your-data">Importing your Data</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -317,9 +318,8 @@
 </div>
 </div>
 </div>
-</section><div class="section level1">
-<h1 id="importing-your-data">Importing your Data<a class="anchor" aria-label="anchor" href="#importing-your-data"></a></h1>
-<p>We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence seperated by a tab character. Generally tsv tables have the limitation that you can’t store any values in a table that also has a tab character. If you haven’t already, go ahead and download the canid data now.</p>
+</section><section id="importing-your-data"><h2 class="section-heading">Importing your Data</h2>
+<hr class="half-width"><p>We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence seperated by a tab character. Generally tsv tables have the limitation that you can’t store any values in a table that also has a tab character. If you haven’t already, go ahead and download the canid data now.</p>
 <p><a href="data/canids.tsv">Your Data</a></p>
 <p>To import this into google sheets you first need to go to the website <a href="https://docs.google.com/spreadsheets/" class="external-link"></a>. It will prompt you to log into a google account. You will need to use a google account to use google sheets, but if you do not have one, they are free <a href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;hl=en" class="external-link">Google Account Sign-up</a>.</p>
 <p>While there you will want to create a new blank spreadsheet.</p>
@@ -327,7 +327,20 @@
 <figure><img src="fig/03-new_google_sheet_import.png" alt="google sheet import" class="figure mx-auto d-block"><figcaption>Figure 3.2</figcaption></figure><p>Select the “Upload” tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click “Select a file from your device” if you prefer to navigate to your file.</p>
 <figure><img src="fig/03-new_google_sheet_upload.png" alt="google sheet upload" class="figure mx-auto d-block"><figcaption>Figure 3.3</figcaption></figure><p>Tab seperated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to “Tab”.</p>
 <figure><img src="fig/03-new_google_sheet_file.png" alt="google sheet file type" class="figure mx-auto d-block"><figcaption>Figure 3.4</figcaption></figure><p>Your data should now be imported and visible in a new sheet.</p>
-<figure><img src="fig/03-new_google_sheet_table.png" alt="google sheet file type" class="figure mx-auto d-block"><figcaption>Figure 3.5</figcaption></figure><div id="keypoints1" class="callout keypoints">
+<figure><img src="fig/03-new_google_sheet_table.png" alt="google sheet file type" class="figure mx-auto d-block"><figcaption>Figure 3.5</figcaption></figure><div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="activity-1" class="callout-inner">
+<h3 class="callout-title">Activity 1</h3>
+<div class="callout-content">
+<p>Examine your dataset. Does it appear to be clean and tidy?</p>
+<p>Remember clean data has no: - White spaces before or after data in each cell - Outliers, nulls, missing data, or empty cells - Formatting, such as color coding, bold, or italicized text</p>
+<p>Also, tidy data is organized so: - Columns are for variables - Rows are for observations - One value per cell</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -345,11 +358,7 @@
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="02-Identify-and-Interpret-the-message.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="99-introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
