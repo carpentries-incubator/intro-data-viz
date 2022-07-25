@@ -131,6 +131,11 @@ In a drawing application of your choice (including pencil and paper), draw a cha
  
 ## Use a flow chart to choose a chart for your message  
 
+The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.
+![The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.](fig/chart_chooser.png)
+
+### Optional Exercise  
+Find a chart from your field of interest.  It can be from a book, on-line or even hand drawn.  Using the chart chooser to decide what type of message is being conveyed in the chart.  Also, what are the data types presented in the chart?
 
 
 
