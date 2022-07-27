@@ -13,4 +13,4 @@ If you have any questions, contact [@RobJamesRamos](https://github.com/RobJamesR
 - Rob Ramos [@RobJamesRamos](https://github.com/RobJamesRamos)
 
 ## Contributing
-See [Contributing](contributing.md)
+See [Contributing](CONTRIBUTING.md)
