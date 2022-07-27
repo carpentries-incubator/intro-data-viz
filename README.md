@@ -1,10 +1,16 @@
-# The Carpentries Workbench Template Markdown Lesson
+# Introduction to Data Visualization  
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
+## Introduction
 
-To get started using this template, visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions.
+This lesson introduces data visualization by focusing on the basic components of a chart and on the decisions you need to make in order to create and refine a chart. You will learn to craft messages about data and communicate those messages in charts. The principles applied to charts in this lesson can be applied to more complex data visualizations, but these are beyond the scope of this lesson.
 
-If you have any questions, contact [@zkamvar](https://github.com/zkamvar)
+## Contact Us
+If you have any questions, contact [@RobJamesRamos](https://github.com/RobJamesRamos)
 
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+## Maintainers
+- Jamene Brooks-Kieffer [@jbkieffer](https://github.com/jbkieffer)
+- Terry Loecke [@loeckete](https://github.com/loeckete)
+- Rob Ramos [@RobJamesRamos](https://github.com/RobJamesRamos)
+
+## Contributing
+See [Contributing](contributing.md)
