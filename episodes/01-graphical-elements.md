@@ -92,7 +92,7 @@ Use this list of visual properties to label the figures below[^3].
 ## Answers
 
 | Visual Property Number | Visual Property Picture |
-|:---|:---:|
+|:---|:---|
 | 10  | Figure 2.1 |
 |  5  | Figure 2.2 |
 |  1  | Figure 2.3 |
@@ -150,7 +150,7 @@ These guidelines help us understand and categorize graphical elements and visual
 ### Visual Properties
 
 | Graphical element | Better | Worse |
-| ---- | ---- | ---- |
+| :---- | :---- | :---- |
 | Points | Position on common scale | Position on non-aligned scales |
 | Lines | Length, Direction, Angle | Curvature |
 | Shapes | Area | Volume |
