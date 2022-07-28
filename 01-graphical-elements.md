@@ -92,7 +92,7 @@ Use this list of visual properties to label the figures below[^3].
 ## Answers
 
 | Visual Property Number | Visual Property Picture |
-|:---:|:---:|
+|:---|:---:|
 | 10  | Figure 2.1 |
 |  5  | Figure 2.2 |
 |  1  | Figure 2.3 |

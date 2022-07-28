@@ -95,7 +95,7 @@ Learners who have less experience with tabular data may need more specific infor
 A table is necessary for making a chart, but is not a substitute for a chart. A table must be read to convey its information. Reading a data table makes it difficult to understand any patterns that might be present in the data. Consider this data table:
 
 | Average Monthly Temperature | Daily Walks per Dog |
-|:---:|:---:|
+|:---|:---:|
 |30 |0 |
 |35 |1 |
 |45 |1 |
