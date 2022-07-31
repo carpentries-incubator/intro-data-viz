@@ -94,7 +94,7 @@ We need to pick our first data series. This will become our y-axis data. Lets pi
 
 ![Figure 3.8](fig/03-new_chart_coyote2.png){alt='new chart type coyote'}
 
-We can now specify the data for our x -axis. Google sheets will not let you set the x-axis directly from your data table. This is likely a bug, but we can work around it by adding our x-axis data as a Series first. Click on the Add Series field below our Coyote entry under the Series heading. This should open a menu with a search field on the right with a rectangular grid icon on the left. Once the Select data range menu is open. Now you can click the top of the Column named year in your table to set year as our second data series. Now click on the x-axis field and you will see you have two options. The window may not automatically list our columns by name, just remember that our year data is in column F and select the appropriate entry (likely `F1:F4681`). Go ahead and click it to set you x-axis. You will need to remove year from the data series list by clicking the three dot icon next to it's Series entry and selecting remove.
+Suggest updating to one sentence for clarity: "Once the Select data range menu is open, you can click..."
 
 ![Figure 3.9](fig/03-new_chart_year.png){alt='new chart type year remove'}
 
