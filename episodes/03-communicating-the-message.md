@@ -37,7 +37,7 @@ Other tools can have many advantages as well. Certain software which use a comma
 ::::
 
 ## Importing your Data
-We need to import our canid data into google sheets. Our data is currently stored as tab seperated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
+We need to import our canid data into google sheets. Our data is currently stored as tab separated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
 
 [Your Data](data/canids.tsv)
 
@@ -94,7 +94,11 @@ We need to pick our first data series. This will become our y-axis data. Lets pi
 
 ![Figure 3.8](fig/03-new_chart_coyote2.png){alt='new chart type coyote'}
 
-Suggest updating to one sentence for clarity: "Once the Select data range menu is open, you can click..."
+We can now specify the data for our x -axis. Once the Select data range menu is open, you can click the top of the column named `Year` in your table to set `Year` as our second data series. Now click on the x-axis field and you will see you have two options. The window may not automatically list our columns by name, just remember that our year data is in column F and select the appropriate entry (likely `F1:F4681`). Go ahead and set you x-axis. You will need to remove year from the data series list by clicking the three dot icon next to it's series entry and selecting remove.
+
+:::: instructor
+Google sheets will not let you set the x-axis directly from your data table. This is likely a bug, but we can work around it by adding our x-axis data as a Series first.
+::::
 
 ![Figure 3.9](fig/03-new_chart_year.png){alt='new chart type year remove'}
 
