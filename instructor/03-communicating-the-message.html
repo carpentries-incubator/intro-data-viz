@@ -274,7 +274,8 @@
 </div>
 </div>
 </div>
-<section id="introduction"><h2 class="section-heading">Introduction</h2>
+<section id="introduction"><h2 class="section-heading">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
 <hr class="half-width"><p>This chapter will use the knowledge you have gained and apply it to generate graphs using software tools. What you should know:</p>
 <ol style="list-style-type: decimal"><li>There are a multitude of software tools that can help generate charts for you.</li>
 <li>All software tools have the strengths and weaknesses. There is no best tool for all tasks or all users.</li>
@@ -291,14 +292,15 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but has other advantages such as improved reproducibility.</p>
 </div>
 </div>
 </div>
 </div>
-</section><section id="importing-your-data"><h2 class="section-heading">Importing your Data</h2>
+</section><section id="importing-your-data"><h2 class="section-heading">Importing your Data<a class="anchor" aria-label="anchor" href="#importing-your-data"></a>
+</h2>
 <hr class="half-width"><p>We need to import our canid data into google sheets. Our data is currently stored as tab separated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can’t store any values in a table that also has a tab character. If you haven’t already, go ahead and download the canid data now.</p>
 <p><a href="data/canids.tsv">Your Data</a></p>
 <p>To import this into google sheets you first need to go to the website <a href="https://docs.google.com/spreadsheets/" class="external-link"></a>. It will prompt you to log into a google account. You will need to use a google account to use google sheets, but if you do not have one, they are free <a href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;hl=en" class="external-link">Google Account Sign-up</a>.</p>
@@ -312,7 +314,8 @@
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="activity-1" class="callout-inner">
-<h3 class="callout-title">Activity 1</h3>
+<h3 class="callout-title">Activity 1<a class="anchor" aria-label="anchor" href="#activity-1"></a>
+</h3>
 <div class="callout-content">
 <p>Examine your dataset. Does it appear to be clean and tidy?</p>
 <p>Remember clean data has no: - White spaces before or after data in each cell - Outliers, nulls, missing data, or empty cells - Formatting, such as color coding, bold, or italicized text</p>
@@ -320,7 +323,8 @@
 </div>
 </div>
 </div>
-</section><section id="lets-make-a-chart"><h2 class="section-heading">Lets Make a Chart</h2>
+</section><section id="lets-make-a-chart"><h2 class="section-heading">Lets Make a Chart<a class="anchor" aria-label="anchor" href="#lets-make-a-chart"></a>
+</h2>
 <hr class="half-width"><p>For our first chart lets show the relationship of the counts of coyotes over time. To generate a blank chart we will need to click on the insert menu and select chart.</p>
 <figure><img src="../fig/03-new_chart_insert.png" alt="new chart insert menu" class="figure mx-auto d-block"><figcaption>Figure 3.6</figcaption></figure><p>We now have a blank chart and the chart editor window has opened. Here we will want to start specifying our data. Lets start with our chart type . Select line from the dropdown menu.</p>
 <figure><img src="../fig/03-new_chart_type.png" alt="new chart type menu" class="figure mx-auto d-block"><figcaption>Figure 3.7</figcaption></figure><p>We need to pick our first data series. This will become our y-axis data. Lets pick the count of coyotes. Click on the add series button below the Series heading. This will automatically open the Select data range menu if its empty. If you happened to already have a data series selected for you. Click on the field below the Series heading and this should open a menu with a search field on the right with a rectangular grid icon on the left. Clicking that grid will open the Select data range menu. Once the Select data range menu is open you can select column B “Coyote”. Click ok when your done.</p>
@@ -333,7 +337,7 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
 <p>Google sheets will not let you set the x-axis directly from your data table. This is likely a bug, but we can work around it by adding our x-axis data as a Series first.</p>
 </div>
@@ -349,7 +353,8 @@
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints</h3>
+<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#NA"></a>
+</h3>
 <div class="callout-content">
 <ul><li>Identify if you are communicating a comparison, distribution, composition, relationship.</li>
 <li>Use the chart chooser a good chart for your particular dataset.</li>
@@ -386,9 +391,9 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.9.0" class="external-link">sandpaper (0.9.0)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.3.0" class="external-link">pegboard (0.3.0)</a>,
-      and <a href="https://github.com/carpentries/varnish" class="external-link">varnish (0.2.3)</a>.</p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.9.3" class="external-link">sandpaper (0.9.3)</a>,
+        <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.3.1)</a>,
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.4" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -410,7 +415,7 @@ any links that you are not going to use.
   "identifier": "https://jbkieffer.github.io/intro-data-viz/instructor/03-communicating-the-message.html",
   "dateCreated": "2022-06-14",
   "dateModified": "2022-08-05",
-  "datePublished": "2022-08-09"
+  "datePublished": "2022-08-16"
 }
 
   </script><script>
