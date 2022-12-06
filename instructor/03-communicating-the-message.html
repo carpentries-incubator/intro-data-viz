@@ -262,7 +262,8 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ol style="list-style-type: decimal"><li>What is the important aspects of a dataset you want to communicate?</li>
+<ol style="list-style-type: decimal"><li>What is the important aspects of a dataset you want to
+communicate?</li>
 <li>What is the best visualization type for a particular dataset?</li>
 </ol></div>
 </div>
@@ -271,8 +272,10 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Identify what message would like to communicate about a dataset.</li>
-<li>Identify how to best communicate the message with appropriate visuals.</li>
+<ul><li>Identify what message would like to communicate about a
+dataset.</li>
+<li>Identify how to best communicate the message with appropriate
+visuals.</li>
 <li>Generate graphs based on your decisions using software.</li>
 </ul></div>
 </div>
@@ -281,13 +284,19 @@
 </div>
 <section id="introduction"><h2 class="section-heading">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
-<hr class="half-width"><p>This chapter will use the knowledge you have gained and apply it to generate graphs using software tools. What you should know:</p>
-<ol style="list-style-type: decimal"><li>There are a multitude of software tools that can help generate charts for you.</li>
-<li>All software tools have the strengths and weaknesses. There is no best tool for all tasks or all users.</li>
-<li>For this lessen we will be using google sheets. For our purposes this tool has some important advantages.
+<hr class="half-width"><p>This chapter will use the knowledge you have gained and apply it to
+generate graphs using software tools. What you should know:</p>
+<ol style="list-style-type: decimal"><li>There are a multitude of software tools that can help generate
+charts for you.</li>
+<li>All software tools have the strengths and weaknesses. There is no
+best tool for all tasks or all users.</li>
+<li>For this lessen we will be using google sheets. For our purposes
+this tool has some important advantages.
 <ol style="list-style-type: decimal"><li>The software is freely available online.</li>
-<li>The software works similarly regardless of the users operating system</li>
-<li>The software is interacted primarily through a graphical interface that can make it more intuitive to new users.</li>
+<li>The software works similarly regardless of the users operating
+system</li>
+<li>The software is interacted primarily through a graphical interface
+that can make it more intuitive to new users.</li>
 </ol></li>
 </ol><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
@@ -297,22 +306,39 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
-<p>Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but has other advantages such as improved reproducibility.</p>
+<p>Other tools can have many advantages as well. Certain software which
+use a command line interface may have a steeper learning curve, but has
+other advantages such as improved reproducibility.</p>
 </div>
 </div>
 </div>
 </div>
 </section><section id="importing-your-data"><h2 class="section-heading">Importing your Data<a class="anchor" aria-label="anchor" href="#importing-your-data"></a>
 </h2>
-<hr class="half-width"><p>We need to import our canid data into google sheets. Our data is currently stored as tab separated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can’t store any values in a table that also has a tab character. If you haven’t already, go ahead and download the canid data now.</p>
+<hr class="half-width"><p>We need to import our canid data into google sheets. Our data is
+currently stored as tab separated values, otherwise known as a tsv file.
+This is a simple text file. Each line of the file represents a new line
+in a table. The values in each column of the table appear in sequence
+separated by a tab character. Generally tsv tables have the limitation
+that you can’t store any values in a table that also has a tab
+character. If you haven’t already, go ahead and download the canid data
+now.</p>
 <p><a href="data/canids.tsv">Your Data</a></p>
-<p>To import this into google sheets you first need to go to the website <a href="https://docs.google.com/spreadsheets/" class="external-link"></a>. It will prompt you to log into a google account. You will need to use a google account to use google sheets, but if you do not have one, they are free <a href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;hl=en" class="external-link">Google Account Sign-up</a>.</p>
+<p>To import this into google sheets you first need to go to the website
+<a href="https://docs.google.com/spreadsheets/" class="external-link"></a>. It will prompt you
+to log into a google account. You will need to use a google account to
+use google sheets, but if you do not have one, they are free <a href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;hl=en" class="external-link">Google
+Account Sign-up</a>.</p>
 <p>While there you will want to create a new blank spreadsheet.</p>
 <figure><img src="../fig/03-new_google_sheet_circled.png" alt="new google sheet" class="figure mx-auto d-block"><figcaption>Figure 3.1</figcaption></figure><p>Then navigate to the file menu and select “Import”.</p>
-<figure><img src="../fig/03-new_google_sheet_import.png" alt="google sheet import" class="figure mx-auto d-block"><figcaption>Figure 3.2</figcaption></figure><p>Select the “Upload” tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click “Select a file from your device” if you prefer to navigate to your file.</p>
-<figure><img src="../fig/03-new_google_sheet_upload.png" alt="google sheet upload" class="figure mx-auto d-block"><figcaption>Figure 3.3</figcaption></figure><p>Tab seperated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to “Tab”.</p>
+<figure><img src="../fig/03-new_google_sheet_import.png" alt="google sheet import" class="figure mx-auto d-block"><figcaption>Figure 3.2</figcaption></figure><p>Select the “Upload” tab on the new window. Here you can drag and drop
+you canids.tsv onto the window. You can also click “Select a file from
+your device” if you prefer to navigate to your file.</p>
+<figure><img src="../fig/03-new_google_sheet_upload.png" alt="google sheet upload" class="figure mx-auto d-block"><figcaption>Figure 3.3</figcaption></figure><p>Tab seperated files are well supported on Google Sheets, and the
+default import options should be fine. If your have issues you could try
+setting the selector type to “Tab”.</p>
 <figure><img src="../fig/03-new_google_sheet_file.png" alt="google sheet file type" class="figure mx-auto d-block"><figcaption>Figure 3.4</figcaption></figure><p>Your data should now be imported and visible in a new sheet.</p>
 <figure><img src="../fig/03-new_google_sheet_table.png" alt="google sheet file type" class="figure mx-auto d-block"><figcaption>Figure 3.5</figcaption></figure><div id="discussion1" class="callout discussion">
 <div class="callout-square">
@@ -323,17 +349,40 @@
 </h3>
 <div class="callout-content">
 <p>Examine your dataset. Does it appear to be clean and tidy?</p>
-<p>Remember clean data has no: - White spaces before or after data in each cell - Outliers, nulls, missing data, or empty cells - Formatting, such as color coding, bold, or italicized text</p>
-<p>Also, tidy data is organized so that: - Columns are for variables - Rows are for observations - One value per cell</p>
+<p>Remember clean data has no: - White spaces before or after data in
+each cell - Outliers, nulls, missing data, or empty cells - Formatting,
+such as color coding, bold, or italicized text</p>
+<p>Also, tidy data is organized so that: - Columns are for variables -
+Rows are for observations - One value per cell</p>
 </div>
 </div>
 </div>
 </section><section id="lets-make-a-chart"><h2 class="section-heading">Lets Make a Chart<a class="anchor" aria-label="anchor" href="#lets-make-a-chart"></a>
 </h2>
-<hr class="half-width"><p>For our first chart lets show the relationship of the counts of coyotes over time. To generate a blank chart we will need to click on the insert menu and select chart.</p>
-<figure><img src="../fig/03-new_chart_insert.png" alt="new chart insert menu" class="figure mx-auto d-block"><figcaption>Figure 3.6</figcaption></figure><p>We now have a blank chart and the chart editor window has opened. Here we will want to start specifying our data. Lets start with our chart type . Select line from the dropdown menu.</p>
-<figure><img src="../fig/03-new_chart_type.png" alt="new chart type menu" class="figure mx-auto d-block"><figcaption>Figure 3.7</figcaption></figure><p>We need to pick our first data series. This will become our y-axis data. Lets pick the count of coyotes. Click on the add series button below the Series heading. This will automatically open the Select data range menu if its empty. If you happened to already have a data series selected for you. Click on the field below the Series heading and this should open a menu with a search field on the right with a rectangular grid icon on the left. Clicking that grid will open the Select data range menu. Once the Select data range menu is open you can select column B “Coyote”. Click ok when your done.</p>
-<figure><img src="../fig/03-new_chart_coyote2.png" alt="new chart type coyote" class="figure mx-auto d-block"><figcaption>Figure 3.8</figcaption></figure><p>We can now specify the data for our x -axis. Once the Select data range menu is open, you can click the top of the column named <code>Year</code> in your table to set <code>Year</code> as our second data series. Now click on the x-axis field and you will see you have two options. The window may not automatically list our columns by name, just remember that our year data is in column F and select the appropriate entry (likely <code>F1:F4681</code>). Go ahead and set you x-axis. You will need to remove year from the data series list by clicking the three dot icon next to it’s series entry and selecting remove.</p>
+<hr class="half-width"><p>For our first chart lets show the relationship of the counts of
+coyotes over time. To generate a blank chart we will need to click on
+the insert menu and select chart.</p>
+<figure><img src="../fig/03-new_chart_insert.png" alt="new chart insert menu" class="figure mx-auto d-block"><figcaption>Figure 3.6</figcaption></figure><p>We now have a blank chart and the chart editor window has opened.
+Here we will want to start specifying our data. Lets start with our
+chart type . Select line from the dropdown menu.</p>
+<figure><img src="../fig/03-new_chart_type.png" alt="new chart type menu" class="figure mx-auto d-block"><figcaption>Figure 3.7</figcaption></figure><p>We need to pick our first data series. This will become our y-axis
+data. Lets pick the count of coyotes. Click on the add series button
+below the Series heading. This will automatically open the Select data
+range menu if its empty. If you happened to already have a data series
+selected for you. Click on the field below the Series heading and this
+should open a menu with a search field on the right with a rectangular
+grid icon on the left. Clicking that grid will open the Select data
+range menu. Once the Select data range menu is open you can select
+column B “Coyote”. Click ok when your done.</p>
+<figure><img src="../fig/03-new_chart_coyote2.png" alt="new chart type coyote" class="figure mx-auto d-block"><figcaption>Figure 3.8</figcaption></figure><p>We can now specify the data for our x -axis. Once the Select data
+range menu is open, you can click the top of the column named
+<code>Year</code> in your table to set <code>Year</code> as our second
+data series. Now click on the x-axis field and you will see you have two
+options. The window may not automatically list our columns by name, just
+remember that our year data is in column F and select the appropriate
+entry (likely <code>F1:F4681</code>). Go ahead and set you x-axis. You
+will need to remove year from the data series list by clicking the three
+dot icon next to it’s series entry and selecting remove.</p>
 <div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
@@ -342,17 +391,42 @@
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
-<p>Google sheets will not let you set the x-axis directly from your data table. This is likely a bug, but we can work around it by adding our x-axis data as a Series first.</p>
+<p>Google sheets will not let you set the x-axis directly from your data
+table. This is likely a bug, but we can work around it by adding our
+x-axis data as a Series first.</p>
 </div>
 </div>
 </div>
 </div>
-<figure><img src="../fig/03-new_chart_year.png" alt="new chart type year remove" class="figure mx-auto d-block"><figcaption>Figure 3.9</figcaption></figure><p>Something doesn’t look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Lets try plotting the average (arithmetic mean) counts of coyotes instead. Click the agregate checkbox and a new dropdown will appear. Select average to plot our mean counts.</p>
-<figure><img src="../fig/03-new_chart_average.png" alt="new chart type year average" class="figure mx-auto d-block"><figcaption>Figure 3.10</figcaption></figure><figure>That looks better, but can you see another issue? Look closely. <img src="../fig/03-new_chart_error.png" alt="new chart type error" class="figure mx-auto d-block"></figure><p>Our years are not in order! The years are plotted in the order they appeared on our table. One simple way to solve this is to reorder our table. There are a few different tools you can use, but creating a filter for you table has a few advantages. First it automatically sets your first row as headings, this means when you sort your table the headings always stay at the top. Secondly we can order the table on the fly by simply clicking on a heading. To set this up select the entire table first. This can either be done using the keyboard shortcut of <code>ctrl-a</code> or by clicking on the upper leftmost square in your table This is the rectange above the row <code>1</code> label and to the left of the column <code>A</code> label. Next select the <code>Create a Filter</code> entry in <code>Data</code> menu.</p>
-<figure><img src="../fig/03-new_chart_select.png" alt="new chart type select all" class="figure mx-auto d-block"><figcaption>Figure 3.12</figcaption></figure><p>You should now see downward facing triangles on each column heading. Click on the icons next to the year column and then select the Select the column year. Now from the data menu select sort sheet -&gt; Sort sheet by column F (A-Z).</p>
-<figure><img src="../fig/03-new_chart_sort.png" alt="new chart type sort" class="figure mx-auto d-block"><figcaption>Figure 3.13</figcaption></figure><p>Now that our data is sorted our chart should show our data in chronological order.</p>
+<figure><img src="../fig/03-new_chart_year.png" alt="new chart type year remove" class="figure mx-auto d-block"><figcaption>Figure 3.9</figcaption></figure><p>Something doesn’t look right. Our line chart seems to be jumping back
+and forth at each year. If you look at the table you will notice that
+for every year value we have multiple rows. By default the chart is
+plotting every row as an independent point, so we have multiple points
+at every year. Is that really what we want to show? It might be better
+to show some aggregate value for each year. That would mean a simpler
+chart and a simpler message. Lets try plotting the average (arithmetic
+mean) counts of coyotes instead. Click the agregate checkbox and a new
+dropdown will appear. Select average to plot our mean counts.</p>
+<figure><img src="../fig/03-new_chart_average.png" alt="new chart type year average" class="figure mx-auto d-block"><figcaption>Figure 3.10</figcaption></figure><figure>That looks better, but can you see another issue? Look closely. <img src="../fig/03-new_chart_error.png" alt="new chart type error" class="figure mx-auto d-block"></figure><p>Our years are not in order! The years are plotted in the order they
+appeared on our table. One simple way to solve this is to reorder our
+table. There are a few different tools you can use, but creating a
+filter for you table has a few advantages. First it automatically sets
+your first row as headings, this means when you sort your table the
+headings always stay at the top. Secondly we can order the table on the
+fly by simply clicking on a heading. To set this up select the entire
+table first. This can either be done using the keyboard shortcut of
+<code>ctrl-a</code> or by clicking on the upper leftmost square in your
+table This is the rectange above the row <code>1</code> label and to the
+left of the column <code>A</code> label. Next select the
+<code>Create a Filter</code> entry in <code>Data</code> menu.</p>
+<figure><img src="../fig/03-new_chart_select.png" alt="new chart type select all" class="figure mx-auto d-block"><figcaption>Figure 3.12</figcaption></figure><p>You should now see downward facing triangles on each column heading.
+Click on the icons next to the year column and then select the Select
+the column year. Now from the data menu select sort sheet -&gt; Sort
+sheet by column F (A-Z).</p>
+<figure><img src="../fig/03-new_chart_sort.png" alt="new chart type sort" class="figure mx-auto d-block"><figcaption>Figure 3.13</figcaption></figure><p>Now that our data is sorted our chart should show our data in
+chronological order.</p>
 <figure><img src="../fig/03-new_chart_final.png" alt="new chart type final" class="figure mx-auto d-block"><figcaption>Figure 3.14</figcaption></figure><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -361,7 +435,8 @@
 <h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
-<ul><li>Identify if you are communicating a comparison, distribution, composition, relationship.</li>
+<ul><li>Identify if you are communicating a comparison, distribution,
+composition, relationship.</li>
 <li>Use the chart chooser a good chart for your particular dataset.</li>
 <li>Choose the tool you will be using to generate your chart</li>
 <li>Import your data making sure your data is “clean” and “tidy”.</li>

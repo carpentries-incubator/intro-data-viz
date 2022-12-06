@@ -279,7 +279,8 @@
 <ul><li>identify data types as discrete, continuous, or categorical</li>
 <li>interpret and describe the message in four common chart types</li>
 <li>illustrate the message of four common chart types</li>
-<li>use a flow diagram to choose a chart type to communicate your message</li>
+<li>use a flow diagram to choose a chart type to communicate your
+message</li>
 </ul></div>
 </div>
 </div>
@@ -289,12 +290,48 @@
 </h2>
 <hr class="half-width"></section><section id="data-types"><h2 class="section-heading">Data Types<a class="anchor" aria-label="anchor" href="#data-types"></a>
 </h2>
-<hr class="half-width"><p>Charts communicate a message about data that is dependent on the type of data. Data scientists differ on the number of different data types, with some describing as many as 14 unique types. For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical. You can always dig in the finer divisions of these three latter to learn more.</p>
-<p>Discrete data are data that can take on a limited range of values but have some quantitative information in those values. For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best. The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited. Yet, this ranking system still conveys useful information and when your ranking is aggregated with other rankings of fellow users confidence in these rankings increases.</p>
-<p>** As a general guideline, let’s define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32). Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved. In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come measurement precise, lower is better but not necessarily useful.</p>
-<p>As the number unique data values increases beyond 30 the data are characterized as continuous data. When you measure the length of something with meter stick or ruler you are likely generating continuous data. That is as long as the group of objects you are measuring range in length by more than 30 of the smallest tick marks on the stick. Or the objects could in theory range by more.</p>
-<p>On the over extreme of limited unique values are categorical data. Categorical data do not represent quantitative information but qualitative data (i.e., information that is not a number, but a descriptive property of the system of interest). Experimental treatments like vaccine vs. placebo in clinical trials or fertilizer vs. no fertilizer effects on crop production are examples of categorical data. Categorical data can take on many different values and can sometimes contain organization structure that appear to cross over to being discrete.</p>
-<figure>To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015 <img src="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258" alt="A continental scale trophic cascade from wolves through coyotes to foxes" class="figure mx-auto d-block">. (Give a brief summary of the paper and the data)</figure><div id="challenge1" class="callout challenge">
+<hr class="half-width"><p>Charts communicate a message about data that is dependent on the type
+of data. Data scientists differ on the number of different data types,
+with some describing as many as 14 unique types. For this lesson we will
+keep the number of data types limited to three: discrete, continuous,
+and categorical. You can always dig in the finer divisions of these
+three latter to learn more.</p>
+<p>Discrete data are data that can take on a limited range of values but
+have some quantitative information in those values. For example, four
+out of five stars on your favorite restaurant review websites or apps
+tells you that the ranking was better than three stars but not the best.
+The values of the ranking you give to the restaurant could only be
+1,2,3,4, or 5, thus quite limited. Yet, this ranking system still
+conveys useful information and when your ranking is aggregated with
+other rankings of fellow users confidence in these rankings
+increases.</p>
+<p>** As a general guideline, let’s define discrete data as any data
+that can take a value of no more than 30 unique values but more than 2
+values (e.g., 3-32). Thirty is an arbittary value, but it is based on
+the precise of the measurements that can be achieved. In a discrete
+scale of 30 unique possibilities the maximum precision is 3.3% (1/30).
+Remember when it come measurement precise, lower is better but not
+necessarily useful.</p>
+<p>As the number unique data values increases beyond 30 the data are
+characterized as continuous data. When you measure the length of
+something with meter stick or ruler you are likely generating continuous
+data. That is as long as the group of objects you are measuring range in
+length by more than 30 of the smallest tick marks on the stick. Or the
+objects could in theory range by more.</p>
+<p>On the over extreme of limited unique values are categorical data.
+Categorical data do not represent quantitative information but
+qualitative data (i.e., information that is not a number, but a
+descriptive property of the system of interest). Experimental treatments
+like vaccine vs. placebo in clinical trials or fertilizer vs. no
+fertilizer effects on crop production are examples of categorical data.
+Categorical data can take on many different values and can sometimes
+contain organization structure that appear to cross over to being
+discrete.</p>
+<figure>To discuss these data types and later decide what charts to make and
+how to make them (Episode 3) we are going use a long-term dataset
+collected on the canids of North America. The data are presented in
+Newsome and Ripple 2015 <img src="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258" alt="A continental scale trophic cascade from wolves through coyotes to foxes" class="figure mx-auto d-block">.
+(Give a brief summary of the paper and the data)</figure><div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -302,7 +339,8 @@
 <h3 class="callout-title">Challenge 1<a class="anchor" aria-label="anchor" href="#challenge1"></a>
 </h3>
 <div class="callout-content">
-<p>Choose the answer that most closely reflects your opinion. Data visualization is for ____.</p>
+<p>Choose the answer that most closely reflects your opinion. Data
+visualization is for ____.</p>
 <ol style="list-style-type: lower-alpha"><li>scientists</li>
 <li>everyone</li>
 <li>formal reports</li>
@@ -317,7 +355,7 @@
   Output
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><code>b) everyone!</code></p>
 </div>
@@ -329,7 +367,8 @@
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="challenge-2-pair-the-data-type-names-with-the-examples" class="callout-inner">
-<h3 class="callout-title">Challenge 2: Pair the data type names with the examples<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Challenge 2: Pair the data type names with the
+examples<a class="anchor" aria-label="anchor" href="#challenge2"></a>
 </h3>
 <div class="callout-content">
 <table class="table"><thead><tr class="header"><th>Data Types</th>
@@ -350,7 +389,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>-&gt; b</li>
 <li>-&gt; a</li>
@@ -364,21 +403,40 @@
 <hr class="half-width"><p>Comparison Composition Distribution Relationships</p>
 </section><section id="identify-the-message"><h2 class="section-heading">Identify the message<a class="anchor" aria-label="anchor" href="#identify-the-message"></a>
 </h2>
-<hr class="half-width"><figure>What is the message of this graph?<br><img src="fig/compositionPlot.png" alt="Figure ? Pie chart of the abundance of canids are fox or coyote" class="figure mx-auto d-block">{On average across North America throughout the collection period foxes made up 7?% and Coyotes made up 2?% of the canids} Write, pair, and share (if possible).</figure><figure>What is the message of this graph?<br><img src="fig/comparisonPlot.png" alt="Figure ? Fox populations before Jan 1, 1970 were greater than after 1970" class="figure mx-auto d-block">{North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after} Discuss message as a group</figure><figure>What is the message of this graph?<br><img src="fig/distributionPlot.png" alt="Figure ? Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units" class="figure mx-auto d-block">{Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units} Discuss message as a group</figure><figure>What is the message of this graph?<br><img src="fig/relationshipPlot.png" alt="Figure ? Fox populations tended to decrease as Coyote populations increased" class="figure mx-auto d-block">{NEED BETTER DESCRIPTION} Discuss message as a group</figure></section><section id="describe-the-message"><h2 class="section-heading">Describe the message<a class="anchor" aria-label="anchor" href="#describe-the-message"></a>
+<hr class="half-width"><figure>What is the message of this graph?<br><img src="fig/compositionPlot.png" alt="Figure ? Pie chart of the abundance of canids are fox or coyote" class="figure mx-auto d-block">{On
+average across North America throughout the collection period foxes made
+up 7?% and Coyotes made up 2?% of the canids} Write, pair, and share (if
+possible).</figure><figure>What is the message of this graph?<br><img src="fig/comparisonPlot.png" alt="Figure ? Fox populations before Jan 1, 1970 were greater than after 1970" class="figure mx-auto d-block">{North
+American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and
+2062 after} Discuss message as a group</figure><figure>What is the message of this graph?<br><img src="fig/distributionPlot.png" alt="Figure ? Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units" class="figure mx-auto d-block">{Coyote
+populations in Maine ranged from zero to 2741 throughout the collections
+period and had a median of 1393 and mean of 1296 units} Discuss message
+as a group</figure><figure>What is the message of this graph?<br><img src="fig/relationshipPlot.png" alt="Figure ? Fox populations tended to decrease as Coyote populations increased" class="figure mx-auto d-block">{NEED
+BETTER DESCRIPTION} Discuss message as a group</figure></section><section id="describe-the-message"><h2 class="section-heading">Describe the message<a class="anchor" aria-label="anchor" href="#describe-the-message"></a>
 </h2>
-<hr class="half-width"><p>What are the basic components of each of the above’s message? So replace the nouns with a noun from your field of study. Does the message still make sense?</p>
+<hr class="half-width"><p>What are the basic components of each of the above’s message? So
+replace the nouns with a noun from your field of study. Does the message
+still make sense?</p>
 </section><section id="illustrate-the-message"><h2 class="section-heading">Illustrate the message<a class="anchor" aria-label="anchor" href="#illustrate-the-message"></a>
 </h2>
-<hr class="half-width"><p>In a drawing application of your choice (including pencil and paper), draw a chart that matches the following descriptions.</p>
-<ol style="list-style-type: decimal"><li>The presence of wolves promoted fox abundance more than coyote abundance in the 1980s.</li>
-<li>Higher mean annual air temperature decreased the ratio of foxes to coyotes across North America.</li>
+<hr class="half-width"><p>In a drawing application of your choice (including pencil and paper),
+draw a chart that matches the following descriptions.</p>
+<ol style="list-style-type: decimal"><li>The presence of wolves promoted fox abundance more than coyote
+abundance in the 1980s.</li>
+<li>Higher mean annual air temperature decreased the ratio of foxes to
+coyotes across North America.</li>
 <li>Overall fox abundance has a log-normal distribution.<br></li>
-<li>The proportion of all canids that are coyote increases from eastern to western locations.</li>
+<li>The proportion of all canids that are coyote increases from eastern
+to western locations.</li>
 </ol></section><section id="use-a-flow-chart-to-choose-a-chart-for-your-message"><h2 class="section-heading">Use a flow chart to choose a chart for your message<a class="anchor" aria-label="anchor" href="#use-a-flow-chart-to-choose-a-chart-for-your-message"></a>
 </h2>
-<hr class="half-width"><figure>The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data. <img src="fig/chart_chooser.png" alt="The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data." class="figure mx-auto d-block"></figure><div class="section level3">
+<hr class="half-width"><figure>The chart chooser graphic is an informative tool to help you decide
+what chart types are appropriate for your message and data. <img src="fig/chart_chooser.png" alt="The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data." class="figure mx-auto d-block"></figure><div class="section level3">
 <h3 id="optional-exercise">Optional Exercise<a class="anchor" aria-label="anchor" href="#optional-exercise"></a></h3>
-<p>Find a chart from your field of interest. It can be from a book, on-line or even hand drawn. Using the chart chooser to decide what type of message is being conveyed in the chart. Also, what are the data types presented in the chart?</p>
+<p>Find a chart from your field of interest. It can be from a book,
+on-line or even hand drawn. Using the chart chooser to decide what type
+of message is being conveyed in the chart. Also, what are the data types
+presented in the chart?</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -387,10 +445,13 @@
 <h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
-<ul><li>Identifying the data type helps to narrow the choices of available charts for to convey your message.</li>
+<ul><li>Identifying the data type helps to narrow the choices of available
+charts for to convey your message.</li>
 <li>Charts convey messages with interchangeable nouns and verbs.</li>
-<li>Comparison, composition, distribution, and relationships are four very common messages in charts.</li>
-<li>Practice with linking chart types with data types is a valuable skill</li>
+<li>Comparison, composition, distribution, and relationships are four
+very common messages in charts.</li>
+<li>Practice with linking chart types with data types is a valuable
+skill</li>
 </ul></div>
 </div>
 </div>
