@@ -46,18 +46,11 @@ This workflow has two caches; one cache is for the lesson infrastructure and
 the other is for the the lesson dependencies if the lesson contains rendered
 content. These caches are invalidated by new versions of the infrastructure and
 the `renv.lock` file, respectively. If there is a problem with the cache, 
-manual invaliation is necessary and can be done by setting the `CACHE_VERSION`
-secret to the current date.
-
-### Deploy to AWS (deploy-aws.yaml)
-
-If you have an AWS bucket that is set up to deploy the site from a folder, this
-workflow will deploy the site to that folder after `01 Build and Deploy` runs.
-It can also be triggered manually.
-
-Note: for this to work, you must have the `AWS_S3_BUCKET`, `AWS_ACCESS_KEY_ID`,
-and `AWS_SECRET_ACCESS_KEY` in your repository secrets. If any of these are
-missing, the workflow will not run.
+manual invaliation is necessary. You will need maintain access to the repository
+and you can either go to the actions tab and [click on the caches button to find
+and invalidate the failing cache](https://github.blog/changelog/2022-10-20-manage-caches-in-your-actions-workflows-from-web-interface/) 
+or by setting the `CACHE_VERSION` secret to the current date (which will
+invalidate all of the caches).
 
 ## Updates
 
@@ -96,24 +89,25 @@ will do the following:
 1. check the recorded version of sandpaper against the current version on github
 2. update the files if there is a difference in versions
 
-After the files are updated, a pull request is created if there are any changes.
-Maintainers are encouraged to review the changes and accept the pull request.
+After the files are updated, if there are any changes, they are pushed to a
+branch called `update/workflows` and a pull request is created. Maintainers are
+encouraged to review the changes and accept the pull request if the outputs
+are okay.
 
 This update is run ~~weekly or~~ on demand.
-
-TODO: 
-  - perform check if a pull request exists before creating pull request
 
 ### 03 Maintain: Update Pacakge Cache (update-cache.yaml)
 
 For lessons that have generated content, we use {renv} to ensure that the output
 is stable. This is controlled by a single lockfile which documents the packages
-needed for the lesson and the version numbers.
+needed for the lesson and the version numbers. This workflow is skipped in 
+lessons that do not have generated content.
 
 Because the lessons need to remain current with the package ecosystem, it's a
 good idea to make sure these packages can be updated periodically. The 
-update cache workflow will do this by checking for updates, applying them and
-creating a pull request with _only the lockfile changed_. 
+update cache workflow will do this by checking for updates, applying them in a
+branch called `updates/packages` and creating a pull request with _only the
+lockfile changed_. 
 
 From here, the markdown documents will be rebuilt and you can inspect what has
 changed based on how the packages have updated. 
