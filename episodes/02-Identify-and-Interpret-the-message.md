@@ -99,7 +99,8 @@ Relationships
 ## Identify the message  
 
 What is the message of this graph?  
-![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png){On average across North America throughout the collection period foxes made up 7?% and Coyotes made up 2?% of the canids}
+![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/02-compositionPlot.png)
+{On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
 Write, pair, and share (if possible).
 
 What is the message of this graph?  
