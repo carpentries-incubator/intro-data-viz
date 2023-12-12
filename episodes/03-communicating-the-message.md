@@ -6,7 +6,7 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-1. What is the important aspects of a dataset you want to communicate?
+1. What are the important aspects of a dataset you want to communicate?
 2. What is the best visualization type for a particular dataset?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -25,14 +25,14 @@ This chapter will use the knowledge you have gained and apply it to generate gra
 
 1. There are a multitude of software tools that can help generate charts for you.
 2. All software tools have the strengths and weaknesses. There is no best tool for all tasks or all users.
-3. For this lessen we will be using google sheets. For our purposes this tool has some important advantages.
+3. For this lessen we will be using Google Sheets. For our purposes this tool has some important advantages.
     1. The software is freely available online.
-    2. The software works similarly regardless of the users operating system
+    2. The software works similarly regardless of the user's operating system
     3. The software is interacted primarily through a graphical interface that can make it more intuitive to new users.
 
 :::: instructor
 
-Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but has other advantages such as improved reproducibility. 
+Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but haves other advantages such as improved reproducibility. 
 
 ::::
 
@@ -41,7 +41,7 @@ We need to import our canid data into google sheets. Our data is currently store
 
 [Your Data](data/canids.tsv)
 
-To import this into google sheets you first need to go to the website [](https://docs.google.com/spreadsheets/). It will prompt you to log into a google account. You will need to use a google account to use google sheets, but if you do not have one, they are free [Google Account Sign-up](https://accounts.google.com/signup/v2/webcreateaccount?biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&hl=en).
+To import this into Google Sheets you first need to go to the [website]. (https://docs.google.com/spreadsheets/). It will prompt you to log into a Google account. You will need to use a Google account to use Google Sheets, but if you do not have one, they are free [Google Account Sign-up](https://accounts.google.com/signup/v2/webcreateaccount?biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&hl=en).
 
 While there you will want to create a new blank spreadsheet.
 
@@ -82,17 +82,17 @@ Also, tidy data is organized so that:
 
 ## Lets Make a Chart
 
-For our first chart lets show the relationship of the counts of coyotes over time. To generate a blank chart we will need to click on the insert menu and select chart.
+For our first chart let's show the relationship of the counts of coyotes over time. We need to pick our first data series. This will become our y-axis data. Let's pick the count of coyotes so we can compare the coyote counts over time. We can start by selecting  Column B in the spreadsheet.
 
-![Figure 3.6](fig/03-new_chart_insert.png){alt='new chart insert menu'}
+![Figure 3.6](fig/03-select_coyotes.png){alt='select Coyote column'}
 
-We now have a blank chart and the chart editor window has opened. Here we will want to start specifying our data. Lets start with our chart type . Select line from the dropdown menu. 
+Our next step is to turn the data we selected into a chart. Using the Insert menu, select Insert Chart. 
 
-![Figure 3.7](fig/03-new_chart_type.png){alt='new chart type menu'}
+![Figure 3.7](fig/03-insert_chart.png){alt='insert chart type menu'}
 
-We need to pick our first data series. This will become our y-axis data. Lets pick the count of coyotes. Click on the add series button below the Series heading. This will automatically open the Select data range menu if its empty. If you happened to already have a data series selected for you. Click on the field below the Series heading and this should open a menu with a search field on the right with a rectangular grid icon on the left. Clicking that grid will open the Select data range menu. Once the Select data range menu is open you can select column B "Coyote". Click ok when your done.
+The Insert Chart command will result in a default chart which might or might not communicate anything useful to us. There are a few steps we need to do to get a chart that better shows our data. We can specify the data for our x -axis. With the Chart Editor open, we can select the type of chart we want, such as a line graph, and add an X-axis.
 
-![Figure 3.8](fig/03-new_chart_coyote2.png){alt='new chart type coyote'}
+![Figure 3.8](fig/03-default_chart.png){alt='new chart type coyote'}
 
 We can now specify the data for our x -axis. Once the Select data range menu is open, you can click the top of the column named `Year` in your table to set `Year` as our second data series. Now click on the x-axis field and you will see you have two options. The window may not automatically list our columns by name, just remember that our year data is in column F and select the appropriate entry (likely `F1:F4681`). Go ahead and set you x-axis. You will need to remove year from the data series list by clicking the three dot icon next to it's series entry and selecting remove.
 
