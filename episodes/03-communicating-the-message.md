@@ -37,7 +37,7 @@ Other tools can have many advantages as well. Certain software which use a comma
 ::::
 
 ## Importing your Data
-We need to import our canid data into google sheets. Our data is currently stored as tab separated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
+We need to import our canid data into Google Sheets. Our data is currently stored as tab separated values, otherwise known as a tsv file. This is a simple text file. Each line of the file represents a new line in a table. The values in each column of the table appear in sequence separated by a tab character. Generally tsv tables have the limitation that you can't store any values in a table that also has a tab character. If you haven't already, go ahead and download the canid data now. 
 
 [Your Data](data/canids.tsv)
 
@@ -47,15 +47,15 @@ While there you will want to create a new blank spreadsheet.
 
 ![Figure 3.1](fig/03-new_google_sheet_circled.png){alt='new google sheet'}
 
-Then navigate to the file menu and select "Import".
+Then navigate to the 'File' menu and select 'Import'.
 
 ![Figure 3.2](fig/03-new_google_sheet_import.png){alt='google sheet import'}
 
-Select the "Upload" tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click "Select a file from your device" if you prefer to navigate to your file.
+Select the 'Upload' tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click 'Browse' if you prefer to navigate to your file.
 
 ![Figure 3.3](fig/03-new_google_sheet_upload.png){alt='google sheet upload'}
 
-Tab seperated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to "Tab".
+Tab separated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to 'Tab'.
 
 ![Figure 3.4](fig/03-new_google_sheet_file.png){alt='google sheet file type'}
 
