@@ -102,12 +102,12 @@ Relationships
 ## Identify the message  
 
 What is the message of this graph?  
-![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/02-compositionPlot.png)
+![Figure 2.1 Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png)
 {On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
 Write, pair, and share (if possible).
 
 What is the message of this graph?  
-![Figure ? Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
+![Figure 2.2 Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
 Discuss message as a group
 
 What is the message of this graph?  
