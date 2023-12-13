@@ -47,15 +47,15 @@ While there you will want to create a new blank spreadsheet.
 
 ![Figure 3.1](fig/03-new_google_sheet_circled.png){alt='new google sheet'}
 
-Then navigate to the 'File' menu and select 'Import'.
+Then navigate to the `File` menu and select `Import`.
 
 ![Figure 3.2](fig/03-new_google_sheet_import.png){alt='google sheet import'}
 
-Select the 'Upload' tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click 'Browse' if you prefer to navigate to your file.
+Select the `Upload` tab on the new window. Here you can drag and drop you canids.tsv onto the window. You can also click 'Browse' if you prefer to navigate to your file.
 
 ![Figure 3.3](fig/03-new_google_sheet_upload.png){alt='google sheet upload'}
 
-Tab separated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to 'Tab'.
+Tab separated files are well supported on Google Sheets, and the default import options should be fine. If your have issues you could try setting the selector type to `Tab`.
 
 ![Figure 3.4](fig/03-new_google_sheet_file.png){alt='google sheet file type'}
 
@@ -86,27 +86,29 @@ For our first chart let's show the relationship of the counts of coyotes over ti
 
 ![Figure 3.6](fig/03-select_coyotes.png){alt='select Coyote column'}
 
-Our next step is to turn the data we selected into a chart. Using the Insert menu, select Insert Chart. 
+Our next step is to turn the data we selected into a chart. Using the `Insert` menu, select `Insert Chart`. 
 
 ![Figure 3.7](fig/03-insert_chart.png){alt='insert chart type menu'}
 
-The Insert Chart command will result in a default chart which might or might not communicate anything useful to us. 
+The `Insert Chart` command will result in a default chart which might or might not communicate anything useful to us. 
 
 ![Figure 3.8](fig/03-default_chart.png){alt='new chart'}
 
-There are a few steps we need to do to get a chart that better shows our data. We can specify the data for our x -axis. With the Chart Editor open, we can select the type of chart we want, such as a line graph, and add an X-axis.
+There are a few steps we need to do to get a chart that better shows our data. we can specifiy that we want a line graph. 
 
 ![Figure 3.9](fig/03-chart_thumbnails.png){alt='select line chart type'}
 
-Once the Select data range menu is open, you can click the top of the column named Year in your table to set Year as our data for the X-axis.
+We can specify the data for our x -axis. With the Chart Editor open, we can select the type of chart we want, such as a line graph, and add an X-axis. 
 
 ![Figure 3.10](fig/03-add_x_axis.png){alt='add X-axis'}
+
+Once the Select data range menu is open, you can click the top of the column named Year in your table to set Year as our data for the X-axis.
 
 ![Figure 3.11](fig/03-select_years_column.png){alt='add X-axis data from Years column'}
 
 ![Figure 3.12](fig/03-default_years_chart.png){alt='new graph with X-axis data'}
 
-Something doesn’t look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Lets try plotting the average (arithmetic mean) counts of coyotes instead. Click the aggregate checkbox for the X-axis.
+Something doesn’t look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Lets try plotting the average (arithmetic mean) counts of coyotes instead. Click the `Aggregate` checkbox for the X-axis.
 
 ![Figure 3.13](fig/03-aggregated_x-axis.png){alt='add X-axis'}
 
@@ -121,7 +123,7 @@ Our years are not in order! The years are plotted in the order they appeared on 
 
 ![Figure 3.16](fig/03-new_chart_select.png){alt='new chart type select all'}
 
-You should now see downward facing triangles on each column heading. Click on the icons next to the year column and then select the Select the column year. Now from the data menu select sort sheet -> Sort sheet by column F (A-Z). 
+You should now see downward facing triangles on each column heading. Click on the icons next to the year column and then select the Select the column year. Now from the `Data` menu select `Sort sheet -> Sort sheet by column F (A-Z)`. 
 
 ![Figure 3.17](fig/03-new_chart_sort.png){alt='new chart type sort'}
 
