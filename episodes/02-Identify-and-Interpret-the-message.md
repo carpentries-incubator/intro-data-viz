@@ -90,6 +90,9 @@ d) economists
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Turning Data into Charts
+
+We can think of turning data into charts as a process of transforming the data into a visual form. The visual form that we choose will be impacted by the type of data, and what kind of messages we want to be able to see, or to show others with the visualization.
 
 
 ## Four Common Chart Types
