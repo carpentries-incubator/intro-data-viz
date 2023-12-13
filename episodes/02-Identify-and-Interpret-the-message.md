@@ -42,7 +42,7 @@ Variables can be categorized without any inherent order or ranking, such as type
 The distinctions between discrete and continuous data can vary, depending on the level of precision of the measurements being taken. For this lesson, as a general guideline when we look at data and example visualizations, let’s define discrete data as data with measurements in whole numbers, such as counts, and continuous data as data that has measurements in decimal values.
 To discuss these data types and later decide what charts to make and how to make them we are going to use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015. The paper has an analysis of fur return data in multiple locations in North America to test whether the presence or absence of wolves caused a shift in coyote and red fox density across the continent. Brief summary of findings are that without wolves in an area, coyotes outnumber red foxes. In areas with wolves, red foxes outnumber coyotes. And there is a transition zone of 200 km on the edge of a wolf distribution area where the effect is weakened.
 
-The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258). 
+ ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258). 
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -104,7 +104,8 @@ Relationships
 
 ## Identify the message  
 
-What is the message of this graph?  
+What is the message of this graph? First, consider what the graph is and how the structure works. What type of graph is this and what is the structure? What aspect of the graph communicates categories, and what aspect communicates quantity? What message(s) can can take from this graph? What might the graph designer have done to make the message more clear?
+ 
 ![Figure 2.1 Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png)
 {On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
 Write, pair, and share (if possible).
@@ -114,11 +115,11 @@ What is the message of this graph?
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure ? Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units ](fig/distributionPlot.png){Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units}
+![Figure 2.3 Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units ](fig/distributionPlot.png){Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units}
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure ? Fox populations tended to decrease as Coyote populations increased](fig/relationshipPlot.png){NEED BETTER DESCRIPTION}
+![Figure 2.4 Fox populations tended to decrease as Coyote populations increased](fig/relationshipPlot.png){NEED BETTER DESCRIPTION}
 Discuss message as a group
 
 ## Describe the message  
@@ -127,7 +128,7 @@ What are the basic components of each of the above's message? So replace the nou
 
 ## Illustrate the message  
 
-In a drawing application of your choice (including pencil and paper), draw a chart that matches the following descriptions.
+Using pencil and paper, or a drawing application of your choice, think about the data elements that would help communicate these messages, and draft one ore more charts that match the following descriptions. Data visualization works well as an iterative process. You can experiement with different chart types.
 
 1. The presence of wolves promoted fox abundance more than coyote abundance in the 1980s.
 2. Higher mean annual air temperature decreased the ratio of foxes to coyotes across North America.
@@ -138,8 +139,9 @@ In a drawing application of your choice (including pencil and paper), draw a cha
  
 ## Use a flow chart to choose a chart for your message  
 
-The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.
-![The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.](fig/chart_chooser.png)
+The Chart Chooser guide is an informative tool to help you consider what chart types are appropriate for your data and message.
+
+![The chart chooser graphic is an informative tool to help you consider what chart types are appropriate for your data and message.](fig/chart_chooser.png)
 
 ### Optional Exercise  
 Find a chart from your field of interest.  It can be from a book, on-line or even hand drawn.  Using the chart chooser to decide what type of message is being conveyed in the chart.  Also, what are the data types presented in the chart?
