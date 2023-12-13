@@ -40,11 +40,10 @@ Categorical data do not represent quantitative information but qualitative data 
 Variables can be categorized without any inherent order or ranking, such as types of fruits (apple, orange, banana). Or the variables may be ordered with a meaningful ranking such as Olympic medals (Gold, Silver, Bronze) but the intervals between categories aren’t expected to be uniform or measurable.  Categorical data is often used for labeling and classification purposes, and statistical operations such as counting and mode are appropriate. 
 
 The distinctions between discrete and continuous data can vary, depending on the level of precision of the measurements being taken. For this lesson, as a general guideline when we look at data and example visualizations, let’s define discrete data as data with measurements in whole numbers, such as counts, and continuous data as data that has measurements in decimal values.
-To discuss these data types and later decide what charts to make and how to make them we are going to use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015. The paper has an analysis of fur return data in multiple locations in North America to test whether the presence or absence of wolves caused a shift in coyote and red fox density across the continent. Brief summary of findings are that without wolves in an area, coyotes outnumber red foxes. In areas with wolves, red foxes outnumber coyotes. And there is a transition zone of 200 km on the edge of a wolf distribution area where the effect is weakened.
-
- ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258). 
+To discuss these data types and later decide what charts to make and how to make them we are going to use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015. [^1]: The paper has an analysis of fur return data in multiple locations in North America to test whether the presence or absence of wolves caused a shift in coyote and red fox density across the continent. Brief summary of findings are that without wolves in an area, coyotes outnumber red foxes. In areas with wolves, red foxes outnumber coyotes. And there is a transition zone of 200 km on the edge of a wolf distribution area where the effect is weakened.
 
 
+[^1]: Newsome, Thomas M., and William J. Ripple. "A continental scale trophic cascade from wolves through coyotes to foxes." Journal of Animal Ecology 84.1 (2015): 49-59. (https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
@@ -106,12 +105,12 @@ Relationships
 
 What is the message of this graph? First, consider what the graph is and how the structure works. What type of graph is this and what is the structure? What aspect of the graph communicates categories, and what aspect communicates quantity? What message(s) can can take from this graph? What might the graph designer have done to make the message more clear?
  
-![Figure 2.1 Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png)
+![Figure 2.1](fig/compositionPlot.png) {alt='Pie chart of the abundance of canids are fox or coyote'}
 {On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
 Write, pair, and share (if possible).
 
 What is the message of this graph?  
-![Figure 2.2 Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
+![Figure 2.2] Fox populations before Jan 1, 1970 were greater than after 1970 (fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
 Discuss message as a group
 
 What is the message of this graph?  
