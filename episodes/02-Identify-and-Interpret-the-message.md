@@ -106,11 +106,12 @@ Relationships
 What is the message of this graph? First, consider what the graph is and how the structure works. What type of graph is this and what is the structure? What aspect of the graph communicates categories, and what aspect communicates quantity? What message(s) can can take from this graph? What might the graph designer have done to make the message more clear?
  
 ![Figure 2.1](fig/compositionPlot.png) {alt='Pie chart of the abundance of canids are fox or coyote'}
-{On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
+On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids
 Write, pair, and share (if possible).
 
 What is the message of this graph?  
-![Figure 2.2] Fox populations before Jan 1, 1970 were greater than after 1970 (fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
+![Figure 2.2](fig/comparisonPlot.png) {alt='Graph: Fox populations before Jan 1, 1970 were greater than after 1970 {North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after'}
+Fox populations before Jan 1, 1970 were greater than after 1970 {North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after.}
 Discuss message as a group
 
 What is the message of this graph?  
