@@ -94,11 +94,11 @@ The `Insert Chart` command will result in a default chart which might or might n
 
 ![Figure 3.8](fig/03-default_chart.png){alt='new chart'}
 
-There are a few steps we need to do to get a chart that better shows our data. we can specifiy that we want a line graph. 
+There are a few steps we need to do to get a chart that better shows our data. With the Chart Editor open, we can select the type of chart we want, such as a line graph. 
 
 ![Figure 3.9](fig/03-chart_thumbnails.png){alt='select line chart type'}
 
-We can specify the data for our x -axis. With the Chart Editor open, we can select the type of chart we want, such as a line graph, and add an X-axis. 
+We can add  X-axis values. . 
 
 ![Figure 3.10](fig/03-add_x_axis.png){alt='add X-axis'}
 
