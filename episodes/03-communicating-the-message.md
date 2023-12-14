@@ -107,15 +107,12 @@ Once the Select data range menu is open, you can click the top of the column nam
 ![Figure 3.11](fig/03-select_years_column.png){alt='add X-axis data from Years column'}
 
 
-![Figure 3.13](fig/03-aggregated_x-axis.png){alt='add X-axis'}
-
 ![Figure 3.12](fig/03-default_years_chart.png){alt='new graph with X-axis data'}
 
-Something doesn’t look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Lets try plotting the average (arithmetic mean) counts of coyotes instead. Click the `Aggregate` checkbox for the X-axis.
+Something doesn’t look right. Our line chart seems to be jumping back and forth at each year. If you look at the table you will notice that for every year value we have multiple rows. By default the chart is plotting every row as an independent point, so we have multiple points at every year. Is that really what we want to show? It might be better to show some aggregate value for each year. That would mean a simpler chart and a simpler message. Click the `Aggregate` checkbox for the X-axis.
 
+![Figure 3.13](fig/03-aggregated_x-axis.png){alt='aggregate X-axis'}
 
-
-Something doesn't look right. Our line chart seems to be jumping back and forth at each year. 
 ![Figure 3.14](fig/03-new_chart_year.png){alt='new chart type year remove'}
 
 
