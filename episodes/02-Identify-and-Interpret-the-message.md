@@ -116,7 +116,7 @@ Discuss message as a group
 
 What is the message of this graph?  
 ![Figure 2.3] (fig/distributionPlot.png) {alt='Graph of Fox populations before and after Jan 1, 1970'}
-{Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units. Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units}
+{Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units.}
 Discuss message as a group
 
 What is the message of this graph?  
