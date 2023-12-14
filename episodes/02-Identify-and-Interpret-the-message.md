@@ -126,7 +126,7 @@ Discuss message as a group
 
 ## Describe the message  
 
-What are the basic components of each of the above's message? So replace the nouns with a noun from your field of study.  Does the message still make sense?   
+What are the basic components of each of the above's message? try replacing the nouns with a noun from your field of study.  Does the message still make sense?   
 
 ## Illustrate the message  
 
