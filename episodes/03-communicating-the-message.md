@@ -113,23 +113,20 @@ Something doesn’t look right. Our line chart seems to be jumping back and fort
 
 ![Figure 3.13](fig/03-aggregated_x-axis.png){alt='aggregate X-axis'}
 
-![Figure 3.14](fig/03-new_chart_year.png){alt='new chart type year remove'}
-
-
 That looks better, but can you see another issue? Look closely.
-![Figure 3.15](fig/03-new_chart_error.png){alt='new chart type error'}
+![Figure 3.14](fig/03-new_chart_error.png){alt='new chart type error'}
 
 Our years are not in order! The years are plotted in the order they appeared on our table. One simple way to solve this is to reorder our table. There are a few different tools you can use, but creating a filter for you table has a few advantages. First it automatically sets your first row as headings, this means when you sort your table the headings always stay at the top. Secondly we can order the table on the fly by simply clicking on a heading. To set this up select the entire table first. This can either be done using the keyboard shortcut of `ctrl-a` or by clicking on the upper leftmost square in your table This is the rectange above the row `1` label and to the left of the column `A` label. Next select the `Create a Filter` entry in `Data` menu. 
 
-![Figure 3.16](fig/03-new_chart_select.png){alt='new chart type select all'}
+![Figure 3.15](fig/03-new_chart_select.png){alt='new chart type select all'}
 
 You should now see downward facing triangles on each column heading. Click on the icons next to the year column and then select the Select the column year. Now from the `Data` menu select `Sort sheet -> Sort sheet by column F (A-Z)`. 
 
-![Figure 3.17](fig/03-new_chart_sort.png){alt='new chart type sort'}
+![Figure 3.16](fig/03-new_chart_sort.png){alt='new chart type sort'}
 
 Now that our data is sorted our chart should show our data in chronological order.
 
-![Figure 3.18](fig/03-new_chart_final.png){alt='new chart type final'}
+![Figure 3.17](fig/03-new_chart_final.png){alt='new chart type final'}
 
 :::: keypoints 
 
