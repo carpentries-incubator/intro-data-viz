@@ -32,7 +32,7 @@ This chapter will use the knowledge you have gained and apply it to generate gra
 
 :::: instructor
 
-Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but haves other advantages such as improved reproducibility. 
+Other tools can have many advantages as well. Certain software which use a command line interface may have a steeper learning curve, but has other advantages such as improved reproducibility. 
 
 ::::
 
@@ -41,7 +41,7 @@ We need to import our canid data into Google Sheets. Our data is currently store
 
 [Your Data](data/canids.tsv)
 
-To import this into Google Sheets you first need to go to the [website]. (https://docs.google.com/spreadsheets/). It will prompt you to log into a Google account. You will need to use a Google account to use Google Sheets, but if you do not have one, they are free [Google Account Sign-up](https://accounts.google.com/signup/v2/webcreateaccount?biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&hl=en).
+To import this into Google Sheets you first need to go to the [website] (https://docs.google.com/spreadsheets/). It will prompt you to log into a Google account. You will need to use a Google account to use Google Sheets, but if you do not have one, they are free [Google Account Sign-up](https://accounts.google.com/signup/v2/webcreateaccount?biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&hl=en).
 
 While there you will want to create a new blank spreadsheet.
 
