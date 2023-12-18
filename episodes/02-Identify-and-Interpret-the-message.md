@@ -28,20 +28,22 @@ After completing this episode you will be able to:
 ## Introduction
 
 ## Data Types  
-Charts communicate a message about data that is dependent on the type of data.  Data scientists differ on the number of different data types, with some describing as many as 14 unique types.  For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical.  You can always dig in the finer divisions of these three latter to learn more.
+Charts communicate a message about data that is dependent on the type of data. Data types matter both in terms of what types of statistical analyses, and what types of  visualization techniques are appropriate for the type of data you are working with.
 
-Discrete data are data that can take on a limited range of values but have some quantitative information in those values.  For example, four out of five stars on your favorite restaurant review websites or apps tells you that the ranking was better than three stars but not the best.  The values of the ranking you give to the restaurant could only be 1,2,3,4, or 5, thus quite limited.  Yet, this ranking system still conveys useful information and when your ranking is aggregated with other rankings of fellow users confidence in these rankings increases.  
+Data scientists differ on the number of different data types, with some describing as many as 14 unique types. For this lesson we will keep the number of data types limited to three: discrete, continuous, and categorical. There can be finer divisions, or different names of data types used in a discipline, but for this lesson we will stick with these three.
 
-**  As a general guideline, let's define discrete data as any data that can take a value of no more than 30 unique values but more than 2 values (e.g., 3-32).  Thirty is an arbittary value, but it is based on the precise of the measurements that can be achieved.  In a discrete scale of 30 unique possibilities the maximum precision is 3.3% (1/30). Remember when it come measurement precise, lower is better but not necessarily useful.
+Quantitative data involves numbers applied to measurable and quantifiable variables. We will consider two types of quantitative data in this lesson, discrete and continuous.
+Discrete data are data that consist of distinct and separate values, Often in whole numbers and used to measure discrete occurrences of a phenomenon. Examples include number of firefighters employed by a city, and number of cars sold at a dealership during a month.
+Continuous data can represent a range of values and can be measured by any real numbers within the range, including decimals and fractions. Used to measure phenomena that  occur and change in ways measured precisely over fractions of a unit. Examples include rainfall, height, and temperature.
 
-As the number unique data values increases beyond 30 the data are characterized as continuous data.  When you measure the length of something with meter stick or ruler you are likely generating continuous data.  That is as long as the group of objects you are measuring range in length by more than 30 of the smallest tick marks on the stick.  Or the objects could in theory range by more.  
+Categorical data do not represent quantitative information but qualitative data (i.e., information that is not a number, but a descriptive property of the system of interest, such as inclusion in a distinct  category). 
+Variables can be categorized without any inherent order or ranking, such as types of fruits (apple, orange, banana). Or the variables may be ordered with a meaningful ranking such as Olympic medals (Gold, Silver, Bronze) but the intervals between categories aren’t expected to be uniform or measurable.  Categorical data is often used for labeling and classification purposes, and statistical operations such as counting and mode are appropriate. 
 
-On the over extreme of limited unique values are categorical data.  Categorical data do not represent quantitative information but qualitative data (i.e., information that is not a number, but a descriptive property of the system of interest).  Experimental treatments like vaccine vs. placebo in clinical trials or fertilizer vs. no fertilizer effects on crop production are examples of categorical data.  Categorical data can take on many different values and can sometimes contain organization structure that appear to cross over to being discrete.
+The distinctions between discrete and continuous data can vary, depending on the level of precision of the measurements being taken. For this lesson, as a general guideline when we look at data and example visualizations, let’s define discrete data as data with measurements in whole numbers, such as counts, and continuous data as data that has measurements in decimal values.
+To discuss these data types and later decide what charts to make and how to make them we are going to use a long-term dataset collected on the canids of North America. The data are presented in Newsome and Ripple 2015. [^1]: The paper has an analysis of fur return data in multiple locations in North America to test whether the presence or absence of wolves caused a shift in coyote and red fox density across the continent. Brief summary of findings are that without wolves in an area, coyotes outnumber red foxes. In areas with wolves, red foxes outnumber coyotes. And there is a transition zone of 200 km on the edge of a wolf distribution area where the effect is weakened.
 
 
-To discuss these data types and later decide what charts to make and how to make them (Episode 3) we are going use a long-term dataset collected on the canids of North America.  The data are presented in Newsome and Ripple 2015 ![A continental scale trophic cascade from wolves through coyotes to foxes](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258).  (Give a brief summary of the paper and the data)
-
-
+[^1]: Newsome, Thomas M., and William J. Ripple. "A continental scale trophic cascade from wolves through coyotes to foxes." Journal of Animal Ecology 84.1 (2015): 49-59. (https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.12258)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
@@ -87,6 +89,9 @@ d) economists
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Turning Data into Charts
+
+We can think of turning data into charts as a process of transforming the data into a visual form. The visual form that we choose will be impacted by the type of data, and what kind of messages we want to be able to see, or to show others with the visualization.
 
 
 ## Four Common Chart Types
@@ -98,29 +103,34 @@ Relationships
 
 ## Identify the message  
 
-What is the message of this graph?  
-![Figure ? Pie chart of the abundance of canids are fox or coyote](fig/compositionPlot.png){On average across North America throughout the collection period foxes made up 7?% and Coyotes made up 2?% of the canids}
-Write, pair, and share (if possible).
+What is the message of this graph? First, consider what the graph is and how the structure works. What type of graph is this and what is the structure? What aspect of the graph communicates categories, and what aspect communicates quantity? What message(s) can can take from this graph? What might the graph designer have done to make the message more clear?
+ 
+![Figure 2.1](fig/compositionPlot.png) {alt='Pie chart of the abundance of canids are fox or coyote'}
+{On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
+
 
 What is the message of this graph?  
-![Figure ? Fox populations before Jan 1, 1970 were greater than after 1970](fig/comparisonPlot.png){North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after}
+![Figure 2.2](fig/comparisonPlot.png) {alt='Graph of Fox populations before and after Jan 1, 1970'}
+{Fox populations before Jan 1, 1970 were greater than after 1970 {North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after.}
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure ? Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units ](fig/distributionPlot.png){Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units}
+![Figure 2.3] (fig/distributionPlot.png) {alt='Graph of Fox populations before and after Jan 1, 1970'}
+{Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units.}
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure ? Fox populations tended to decrease as Coyote populations increased](fig/relationshipPlot.png){NEED BETTER DESCRIPTION}
+![Figure 2.4] (fig/relationshipPlot.png) {alt='Scatterplot of fox and coyote populations'}
+{Fox populations tended to decrease as Coyote populations increased}
 Discuss message as a group
 
 ## Describe the message  
 
-What are the basic components of each of the above's message? So replace the nouns with a noun from your field of study.  Does the message still make sense?   
+What are the basic components of each of the above's message? Try replacing the nouns with a noun from your field of study.  Does the message still make sense?   
 
 ## Illustrate the message  
 
-In a drawing application of your choice (including pencil and paper), draw a chart that matches the following descriptions.
+Using pencil and paper, or a drawing application of your choice, think about the data elements that would help communicate these messages, and draft one ore more charts that match the following descriptions. Data visualization works well as an iterative process. You can experiement with different chart types.
 
 1. The presence of wolves promoted fox abundance more than coyote abundance in the 1980s.
 2. Higher mean annual air temperature decreased the ratio of foxes to coyotes across North America.
@@ -131,8 +141,9 @@ In a drawing application of your choice (including pencil and paper), draw a cha
  
 ## Use a flow chart to choose a chart for your message  
 
-The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.
-![The chart chooser graphic is an informative tool to help you decide what chart types are appropriate for your message and data.](fig/chart_chooser.png)
+The Chart Chooser guide is an informative tool to help you consider what chart types are appropriate for your data and message.
+
+![The chart chooser graphic is an informative tool to help you consider what chart types are appropriate for your data and message.](fig/chart_chooser.png)
 
 ### Optional Exercise  
 Find a chart from your field of interest.  It can be from a book, on-line or even hand drawn.  Using the chart chooser to decide what type of message is being conveyed in the chart.  Also, what are the data types presented in the chart?
