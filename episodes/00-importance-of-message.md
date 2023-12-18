@@ -88,7 +88,7 @@ Learners who have less experience with tabular data may need more specific infor
 
 :::::::::::::::::::::::::::::::::
 
-[^2]: Wickham, H. 2014. “Tidy Data.” Journal of Statistical Software 59 (10). 10.18637/jss.v059.i10 [http://dx.doi.org/10.18637/jss.v059.i10](http://dx.doi.org/10.18637/jss.v059.i10)
+[^2]: Wickham, H. 2014. “Tidy Data.” Journal of Statistical Software 59 (10). 10.18637/jss.v059.i10 [https://doi.org/10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10)
 
 ### The role of tables
 
