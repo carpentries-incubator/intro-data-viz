@@ -223,7 +223,7 @@ Depending on time and your learners' interest, this definition of worse charts c
 
 ## Challenge: Practice choosing better charts
 
-For each chart use case, put the example charts in order from better to worse. Write a note to yourself about why you think one chart is better than another.
+Based on what you just learned about how different visual properties can be better or worse at facilitating accurate perception, look at the chart use cases below. For each chart use case, put the example charts in order from better to worse.
 
 ### Chart Use Case 1
 
@@ -242,6 +242,8 @@ In order from better to worse, the charts are:
 - Figure 2.13: 100% Bar Chart
 - Figure 2.11: 2D Pie Chart
 - Figure 2.12: 3D Pie Chart
+
+Depending on how much experience you've had with charts, your perception of which chart style is easiest to understand may differ from the advice on visual properties discussed above.
 
 :::::::::::::::::::::::::::::::::
 
@@ -263,13 +265,22 @@ In order from better to worse, the charts are:
 - Figure 2.16 2D Area chart
 - Figure 2.15 3D Line Chart
 
+Depending on how much experience you've had with charts, your perception of which chart style is easiest to understand may differ from the advice on visual properties discussed above.
+
 :::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: instructor
 
-In order to reinforce why one chart is better than another in the above challenge, have learners share their "whys" in the shared document or aloud during a brief discussion of the solutions. The correct answers correspond to the information in the section, "Better Visual Representations."
+To wrap up the challenge, have learners share whether and how their opinions about the charts in the two use cases differ from the advice on visual properties discussed in the lesson. 
+This can happen in the shared document or aloud during a brief discussion of the solutions. 
+The correct answers correspond to the information in the section, "Better Visual Representations."
+Any points of disagreement are good places to reinforce that: 
+
+- Data visualization is both art and science.
+- Previous experience with reading charts can influence which chart styles we expect for communicating specific kinds of information.
+  - For example, pie charts are often used to communicate part/whole information, but they may not be better for accurate perception, especially for many parts of one whole.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
