@@ -318,64 +318,69 @@ create and refine a chart. You will learn to craft messages about data
 and communicate those messages in charts. The principles applied to
 charts in this lesson can be applied to more complex data
 visualizations, but these are beyond the scope of this lesson.</p>
-</section><section id="data-sets"><h2 class="section-heading">Data Sets<a class="anchor" aria-label="anchor" href="#data-sets"></a>
+</section><section id="data-set"><h2 class="section-heading">Data Set<a class="anchor" aria-label="anchor" href="#data-set"></a>
 </h2>
-<hr class="half-width"><p>We will be using a publicly available dataset hosted on the <a href="https://datadryad.org/" class="external-link">dryad</a> repository. Download the <a href="https://datadryad.org/stash/downloads/file_stream/24074" class="external-link">wolves_coyotes_foxes_dataset</a>
-and unzip it to your Desktop.</p>
+<hr class="half-width"><p>In this lesson we will use a dataset about large North American
+canids: wolves, coyotes, and foxes[^1]. Public policy and scientific
+decisions have drastically changed these populations over the past
+century. The presence or absence of these animals near population
+centers, livestock, and nature preserves stirs public debate in the
+present day. You will practice communicating scientific information
+about large North American canids in messages and charts that the public
+can understand.</p>
+<p>Download the <a href="../data/canids.tsv">data</a> and unzip it to your
+Desktop.</p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+<div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p>The data download link pulls the file <code>canids.tsv</code> from
+this lesson’s <a href="https://gihub.com/carpentries-incubator/intro-data-viz" class="external-link">GitHub
+repository</a>. This file is a tab-separated values format of the
+original data set deposited at Dryad and is the format used in this
+lesson. An <a href="https://datadryad.org/stash/downloads/file_stream/24074" class="external-link">Excel-formatted
+version of the data</a> is also available in the <a href="https://doi.org/10.5061/dryad.s0d20" class="external-link">Dryad record</a>.</p>
+</div>
+</div>
+</div>
+</div>
 </section><section id="software-setup"><h2 class="section-heading">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a>
 </h2>
-<hr class="half-width"><div id="details" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="details" class="callout-inner">
-<h3 class="callout-title">Details<a class="anchor" aria-label="anchor" href="#details"></a>
-</h3>
-<div class="callout-content">
-<p>Setup for different systems can be presented in dropdown menus via a
-<code>solution</code> tag. They will join to this discussion block, so
-you can give a general overview of the software used in this lesson here
-and fill out the individual operating systems (and potentially add more,
-e.g. online setup) in the solutions blocks.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<hr class="half-width"><p>This lesson uses <a href="https://docs.google.com/spreadsheets/" class="external-link">Google Sheets</a> as the
+software tool for generating charts from tabular data. This tool has
+some important advantages:</p>
+<ul><li>The software is freely available online.</li>
+<li>The software works similarly regardless of operating system.</li>
+<li>The software uses a graphical interface, which can be more
+approachable for new users.</li>
+</ul><p>For this lesson, you will need a free <a href="https://accounts.google.com" class="external-link">Google account</a> to use Google
+Sheets and save your work. You will also need an up-to-date web
+browser.</p>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">Windows</h4>
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+<div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
-<p>Use PuTTY</p>
+<p><a href="03-communicating-the-message">Episode 4: Communicating the
+Message</a> contains all of the Google Sheets content in this lesson.
+The charts functions in Google Sheets are similar to those in other
+spreadsheet programs such as Microsoft Excel or LibreOffice Calc. You
+are free to adapt Episode 4 if you wish to use a different spreadsheet
+program.</p>
 </div>
 </div>
 </div>
 </div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">MacOS</h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Use Terminal.app</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">Linux</h4>
-</button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
-<div class="accordion-body">
-<p>Use Terminal</p>
-</div>
-</div>
-</div>
-</div>
+<p>[^1] Newsome, Thomas M.; Ripple, William J. (2015). Data from: A
+continental scale trophic cascade from wolves through coyotes to foxes
+[Dataset]. Dryad. <a href="https://doi.org/10.5061/dryad.s0d20" class="external-link">https://doi.org/10.5061/dryad.s0d20</a>.</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -407,7 +412,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.1" class="external-link">sandpaper (0.16.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -420,6 +425,7 @@ any links that you are not going to use.
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
   "@id": "https://jbkieffer.github.io/intro-data-viz/instructor/index.html",
+  "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "data visualization, chart, graph, message, communication, chart choice, chart color",
