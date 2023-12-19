@@ -26,7 +26,7 @@ life_cycle: pre-alpha
 license: CC-BY 4.0
 
 # Link to the source repository for this lesson
-source: https://github.com/jbkieffer/intro-data-viz
+source: https://github.com/carpentries-incubator/intro-data-viz
 
 # Default branch of your lesson
 branch: main
