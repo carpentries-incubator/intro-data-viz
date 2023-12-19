@@ -18,6 +18,8 @@ The data download link pulls the file `canids.tsv` from this lesson's [GitHub re
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
+[^1]: Newsome, Thomas M.; Ripple, William J. (2015). Data from: A continental scale trophic cascade from wolves through coyotes to foxes [Dataset]. Dryad. [https://doi.org/10.5061/dryad.s0d20](https://doi.org/10.5061/dryad.s0d20).
+
 ## Software Setup
 
 This lesson uses [Google Sheets](https://docs.google.com/spreadsheets/) as the software tool for generating charts from tabular data. This tool has some important advantages:
@@ -33,6 +35,3 @@ For this lesson, you will need a free [Google account](https://accounts.google.c
 [Episode 4: Communicating the Message](episodes/03-communicating-the-message) contains all of the Google Sheets content in this lesson. The charts functions in Google Sheets are similar to those in other spreadsheet programs such as Microsoft Excel or LibreOffice Calc. You are free to adapt Episode 4 if you wish to use a different spreadsheet program.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-[^1] Newsome, Thomas M.; Ripple, William J. (2015). Data from: A continental scale trophic cascade from wolves through coyotes to foxes [Dataset]. Dryad. [https://doi.org/10.5061/dryad.s0d20](https://doi.org/10.5061/dryad.s0d20).
