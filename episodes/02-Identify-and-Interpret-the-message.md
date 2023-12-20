@@ -105,22 +105,22 @@ Relationships
 
 What is the message of this graph? First, consider what the graph is and how the structure works. What type of graph is this and what is the structure? What aspect of the graph communicates categories, and what aspect communicates quantity? What message(s) can can take from this graph? What might the graph designer have done to make the message more clear?
  
-![Figure 2.1](fig/compositionPlot.png) {alt='Pie chart of the abundance of canids are fox or coyote'}
+![Figure 2.1](fig/compositionPlot.png){alt='Pie chart of the abundance of canids are fox or coyote'}
 {On average across North America throughout the collection period foxes made up 80?% and Coyotes made up 20% of the canids}
 
 
 What is the message of this graph?  
-![Figure 2.2](fig/comparisonPlot.png) {alt='Graph of Fox populations before and after Jan 1, 1970'}
+![Figure 2.2](fig/comparisonPlot.png){alt='Graph of Fox populations before and after Jan 1, 1970'}
 {Fox populations before Jan 1, 1970 were greater than after 1970 {North American fox populations averaged 3765 (units) prior to Jan. 1, 1970 and 2062 after.}
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure 2.3] (fig/distributionPlot.png) {alt='Graph of Fox populations before and after Jan 1, 1970'}
+![Figure 2.3](fig/distributionPlot.png){alt='Graph of Fox populations before and after Jan 1, 1970'}
 {Coyote populations in Maine ranged from zero to 2741 throughout the collections period and had a median of 1393 and mean of 1296 units.}
 Discuss message as a group
 
 What is the message of this graph?  
-![Figure 2.4] (fig/relationshipPlot.png) {alt='Scatterplot of fox and coyote populations'}
+![Figure 2.4](fig/relationshipPlot.png){alt='Scatterplot of fox and coyote populations'}
 {Fox populations tended to decrease as Coyote populations increased}
 Discuss message as a group
 
