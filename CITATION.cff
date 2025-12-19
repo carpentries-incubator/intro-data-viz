@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Introduction to Data Visualization
+message: >-
+  Please cite this lesson using the information in this file
+  when you refer to it in publications, and/or if you
+  re-use, adapt, or expand on the content in your own
+  training material.
+type: dataset
+authors:
+  - given-names: Jamene
+    family-names: Brooks-Kieffer
+    affiliation: University of Kansas
+    orcid: 'https://orcid.org/0000-0001-6280-124X'
+  - given-names: Terry
+    family-names: Loecke
+    affiliation: Iowa State University
+    orcid: 'https://orcid.org/0000-0001-9861-5115'
+  - given-names: Robert
+    family-names: Ramos
+    orcid: 'https://orcid.org/0000-0002-5545-702X'
+repository-code: 'https://github.com/carpentries-incubator/intro-data-viz'
+url: 'https://carpentries-incubator.github.io/intro-data-viz/'
+abstract: >-
+  This lesson introduces data visualization by focusing on
+  the basic components of a chart and on the decisions you
+  need to make in order to create and refine a chart. You
+  will learn to craft messages about data and communicate
+  those messages in charts. The principles applied to charts
+  in this lesson can be applied to more complex data
+  visualizations, but these are beyond the scope of this
+  lesson.
+keywords:
+  - data visualization
+  - Carpentries Incubator
+  - beginner
+  - lesson
+license: CC-BY-4.0
